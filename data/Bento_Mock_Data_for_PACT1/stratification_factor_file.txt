@@ -1,0 +1,11 @@
+type	study_subject.study_subject_id	stratification_factor_id	grouped_recurrence_score	stratification_code	menopausal_status_stratification	planned_chemotherapy_stratification	planned_radiotherapy_stratification	tumor_size_stratification
+stratification_factor	BENTO-CASE-0032	BENTO-STRAT-0032	16-20	96	Pre/Peri Menopausal	Taxane containing regimen	Whole breast with boost	> 2.0 cm
+stratification_factor	BENTO-CASE-1046	BENTO-STRAT-1046	16-20	80	Postmenopausal	Non-Taxane regimen	Whole breast with boost	> 2.0 cm
+stratification_factor	BENTO-CASE-1632	BENTO-STRAT-1632	11-15	22	Postmenopausal	Non-Taxane regimen	None Planned	<= 2.0 cm
+stratification_factor	BENTO-CASE-1887	BENTO-STRAT-1887	11-15	50	Pre/Peri Menopausal	Non-Taxane regimen	Whole breast with boost	<= 2.0 cm
+stratification_factor	BENTO-CASE-2867	BENTO-STRAT-2867	11-15	38	Pre/Peri Menopausal	Taxane containing regimen	Whole breast with boost	<= 2.0 cm
+stratification_factor	BENTO-CASE-2991	BENTO-STRAT-2991	16-20	45	Pre/Peri Menopausal	Taxane containing regimen	None Planned	<= 2.0 cm
+stratification_factor	BENTO-CASE-4960	BENTO-STRAT-4960	26-30		Postmenopausal	Not Applicable	Whole breast with boost	> 2.0 cm
+stratification_factor	BENTO-CASE-5002	BENTO-STRAT-5002	26-30		Postmenopausal	Not Applicable	Whole breast with boost	<= 2.0 cm
+stratification_factor	BENTO-CASE-7356	BENTO-STRAT-7356	6-10		Postmenopausal	Not Applicable	"Whole breast, no boost"	<= 2.0 cm
+stratification_factor	BENTO-CASE-8395	BENTO-STRAT-8395	16-20	96	Pre/Peri Menopausal	Taxane containing regimen	Whole breast with boost	> 2.0 cm

@@ -1,0 +1,11 @@
+type	sample.sample_id	laboratory_procedure.laboratory_procedure_id	file_id	file_description	file_format	file_location	file_name	file_size	file_status	file_type	md5sum
+file	BENTO-BIOS-0032	BENTO-LAB-001	BENTO-FILE-0032	qRT-PCR output	txt	s3://bento-data-files/1_OncotypeDXqRTPCR.txt	1_OncotypeDXqRTPCR.txt	293	released	text	 df72f991c4a844f7413bdf2338a8b84c
+file	BENTO-BIOS-1046	BENTO-LAB-001	BENTO-FILE-1046	qRT-PCR output	txt	s3://bento-data-files/2_OncotypeDXqRTPCR.txt	2_OncotypeDXqRTPCR.txt	297	released	text	 b67c16c69383060cefcd052034d4624e
+file	BENTO-BIOS-1632	BENTO-LAB-001	BENTO-FILE-1632	qRT-PCR output	txt	s3://bento-data-files/3_OncotypeDXqRTPCR.txt	3_OncotypeDXqRTPCR.txt	294	released	text	 581be71f389130efed51f0ecbade00f3
+file	BENTO-BIOS-1887	BENTO-LAB-001	BENTO-FILE-1887	qRT-PCR output	txt	s3://bento-data-files/4_OncotypeDXqRTPCR.txt	4_OncotypeDXqRTPCR.txt	296	released	text	 bc7adef15f5f74fe9707bdfdc5f41548
+file	BENTO-BIOS-2867	BENTO-LAB-001	BENTO-FILE-2867	qRT-PCR output	txt	s3://bento-data-files/5_OncotypeDXqRTPCR.txt	5_OncotypeDXqRTPCR.txt	297	released	text	 651826e15f731504e8f93c9e79f271b2
+file	BENTO-BIOS-2991	BENTO-LAB-001	BENTO-FILE-2991	qRT-PCR output	txt	s3://bento-data-files/6_OncotypeDXqRTPCR.txt	6_OncotypeDXqRTPCR.txt	293	released	text	 2032ee8c6370ca7a86704c270208a581
+file	BENTO-BIOS-4960	BENTO-LAB-001	BENTO-FILE-4960	qRT-PCR output	txt	s3://bento-data-files/7_OncotypeDXqRTPCR.txt	7_OncotypeDXqRTPCR.txt	293	released	text	 d62ddcdac18aaed56fcae2719b4de3c7
+file	BENTO-BIOS-5002	BENTO-LAB-001	BENTO-FILE-5002	qRT-PCR output	txt	s3://bento-data-files/8_OncotypeDXqRTPCR.txt	8_OncotypeDXqRTPCR.txt	298	released	text	 ffecff122827d6b8d58638de0fa0a6de
+file	BENTO-BIOS-7356	BENTO-LAB-001	BENTO-FILE-7356	qRT-PCR output	txt	s3://bento-data-files/9_OncotypeDXqRTPCR.txt	9_OncotypeDXqRTPCR.txt	296	released	text	 3fe9d736de97abd9e6f4ccc01cbe1fd6
+file	BENTO-BIOS-8395	BENTO-LAB-001	BENTO-FILE-8395	qRT-PCR output	txt	s3://bento-data-files/10_OncotypeDXqRTPCR.txt	10_OncotypeDXqRTPCR.txt	295	released	text	 e1a3bd54ec1fe3d2eed1c0f6d1839caa

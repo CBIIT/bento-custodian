@@ -1,0 +1,11 @@
+type	study_subject.study_subject_id	laboratory_procedure.laboratory_procedure_id	sample_id	tissue_type	sample_type	composition	method_of_sample_procurement	sample_anatomic_site
+sample	BENTO-CASE-0032	BENTO-LAB-001	BENTO-BIOS-0032	Tumor	Primary Tumor	Solid Tissue	Excisional Biopsy	Breast
+sample	BENTO-CASE-1046	BENTO-LAB-001	BENTO-BIOS-1046	Tumor	Primary Tumor	Solid Tissue	Fine Needle Aspiration	Breast
+sample	BENTO-CASE-1632	BENTO-LAB-001	BENTO-BIOS-1632	Tumor	Primary Tumor	Solid Tissue	Fine Needle Aspiration	Breast
+sample	BENTO-CASE-1887	BENTO-LAB-001	BENTO-BIOS-1887	Tumor	Primary Tumor	Solid Tissue	Fine Needle Aspiration	Breast
+sample	BENTO-CASE-2867	BENTO-LAB-001	BENTO-BIOS-2867	Tumor	Primary Tumor	Solid Tissue	Fine Needle Aspiration	Breast
+sample	BENTO-CASE-2991	BENTO-LAB-001	BENTO-BIOS-2991	Tumor	Primary Tumor	Solid Tissue	Excisional Biopsy	Breast
+sample	BENTO-CASE-4960	BENTO-LAB-001	BENTO-BIOS-4960	Tumor	Primary Tumor	Solid Tissue	Excisional Biopsy	Breast
+sample	BENTO-CASE-5002	BENTO-LAB-001	BENTO-BIOS-5002	Tumor	Primary Tumor	Solid Tissue	Excisional Biopsy	Breast
+sample	BENTO-CASE-7356	BENTO-LAB-001	BENTO-BIOS-7356	Tumor	Primary Tumor	Solid Tissue	Excisional Biopsy	Breast
+sample	BENTO-CASE-8395	BENTO-LAB-001	BENTO-BIOS-8395	Tumor	Primary Tumor	Solid Tissue	Fine Needle Aspiration	Breast

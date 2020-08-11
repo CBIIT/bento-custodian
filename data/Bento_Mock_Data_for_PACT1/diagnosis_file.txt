@@ -1,0 +1,11 @@
+type	study_subject.study_subject_id	diagnosis_id	tumor_grade	tumor_largest_dimension_diameter	er_status	nuclear_grade	pr_status	recurrence_score	tumor_size_group
+diagnosis	BENTO-CASE-0032	BENTO-DX-0032	Intermediate Grade	21	Positive	High	Positive	18	"(2,3]"
+diagnosis	BENTO-CASE-1046	BENTO-DX-1046	High Grade	21	Positive	High	Positive	18	"(2,3]"
+diagnosis	BENTO-CASE-1632	BENTO-DX-1632	Intermediate Grade	18	Positive	Medium	Positive	14	"(1,2]"
+diagnosis	BENTO-CASE-1887	BENTO-DX-1887	Low Grade	11	Positive	Not Reported	Positive	13	"(1,2]"
+diagnosis	BENTO-CASE-2867	BENTO-DX-2867	Intermediate Grade	15	Positive	Medium	Positive	11	"(1,2]"
+diagnosis	BENTO-CASE-2991	BENTO-DX-2991	Intermediate Grade	17	Positive	Medium	Positive	17	"(1,2]"
+diagnosis	BENTO-CASE-4960	BENTO-DX-4960	Intermediate Grade	23	Positive	High	Positive	28	"(2,3]"
+diagnosis	BENTO-CASE-5002	BENTO-DX-5002	Intermediate Grade	7	Positive	Not Reported	Negative	28	<=1  
+diagnosis	BENTO-CASE-7356	BENTO-DX-7356	Intermediate Grade	11	Positive	Medium	Positive	8	"(1,2]"
+diagnosis	BENTO-CASE-8395	BENTO-DX-8395	Low Grade	50	Positive	Medium	Positive	18	>4   

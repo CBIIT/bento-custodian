@@ -1,0 +1,8 @@
+---
+- name: backend
+  image: custodian/bento-backend
+  essential: true
+  portMappings:
+    - protocol: tcp
+      containerPort: 8080
+      hostPort: 8080

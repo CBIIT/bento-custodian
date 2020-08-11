@@ -1,0 +1,8 @@
+---
+- name: frontend
+  image: custodian/bento-frontend
+  essential: true
+  portMappings:
+    - protocol: tcp
+      containerPort: 80
+      hostPort: 80

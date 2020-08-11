@@ -1,0 +1,11 @@
+type	study_subject.study_subject_id	follow_up_id	days_to_progression	days_to_recurrence	dfs_event_indicator	days_to_distant_recurrence	distant_recurrence_indicator	recurrence_free_indicator	dfs_event_type	first_recurrence_type
+follow_up	BENTO-CASE-0032	BENTO-FU-0032	2761	2761	No DFS event	2761	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1046	BENTO-FU-1046	1256	1256	DFS event reported (dfs is time of first DFS event)	2504	No distant recurrence	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site 	Recurrence at local-regional site 
+follow_up	BENTO-CASE-1632	BENTO-FU-1632	3109	3109	No DFS event	3109	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1887	BENTO-FU-1887	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2867	BENTO-FU-2867	2097	2097	No DFS event	2097	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2991	BENTO-FU-2991	3143	3143	No DFS event	3143	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4960	BENTO-FU-4960	2896	2896	No DFS event	2896	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5002	BENTO-FU-5002	2093	2093	No DFS event	2093	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7356	BENTO-FU-7356	2103	2103	No DFS event	2103	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8395	BENTO-FU-8395	1884	3591	DFS event reported (dfs is time of first DFS event)	3591	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer 	No recurrence

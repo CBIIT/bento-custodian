@@ -1,0 +1,11 @@
+type	diagnosis.diagnosis_id	therapeutic_procedure_id	primary_surgical_procedure	days_to_treatment_start	days_to_treatment_end	received_chemotherapy	chemotherapy_regimen_group	chemotherapy_regimen	all_endocrine_therapy_stopped	endocrine_therapy_type
+therapeutic_procedure	BENTO-DX-0032	BENTO-RX-0032	Tumorectomy	0	1932	TRUE	Anthracycline and Taxane	Dose dense AC followed by a taxane	TRUE	Tam & AI
+therapeutic_procedure	BENTO-DX-1046	BENTO-RX-1046	Tumorectomy	0	2504	TRUE	Anthracycline w/o Taxane	FEC (3 week cycles)	FALSE	Tam & AI
+therapeutic_procedure	BENTO-DX-1632	BENTO-RX-1632	Mastectomy	164	2012	TRUE	CMF                     	IV CMF (3 week cycles)	TRUE	AI      
+therapeutic_procedure	BENTO-DX-1887	BENTO-RX-1887	Tumorectomy			FALSE	None                    	None	FALSE	None    
+therapeutic_procedure	BENTO-DX-2867	BENTO-RX-2867	Mastectomy	0	2054	FALSE	None                    	None	TRUE	OFS & AI
+therapeutic_procedure	BENTO-DX-2991	BENTO-RX-2991	Mastectomy	0	3190	TRUE	TC and variations       	"TC (3 week cycles, includes any taxane with cyclophosphamide)"	FALSE	Tam & AI
+therapeutic_procedure	BENTO-DX-4960	BENTO-RX-4960	Tumorectomy	0	2910	TRUE	TC and variations       	"TC (3 week cycles, includes any taxane with cyclophosphamide)"	FALSE	AI      
+therapeutic_procedure	BENTO-DX-5002	BENTO-RX-5002	Tumorectomy	0	2070	TRUE	Anthracycline and Taxane	Other anthracycline with a taxane	TRUE	AI      
+therapeutic_procedure	BENTO-DX-7356	BENTO-RX-7356	Tumorectomy	0	2884	FALSE	None                    	None	FALSE	AI      
+therapeutic_procedure	BENTO-DX-8395	BENTO-RX-8395	Tumorectomy	0	3591	TRUE	TC and variations       	"TC (3 week cycles, includes any taxane with cyclophosphamide)"	FALSE	AI      
