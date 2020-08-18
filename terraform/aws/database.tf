@@ -120,7 +120,7 @@ mainSteps:
     - rm -rf bento-custodian || true
     - yum -y install epel-release
     - yum -y install wget git python-setuptools python-pip
-    - pip install ansible==2.7.0 boto boto3 botocore
+    - pip install ansible==2.8.0 boto boto3 botocore
     - git clone https://github.com/CBIIT/bento-custodian
     - cd bento-custodian/ansible
     - ansible-playbook neo4j.yml
