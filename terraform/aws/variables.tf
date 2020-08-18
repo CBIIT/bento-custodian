@@ -2,15 +2,7 @@ variable "tags" {
   description = "tags for the vpc"
   type = map(string)
 }
-variable "access_key" {
-  description = "aws credential acess key"
-  type = string
-}
 
-variable "secret_key" {
-  description = "aws credential acess id"
-  type = string
-}
 variable "profile" {
   description = "iam profile to use"
   type = string
