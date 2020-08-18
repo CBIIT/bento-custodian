@@ -5,11 +5,6 @@ tags = {
 #specify vpc cidr 
 vpc_cidr_block = "10.0.0.0/16"
 
-#aws credential access key
-
-access_key = ""
-secret_key = ""
-
 #define private subnet to use
 private_subnets = ["10.0.10.0/24"]
 
