@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: cbiitssrepo/bento-frontend
+        image: gcr.io/{{gcp_project}}/bento-frontend:{{tag}}
         resources:
           limits:
             memory: "500Mi"
