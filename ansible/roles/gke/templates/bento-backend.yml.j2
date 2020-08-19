@@ -1,0 +1,33 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: bento-backend-pod
+spec:
+  replicas: 1
+  selector:
+      matchLabels:
+          app: bento
+          role: backend
+  template:
+    metadata:
+      name: bento-backend
+      labels:
+        app: bento
+        role: backend
+    spec:
+      containers:
+      - name: backend
+        image: cbiitssrepo/bento-backend
+        resources:
+          limits:
+            memory: "500Mi"
+            cpu: "100m"
+        imagePullPolicy: Always
+        readinessProbe:
+          httpGet:
+            path: /ping
+            port: 8080
+        ports:
+        - name: backend
+          containerPort: 8080
+          protocol: TCP

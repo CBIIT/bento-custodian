@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: bento-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: web-frontend-ip
+    
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /*
+        backend:
+          serviceName: bento-frontend-service
+          servicePort: 80
+      - path: /v1/graphql/*
+        backend:
+          serviceName: bento-backend-service
+          servicePort: 8080
