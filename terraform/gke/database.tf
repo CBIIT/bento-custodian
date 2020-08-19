@@ -15,18 +15,17 @@ resource "google_compute_instance" "neo4j" {
     }
   }
   metadata = {
-    ssh-keys = "${var.ssh_user}:${file("${var.ssh_key}")}"
+    ssh-keys = "${var.ssh_user}:${file("${var.public_ssh_key}")}"
   }
   metadata_startup_script = <<SCRIPT
           set -ex
           cd /tmp
-          rm -rf icdc-devops || true
+          rm -rf bento-custodian || true
           yum -y install epel-release
           yum -y install wget git python-setuptools python-pip
           pip install ansible==2.8.0 boto boto3 botocore
-          git clone https://github.com/CBIIT/icdc-devops
-          cd icdc-devops && git checkout master
-          cd icrp
+          git clone https://github.com/CBIIT/bento-custodian
+          cd bento-custodian/ansible
           ansible-playbook neo4j.yml -e env="${var.env}"
           systemctl restart neo4j
         SCRIPT

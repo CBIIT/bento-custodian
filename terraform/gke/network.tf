@@ -119,29 +119,3 @@ resource "google_compute_firewall" "allow-pod-db" {
   }
   source_ranges = ["10.8.0.0/28"]
 }
-//
-//resource "google_compute_firewall" "allow-pod-db" {
-//  name    = "${var.stack_name}-allow-pod-to-db"
-//  network = google_compute_network.vpc.name
-//  direction     = "INGRESS"
-//
-//  allow {
-//    protocol = "tcp"
-//    ports    = [local.neo4j_bolts,local.neo4j_http,local.neo4j_https]
-//  }
-//  source_ranges = ["10.74.0.0/20"]
-//}
-
-//resource "google_compute_firewall" "allow-db" {
-//  name    = "${var.stack_name}-internal-db-traffic"
-//  network = "${var.stack_name}-${var.gcp_region}-db-network"
-//  allow {
-//    protocol = "icmp"
-//  }
-//  allow {
-//    protocol = "tcp"
-//    ports    = [local.neo4j_bolts,local.neo4j_http,local.neo4j_https]
-//  }
-//  source_ranges = [lookup(var.subnets,"dev-network" )]
-//}
-
