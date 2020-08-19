@@ -1,0 +1,7 @@
+---
+workspace: "/tmp/workspace"
+maven_version: 3.6.3
+version: master
+stack_name: bento
+tag: latest
+backend_url: http://localhost
