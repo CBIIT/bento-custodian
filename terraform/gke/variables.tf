@@ -85,3 +85,25 @@ variable "project_services" {
   description = "services to enable on this project"
   type = map(string)
 }
+
+variable "public_ssh_key" {
+  description = "name of public ssh key file"
+  type = string
+}
+variable "private_ssh_key" {
+  description = "name of private ssh key file"
+  type = string
+}
+
+variable "service_account_id" {
+  description = "service account id"
+  type = string
+}
+variable "db_password" {
+  description = "set password for the neo4j user"
+  type = string
+}
+variable "tag_name" {
+  description = "name of docker tag"
+  type = string
+}
