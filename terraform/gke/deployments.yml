@@ -1,0 +1,51 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: bento-demo # Label for the Deployment
+  name: backend # Name of Deployment
+spec:
+  selector:
+    matchLabels:
+      run: bento-demo
+  template: # Pod template
+    metadata:
+      labels:
+        run: bento-demo # Labels Pods from this Deployment
+    spec: # Pod specification; each Pod created by this Deployment has this specification
+      containers:
+        - image: cbiitssrepo/bento-backend:17 # Application to run in Deployment's Pods
+          name: backend # Container name
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: bento-demo # Name of Service
+  annotations:
+    cloud.google.com/neg: '{"ingress": true}' # Creates a NEG after an Ingress is created
+spec: # Service's specification
+  type: ClusterIP
+  selector:
+    run: bento-demo # Selects Pods labelled run: neg-demo-app
+  ports:
+    - port: 80 # Service's port
+      protocol: TCP
+      targetPort: 8080
+
+
+
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: bento-demo-neg
+spec:
+  backend:
+    serviceName: bento-demo # Name of the Service targeted by the Ingress
+    servicePort: 80 # Should match the port used by the Service
