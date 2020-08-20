@@ -499,131 +499,225 @@ Nodes:
       - planned_radiotherapy_stratification
       - tumor_size_stratification
 Relationships:
-  of_institution:
+  aliquot_processed_by:
     Mul: many_to_many
     Ends:
-      - Src: program
-        Dst: institution
+      - Src: aliquot
+        Dst: laboratory_procedure
     Props: null
-  of_program:
-    Mul: many_to_one
+  analyte_processed_by:
+    Mul: many_to_many
     Ends:
-      - Src: project
-        Dst: program
-      - Src: study
-        Dst: program
-      - Src: study_subject
-        Dst: program
-      - Src: laboratory_procedure
-        Dst: program
-      - Src: file
-        Dst: program
+      - Src: analyte
+        Dst: laboratory_procedure
     Props: null
-  cross_referenced_at:
+  study_subject_cross_referenced_at:
     Mul: many_to_many
     Ends:
       - Src: study_subject
         Dst: cross_reference_database
-    Props:
-      - cross_reference_id
-      - cross_reference_url
-  of_project:
-    Mul: many_to_one
-    Ends:
-      - Src: study_subject
-        Dst: project
-      - Src: file
-        Dst: project
     Props: null
-  of_study:
-    Mul: many_to_one
+  demographic_of_study_subject:
+    Mul: one_to_one
     Ends:
-      - Src: study_subject
-        Dst: study
-      - Src: file
-        Dst: study
-    Props: null
-  of_study_subject:
-    Mul: many_to_one
-    Ends:
-      - Src: sample
-        Dst: study_subject
       - Src: demographic_data
         Dst: study_subject
-      - Src: exposure
-        Dst: study_subject
-      - Src: family_medical_history
-        Dst: study_subject
-      - Src: file
-        Dst: study_subject
+    Props: null
+  diagnosis_of_study_subject:
+    Mul: many_to_one
+    Ends:
       - Src: diagnosis
         Dst: study_subject
-      - Src: stratification_factor
+    Props: null
+  exposure_of_study_subject:
+    Mul: one_to_one
+    Ends:
+      - Src: exposure
         Dst: study_subject
+    Props: null
+  file_of_diagnosis:
+    Mul: many_to_one
+    Ends:
+      - Src: file
+        Dst: diagnosis
+    Props: null
+  file_of_laboratory_procedure:
+    Mul: many_to_one
+    Ends:
+      - Src: file
+        Dst: laboratory_procedure
+    Props: null
+  file_of_study_subject:
+    Mul: many_to_one
+    Ends:
+      - Src: file
+        Dst: study_subject
+    Props: null
+  fmh_of_study_subject:
+    Mul: one_to_one
+    Ends:
+      - Src: family_medical_history
+        Dst: study_subject
+    Props: null
+  fraction_processed_by:
+    Mul: many_to_many
+    Ends:
+      - Src: fraction
+        Dst: laboratory_procedure
+    Props: null
+  fu_of_diagnosis:
+    Mul: many_to_one
+    Ends:
+      - Src: follow_up
+        Dst: diagnosis
+    Props: null
+  fu_of_study_subject:
+    Mul: many_to_one
+    Ends:
       - Src: follow_up
         Dst: study_subject
     Props: null
-  of_sample:
-    Mul: many_to_one
-    Ends:
-      - Src: fraction
-        Dst: sample
-      - Src: analyte
-        Dst: sample
-      - Src: report
-        Dst: sample
-      - Src: file
-        Dst: sample
-    Props: null
-  of_fraction:
-    Mul: one_to_one
-    Ends:
-      - Src: analyte
-        Dst: fraction
-      - Src: report
-        Dst: fraction
-    Props: null
-  of_analyte:
-    Mul: one_to_one
-    Ends:
-      - Src: aliquot
-        Dst: analyte
-      - Src: report
-        Dst: analyte
-    Props: null
-  processed_by:
-    Mul: many_to_many
-    Ends:
-      - Src: aliquot
-        Dst: laboratory_procedure
-      - Src: analyte
-        Dst: laboratory_procedure
-      - Src: fraction
-        Dst: laboratory_procedure
-      - Src: sample
-        Dst: laboratory_procedure
-    Props: null
-  of_aliquot:
+  report_of_aliquot:
     Mul: one_to_one
     Ends:
       - Src: report
         Dst: aliquot
     Props: null
-  of_laboratory_procedure:
+  aliquot_of_analyte:
     Mul: many_to_one
+    Ends:
+      - Src: aliquot
+        Dst: analyte
+    Props: null
+  report_of_analyte:
+    Mul: one_to_one
+    Ends:
+      - Src: report
+        Dst: analyte
+    Props: null
+  analyte_of_fraction:
+    Mul: many_to_one
+    Ends:
+      - Src: analyte
+        Dst: fraction
+    Props: null
+  report_of_fraction:
+    Mul: one_to_one
+    Ends:
+      - Src: report
+        Dst: fraction
+    Props: null
+  program_of_institution:
+    Mul: many_to_many
+    Ends:
+      - Src: program
+        Dst: institution
+    Props: null
+  project_of_program:
+    Mul: many_to_many
+    Ends:
+      - Src: project
+        Dst: program
+    Props: null
+  study_of_program:
+    Mul: many_to_many
+    Ends:
+      - Src: study
+        Dst: program
+    Props: null
+  study_subject_of_program:
+    Mul: many_to_many
+    Ends:
+      - Src: study_subject
+        Dst: program
+    Props: null
+  laboratory_procedure_of_program:
+    Mul: many_to_many
+    Ends:
+      - Src: laboratory_procedure
+        Dst: program
+    Props: null
+  file_of_program:
+    Mul: many_to_one
+    Ends:
+      - Src: file
+        Dst: program
+    Props: null
+  study_subject_of_project:
+    Mul: many_to_many
+    Ends:
+      - Src: study_subject
+        Dst: project
+    Props: null
+  file_of_project:
+    Mul: many_to_one
+    Ends:
+      - Src: file
+        Dst: project
+    Props: null
+  fraction_of_sample:
+    Mul: many_to_one
+    Ends:
+      - Src: fraction
+        Dst: sample
+    Props: null
+  analyte_of_sample:
+    Mul: many_to_one
+    Ends:
+      - Src: analyte
+        Dst: sample
+    Props: null
+  report_of_sample:
+    Mul: one_to_one
+    Ends:
+      - Src: report
+        Dst: sample
+    Props: null
+  file_of_sample:
+    Mul: many_to_one
+    Ends:
+      - Src: file
+        Dst: sample
+    Props: null
+  study_subject_of_study:
+    Mul: many_to_many
+    Ends:
+      - Src: study_subject
+        Dst: study
+    Props: null
+  file_of_study:
+    Mul: many_to_one
+    Ends:
+      - Src: file
+        Dst: study
+    Props: null
+  sample_of_study_subject:
+    Mul: many_to_one
+    Ends:
+      - Src: sample
+        Dst: study_subject
+    Props: null
+  report_of_laboratory_procedure:
+    Mul: one_to_one
     Ends:
       - Src: report
         Dst: laboratory_procedure
-      - Src: file
+    Props: null
+  sample_processed_by:
+    Mul: many_to_many
+    Ends:
+      - Src: sample
         Dst: laboratory_procedure
     Props: null
-  of_diagnosis:
+  sf_of_study_subject:
+    Mul: one_to_one
+    Ends:
+      - Src: stratification_factor
+        Dst: study_subject
+    Props: null
+  tp_of_diagnosis:
     Mul: many_to_one
     Ends:
-      - Src: file
-        Dst: diagnosis
       - Src: therapeutic_procedure
-        Dst: diagnosis
-      - Src: follow_up
         Dst: diagnosis
     Props: null

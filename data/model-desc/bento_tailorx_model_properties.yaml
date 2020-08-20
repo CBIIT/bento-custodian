@@ -1967,7 +1967,7 @@ PropDefinitions:
     Type:
       units:
        - day
-      value_type: string
+      value_type: integer
     Req: false
     Private: false
 #property of demographic_data
@@ -2228,7 +2228,7 @@ PropDefinitions:
   days_to_birth:
     Desc: Time interval from a person's date of birth to the date of initial pathologic diagnosis, represented as a calculated negative number of days.
     Src: None
-    Type: string
+    Type: integer
     Req: false
     Private: false
 #property of demographic_data
