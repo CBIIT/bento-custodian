@@ -42,6 +42,7 @@ resource "local_file" "backend_service" {
     tag = var.tag_name,
   })
   filename = "${path.module}/backend_service.yaml"
+  depends_on = [google_vpc_access_connector.connector]
 }
 
 
