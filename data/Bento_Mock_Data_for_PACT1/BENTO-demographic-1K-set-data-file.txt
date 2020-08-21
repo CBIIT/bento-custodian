@@ -1,0 +1,1001 @@
+type	study_subject.study_subject_id	demographic_data_id	age_at_index	menopause_status	cause_of_death	survival_time	race	ethnicity	vital_status	gender
+demographic_data	BENTO-CASE-1013342	BENTO-DEMO-1013342	49	Premenopausal	Not_applicable	3265	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1023585	BENTO-DEMO-1023585	34	Premenopausal	Breast cancer	2437	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-1028008	BENTO-DEMO-1028008	60	Postmenopausal	Not_applicable	3674	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1030608	BENTO-DEMO-1030608	47	Postmenopausal	Not_applicable	3331	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1066315	BENTO-DEMO-1066315	68	Postmenopausal	Not_applicable	2428	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1069373	BENTO-DEMO-1069373	44	Premenopausal	Not_applicable	3263	American Indian or Alaska Native	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1084980	BENTO-DEMO-1084980	36	Premenopausal	Not_applicable	2540	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-1089236	BENTO-DEMO-1089236	49	Premenopausal	Not_applicable	3045	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-1107760	BENTO-DEMO-1107760	62	Postmenopausal	Not_applicable	2416	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1112836	BENTO-DEMO-1112836	43	Premenopausal	Not_applicable	3206	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1115298	BENTO-DEMO-1115298	64	Postmenopausal	Protocol treatment	2266	Black or African American	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-1136116	BENTO-DEMO-1136116	43	Premenopausal	Not_applicable	3379	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1147859	BENTO-DEMO-1147859	57	Postmenopausal	Not_applicable	2534	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1164502	BENTO-DEMO-1164502	51	Premenopausal	Not_applicable	3033	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1168317	BENTO-DEMO-1168317	49	Premenopausal	Not_applicable	2129	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-117224	BENTO-DEMO-117224	67	Postmenopausal	Not_applicable	2891	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1172611	BENTO-DEMO-1172611	54	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1188462	BENTO-DEMO-1188462	63	Postmenopausal	Not_applicable	3296	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1220346	BENTO-DEMO-1220346	65	Postmenopausal	Not_applicable	3662	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1227407	BENTO-DEMO-1227407	64	Postmenopausal	Not_applicable	1461	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1228499	BENTO-DEMO-1228499	44	Premenopausal	Not_applicable	2966	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1238079	BENTO-DEMO-1238079	42	Premenopausal	Not_applicable	3279	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1247664	BENTO-DEMO-1247664	44	Premenopausal	Not_applicable	2966	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1287090	BENTO-DEMO-1287090	59	Postmenopausal	Not_applicable	3317	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-1295746	BENTO-DEMO-1295746	63	Postmenopausal	Not_applicable	974	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-129972	BENTO-DEMO-129972	63	Postmenopausal	Not_applicable	2884	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-1302139	BENTO-DEMO-1302139	48	Premenopausal	Not_applicable	2901	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1312011	BENTO-DEMO-1312011	65	Postmenopausal	Not_applicable	2804	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-132078	BENTO-DEMO-132078	45	Premenopausal	Not_applicable	2536	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1321814	BENTO-DEMO-1321814	51	Premenopausal	Breast cancer	2872	Not Reported	Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-1326404	BENTO-DEMO-1326404	48	Premenopausal	Not_applicable	2689	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1334902	BENTO-DEMO-1334902	63	Postmenopausal	Not_applicable	1805	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1337295	BENTO-DEMO-1337295	64	Postmenopausal	Not_applicable	2883	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1339321	BENTO-DEMO-1339321	57	Postmenopausal	Not_applicable	1820	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1340027	BENTO-DEMO-1340027	67	Postmenopausal	Not_applicable	2925	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1340742	BENTO-DEMO-1340742	50	Premenopausal	Not_applicable	2416	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-1360921	BENTO-DEMO-1360921	44	Premenopausal	Not_applicable	3286	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1364113	BENTO-DEMO-1364113	45	Premenopausal	Not_applicable	2901	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1367780	BENTO-DEMO-1367780	62	Postmenopausal	Not_applicable	3283	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1374156	BENTO-DEMO-1374156	61	Postmenopausal	Not_applicable	2625	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1378891	BENTO-DEMO-1378891	62	Postmenopausal	Not_applicable	1816	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-138760	BENTO-DEMO-138760	62	Postmenopausal	Unknown	1736	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-1402925	BENTO-DEMO-1402925	40	Premenopausal	Not_applicable	3132	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1430151	BENTO-DEMO-1430151	61	Postmenopausal	Not_applicable	730	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1430428	BENTO-DEMO-1430428	53	Premenopausal	Not_applicable	2158	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-143135	BENTO-DEMO-143135	70	Postmenopausal	Not_applicable	2168	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1433922	BENTO-DEMO-1433922	65	Postmenopausal	Not_applicable	3299	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1436505	BENTO-DEMO-1436505	38	Premenopausal	Not_applicable	3740	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-1461831	BENTO-DEMO-1461831	45	Premenopausal	Not_applicable	27	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1463281	BENTO-DEMO-1463281	51	Postmenopausal	Not_applicable	3632	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1556895	BENTO-DEMO-1556895	60	Postmenopausal	Not_applicable	2924	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1570679	BENTO-DEMO-1570679	54	Premenopausal	Not_applicable	3187	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1608525	BENTO-DEMO-1608525	69	Postmenopausal	Not_applicable	2915	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1612428	BENTO-DEMO-1612428	29	Premenopausal	Not_applicable	251	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-161513	BENTO-DEMO-161513	60	Postmenopausal	Not_applicable	2738	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1639357	BENTO-DEMO-1639357	40	Premenopausal	Not_applicable	3333	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1641577	BENTO-DEMO-1641577	45	Premenopausal	Not_applicable	538	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-16495	BENTO-DEMO-16495	64	Postmenopausal	Breast cancer	3230	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-1671481	BENTO-DEMO-1671481	74	Postmenopausal	Not_applicable	2801	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1689286	BENTO-DEMO-1689286	65	Postmenopausal	Not_applicable	2545	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-1695423	BENTO-DEMO-1695423	63	Postmenopausal	Not_applicable	2675	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-1720989	BENTO-DEMO-1720989	49	Premenopausal	Not_applicable	2343	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1721056	BENTO-DEMO-1721056	48	Premenopausal	Not_applicable	2035	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1732719	BENTO-DEMO-1732719	64	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1734819	BENTO-DEMO-1734819	57	Postmenopausal	Not_applicable	3137	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1754214	BENTO-DEMO-1754214	65	Postmenopausal	Not_applicable	2158	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-1764386	BENTO-DEMO-1764386	61	Postmenopausal	Not_applicable	2934	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1766813	BENTO-DEMO-1766813	57	Postmenopausal	Not_applicable	2273	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1781165	BENTO-DEMO-1781165	57	Postmenopausal	Not_applicable	3220	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1789231	BENTO-DEMO-1789231	49	Postmenopausal	Not_applicable	2529	Native Hawaiian or Other Pacific Islander	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1790063	BENTO-DEMO-1790063	61	Postmenopausal	Not_applicable	3624	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1807998	BENTO-DEMO-1807998	53	Postmenopausal	Not_applicable	2579	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-181328	BENTO-DEMO-181328	46	Premenopausal	Not_applicable	3261	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1825836	BENTO-DEMO-1825836	54	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1826985	BENTO-DEMO-1826985	48	Premenopausal	Not_applicable	2918	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1830950	BENTO-DEMO-1830950	57	Postmenopausal	Not_applicable	2891	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1844136	BENTO-DEMO-1844136	61	Postmenopausal	Not_applicable	3220	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1853765	BENTO-DEMO-1853765	62	Postmenopausal	Not_applicable	2618	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1865229	BENTO-DEMO-1865229	60	Postmenopausal	Not_applicable	2571	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1869564	BENTO-DEMO-1869564	39	Premenopausal	Not_applicable	1826	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1898385	BENTO-DEMO-1898385	64	Postmenopausal	Not_applicable	2846	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1904984	BENTO-DEMO-1904984	60	Postmenopausal	Not_applicable	2949	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1908165	BENTO-DEMO-1908165	66	Postmenopausal	Not_applicable	3125	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1909263	BENTO-DEMO-1909263	59	Postmenopausal	Not_applicable	2624	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-1915663	BENTO-DEMO-1915663	54	Postmenopausal	Not_applicable	1792	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1923229	BENTO-DEMO-1923229	45	Premenopausal	Not_applicable	3659	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1923898	BENTO-DEMO-1923898	47	Premenopausal	Not_applicable	2850	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1931984	BENTO-DEMO-1931984	63	Postmenopausal	Not_applicable	0	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-1950709	BENTO-DEMO-1950709	62	Postmenopausal	Not_applicable	3660	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1960031	BENTO-DEMO-1960031	47	Premenopausal	Not_applicable	2422	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-196229	BENTO-DEMO-196229	57	Postmenopausal	Not_applicable	3276	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1966229	BENTO-DEMO-1966229	64	Postmenopausal	Not_applicable	3830	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1990270	BENTO-DEMO-1990270	63	Postmenopausal	Not_applicable	3528	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1991943	BENTO-DEMO-1991943	59	Postmenopausal	Not_applicable	2589	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-1999866	BENTO-DEMO-1999866	49	Premenopausal	Not_applicable	0	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-200434	BENTO-DEMO-200434	66	Postmenopausal	Not_applicable	2695	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2043732	BENTO-DEMO-2043732	50	Premenopausal	Not_applicable	3535	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-2048703	BENTO-DEMO-2048703	55	Postmenopausal	Not_applicable	2926	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2058985	BENTO-DEMO-2058985	41	Postmenopausal	Not_applicable	1110	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2069637	BENTO-DEMO-2069637	73	Postmenopausal	Not_applicable	3025	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2091565	BENTO-DEMO-2091565	59	Postmenopausal	Not_applicable	2537	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-2091699	BENTO-DEMO-2091699	53	Premenopausal	Not_applicable	2529	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-209245	BENTO-DEMO-209245	49	Postmenopausal	Not_applicable	2185	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2116539	BENTO-DEMO-2116539	53	Postmenopausal	Not_applicable	3264	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2116671	BENTO-DEMO-2116671	65	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2120478	BENTO-DEMO-2120478	68	Postmenopausal	Not_applicable	2489	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2131195	BENTO-DEMO-2131195	49	Premenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2144888	BENTO-DEMO-2144888	58	Postmenopausal	Not_applicable	3672	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-217910	BENTO-DEMO-217910	53	Postmenopausal	Not_applicable	1686	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2189766	BENTO-DEMO-2189766	67	Postmenopausal	Not_applicable	2505	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2198476	BENTO-DEMO-2198476	48	Premenopausal	Not_applicable	2199	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2218183	BENTO-DEMO-2218183	58	Postmenopausal	Not_applicable	3496	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-222647	BENTO-DEMO-222647	51	Premenopausal	Not_applicable	2598	American Indian or Alaska Native	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2229044	BENTO-DEMO-2229044	61	Postmenopausal	Not_applicable	2452	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-2235329	BENTO-DEMO-2235329	54	Postmenopausal	Not_applicable	3284	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2280029	BENTO-DEMO-2280029	58	Postmenopausal	Not_applicable	3323	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2280754	BENTO-DEMO-2280754	43	Premenopausal	Not_applicable	3149	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2280990	BENTO-DEMO-2280990	57	Postmenopausal	Breast cancer	1145	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-2281872	BENTO-DEMO-2281872	49	Postmenopausal	Not_applicable	2919	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2286282	BENTO-DEMO-2286282	44	Premenopausal	Not_applicable	2244	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-2290033	BENTO-DEMO-2290033	48	Premenopausal	Not_applicable	3167	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-231525	BENTO-DEMO-231525	53	Premenopausal	Not_applicable	0	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2315660	BENTO-DEMO-2315660	48	Premenopausal	Not_applicable	2394	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2318121	BENTO-DEMO-2318121	44	Premenopausal	Not_applicable	3507	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-2334273	BENTO-DEMO-2334273	58	Postmenopausal	Not_applicable	2924	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2340784	BENTO-DEMO-2340784	53	Premenopausal	Not_applicable	1496	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2344489	BENTO-DEMO-2344489	49	Premenopausal	Not_applicable	2884	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2362522	BENTO-DEMO-2362522	64	Postmenopausal	Not_applicable	2884	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2381902	BENTO-DEMO-2381902	70	Postmenopausal	Not_applicable	2583	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2383456	BENTO-DEMO-2383456	61	Postmenopausal	Not_applicable	3026	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2395872	BENTO-DEMO-2395872	57	Postmenopausal	Not_applicable	2588	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-2405814	BENTO-DEMO-2405814	39	Premenopausal	Not_applicable	2898	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2405892	BENTO-DEMO-2405892	75	Postmenopausal	Not_applicable	2547	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2406007	BENTO-DEMO-2406007	42	Premenopausal	Not_applicable	3306	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-244208	BENTO-DEMO-244208	35	Premenopausal	Cardiovascular disease	3096	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-2452180	BENTO-DEMO-2452180	57	Postmenopausal	Not_applicable	2648	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2466024	BENTO-DEMO-2466024	44	Premenopausal	Other cancer	756	White	Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-2472737	BENTO-DEMO-2472737	48	Premenopausal	Not_applicable	2864	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2474318	BENTO-DEMO-2474318	63	Postmenopausal	Not_applicable	2701	American Indian or Alaska Native	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2488640	BENTO-DEMO-2488640	58	Postmenopausal	Not_applicable	2524	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2523323	BENTO-DEMO-2523323	65	Postmenopausal	Not_applicable	3611	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-252336	BENTO-DEMO-252336	63	Postmenopausal	Not_applicable	1757	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2528262	BENTO-DEMO-2528262	65	Postmenopausal	Not_applicable	1389	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2531985	BENTO-DEMO-2531985	50	Premenopausal	Not_applicable	0	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2532887	BENTO-DEMO-2532887	50	Premenopausal	Not_applicable	3341	Not Reported	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2533756	BENTO-DEMO-2533756	65	Postmenopausal	Not_applicable	2918	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2536711	BENTO-DEMO-2536711	61	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2551656	BENTO-DEMO-2551656	45	Postmenopausal	Not_applicable	3249	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2553076	BENTO-DEMO-2553076	71	Postmenopausal	Not_applicable	3656	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2564662	BENTO-DEMO-2564662	43	Premenopausal	Not_applicable	2170	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-2565096	BENTO-DEMO-2565096	65	Postmenopausal	Not_applicable	3281	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-257807	BENTO-DEMO-257807	54	Postmenopausal	Not_applicable	2942	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2583064	BENTO-DEMO-2583064	54	Postmenopausal	Not_applicable	3644	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2583232	BENTO-DEMO-2583232	58	Postmenopausal	Not_applicable	3267	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2593366	BENTO-DEMO-2593366	43	Premenopausal	Not_applicable	2641	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2594297	BENTO-DEMO-2594297	45	Premenopausal	Not_applicable	3284	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2611047	BENTO-DEMO-2611047	42	Premenopausal	Not_applicable	3982	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2611276	BENTO-DEMO-2611276	72	Postmenopausal	Not_applicable	1786	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2611480	BENTO-DEMO-2611480	29	Premenopausal	Not_applicable	2555	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2622408	BENTO-DEMO-2622408	45	Postmenopausal	Not_applicable	2794	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-262293	BENTO-DEMO-262293	42	Premenopausal	Not_applicable	3514	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-2626522	BENTO-DEMO-2626522	57	Postmenopausal	Not_applicable	3165	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2638208	BENTO-DEMO-2638208	70	Postmenopausal	Not_applicable	3342	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2645657	BENTO-DEMO-2645657	57	Postmenopausal	Not_applicable	2458	Asian	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2663174	BENTO-DEMO-2663174	46	Premenopausal	Not_applicable	2741	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2679972	BENTO-DEMO-2679972	54	Postmenopausal	Not_applicable	1647	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2730720	BENTO-DEMO-2730720	61	Postmenopausal	Not_applicable	2927	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2739536	BENTO-DEMO-2739536	66	Postmenopausal	Not_applicable	3058	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2750519	BENTO-DEMO-2750519	63	Postmenopausal	Not_applicable	2841	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2755792	BENTO-DEMO-2755792	44	Premenopausal	Not_applicable	702	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2777875	BENTO-DEMO-2777875	39	Premenopausal	Not_applicable	3332	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2777951	BENTO-DEMO-2777951	72	Postmenopausal	Not_applicable	2796	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2785093	BENTO-DEMO-2785093	45	Premenopausal	Not_applicable	2878	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2791601	BENTO-DEMO-2791601	60	Postmenopausal	Not_applicable	2535	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-2793779	BENTO-DEMO-2793779	62	Postmenopausal	Not_applicable	1644	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2794325	BENTO-DEMO-2794325	35	Premenopausal	Not_applicable	2897	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2806216	BENTO-DEMO-2806216	58	Postmenopausal	Not_applicable	2691	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2810076	BENTO-DEMO-2810076	65	Postmenopausal	Not_applicable	2515	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2812566	BENTO-DEMO-2812566	57	Postmenopausal	Not_applicable	2816	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2819944	BENTO-DEMO-2819944	62	Postmenopausal	Not_applicable	161	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2823107	BENTO-DEMO-2823107	51	Premenopausal	Not_applicable	3651	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2832247	BENTO-DEMO-2832247	43	Premenopausal	Not_applicable	3345	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2832250	BENTO-DEMO-2832250	62	Postmenopausal	Not_applicable	2625	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2833951	BENTO-DEMO-2833951	66	Postmenopausal	Not_applicable	2720	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-284104	BENTO-DEMO-284104	55	Postmenopausal	Not_applicable	2918	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2855603	BENTO-DEMO-2855603	64	Postmenopausal	Not_applicable	3366	Native Hawaiian or Other Pacific Islander	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2895766	BENTO-DEMO-2895766	48	Premenopausal	Not_applicable	3868	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2904087	BENTO-DEMO-2904087	59	Postmenopausal	Not_applicable	3277	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2915405	BENTO-DEMO-2915405	46	Premenopausal	Not_applicable	359	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2916194	BENTO-DEMO-2916194	48	Premenopausal	Not_applicable	1568	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2922890	BENTO-DEMO-2922890	62	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2926212	BENTO-DEMO-2926212	52	Postmenopausal	Not_applicable	2937	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2934942	BENTO-DEMO-2934942	69	Postmenopausal	Not_applicable	2255	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2946465	BENTO-DEMO-2946465	57	Postmenopausal	Not_applicable	3218	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2950822	BENTO-DEMO-2950822	60	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-295887	BENTO-DEMO-295887	69	Postmenopausal	Not_applicable	2974	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-2968052	BENTO-DEMO-2968052	54	Postmenopausal	Not_applicable	2732	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2972758	BENTO-DEMO-2972758	72	Postmenopausal	Not_applicable	2114	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-2981711	BENTO-DEMO-2981711	51	Postmenopausal	Not_applicable	1895	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-29828	BENTO-DEMO-29828	52	Premenopausal	Not_applicable	3962	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-2988816	BENTO-DEMO-2988816	60	Postmenopausal	Not_applicable	3612	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3006389	BENTO-DEMO-3006389	65	Postmenopausal	Not_applicable	2143	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3009497	BENTO-DEMO-3009497	58	Postmenopausal	Not_applicable	3619	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3013249	BENTO-DEMO-3013249	73	Postmenopausal	Not_applicable	3275	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3015177	BENTO-DEMO-3015177	44	Premenopausal	Not_applicable	3650	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-3026590	BENTO-DEMO-3026590	52	Premenopausal	Not_applicable	3005	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3035842	BENTO-DEMO-3035842	45	Premenopausal	Not_applicable	2883	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3049073	BENTO-DEMO-3049073	51	Premenopausal	Not_applicable	2954	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3063864	BENTO-DEMO-3063864	65	Postmenopausal	Breast cancer	2660	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-3064418	BENTO-DEMO-3064418	46	Premenopausal	Not_applicable	3468	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-307267	BENTO-DEMO-307267	61	Postmenopausal	Not_applicable	3356	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3100918	BENTO-DEMO-3100918	46	Premenopausal	Not_applicable	2434	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-310241	BENTO-DEMO-310241	64	Postmenopausal	Not_applicable	2519	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3108627	BENTO-DEMO-3108627	53	Premenopausal	Not_applicable	3259	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-3142006	BENTO-DEMO-3142006	43	Premenopausal	Not_applicable	2183	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3143542	BENTO-DEMO-3143542	46	Premenopausal	Not_applicable	3606	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3187260	BENTO-DEMO-3187260	64	Postmenopausal	Not_applicable	3246	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3193236	BENTO-DEMO-3193236	65	Postmenopausal	Not_applicable	2868	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-320738	BENTO-DEMO-320738	48	Premenopausal	Not_applicable	2843	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3215626	BENTO-DEMO-3215626	40	Premenopausal	Not_applicable	3636	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3240238	BENTO-DEMO-3240238	57	Postmenopausal	Other chronic disease	2198	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-3247339	BENTO-DEMO-3247339	55	Postmenopausal	Not_applicable	1843	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3259935	BENTO-DEMO-3259935	59	Postmenopausal	Not_applicable	1432	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3266027	BENTO-DEMO-3266027	59	Postmenopausal	Breast cancer	670	White	Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-3267700	BENTO-DEMO-3267700	66	Postmenopausal	Not_applicable	2555	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3272958	BENTO-DEMO-3272958	42	Premenopausal	Not_applicable	3653	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-3276476	BENTO-DEMO-3276476	53	Postmenopausal	Not_applicable	2748	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3282798	BENTO-DEMO-3282798	53	Premenopausal	Not_applicable	2971	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3292831	BENTO-DEMO-3292831	50	Premenopausal	Not_applicable	3344	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-3295670	BENTO-DEMO-3295670	63	Postmenopausal	Not_applicable	2801	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3295756	BENTO-DEMO-3295756	57	Postmenopausal	Not_applicable	2777	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3296613	BENTO-DEMO-3296613	57	Postmenopausal	Not_applicable	3241	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-3307656	BENTO-DEMO-3307656	70	Postmenopausal	Not_applicable	2886	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3328327	BENTO-DEMO-3328327	32	Premenopausal	Not_applicable	2493	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3332071	BENTO-DEMO-3332071	56	Postmenopausal	Not_applicable	1841	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3334468	BENTO-DEMO-3334468	57	Postmenopausal	Not_applicable	3185	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3343106	BENTO-DEMO-3343106	59	Postmenopausal	Not_applicable	1809	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3343163	BENTO-DEMO-3343163	51	Premenopausal	Other	22	Not Reported	Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-3351321	BENTO-DEMO-3351321	72	Postmenopausal	Not_applicable	2491	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3356521	BENTO-DEMO-3356521	71	Postmenopausal	Not_applicable	2555	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3359263	BENTO-DEMO-3359263	59	Postmenopausal	Not_applicable	2852	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3364396	BENTO-DEMO-3364396	63	Postmenopausal	Not_applicable	3613	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3365171	BENTO-DEMO-3365171	61	Postmenopausal	Not_applicable	3101	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3368345	BENTO-DEMO-3368345	41	Premenopausal	Not_applicable	4069	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-338262	BENTO-DEMO-338262	73	Postmenopausal	Not_applicable	3631	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3393522	BENTO-DEMO-3393522	60	Postmenopausal	Not_applicable	1248	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3394052	BENTO-DEMO-3394052	53	Postmenopausal	Not_applicable	2960	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3401013	BENTO-DEMO-3401013	70	Postmenopausal	Not_applicable	2878	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3405467	BENTO-DEMO-3405467	58	Postmenopausal	Not_applicable	2949	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3406760	BENTO-DEMO-3406760	52	Premenopausal	Not_applicable	3235	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3410751	BENTO-DEMO-3410751	47	Premenopausal	Not_applicable	2861	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-341115	BENTO-DEMO-341115	65	Postmenopausal	Not_applicable	2553	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3412334	BENTO-DEMO-3412334	37	Premenopausal	Not_applicable	2548	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3443623	BENTO-DEMO-3443623	55	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3460732	BENTO-DEMO-3460732	67	Postmenopausal	Not_applicable	3469	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3464384	BENTO-DEMO-3464384	55	Postmenopausal	Other cancer	1857	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-3473025	BENTO-DEMO-3473025	66	Postmenopausal	Not_applicable	2520	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3473627	BENTO-DEMO-3473627	41	Premenopausal	Not_applicable	2627	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3479071	BENTO-DEMO-3479071	61	Postmenopausal	Cardiovascular disease	871	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-3493816	BENTO-DEMO-3493816	47	Premenopausal	Not_applicable	2897	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3508142	BENTO-DEMO-3508142	54	Postmenopausal	Not_applicable	2585	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-351802	BENTO-DEMO-351802	54	Premenopausal	Not_applicable	2547	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-353728	BENTO-DEMO-353728	66	Postmenopausal	Not_applicable	2182	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3563062	BENTO-DEMO-3563062	34	Premenopausal	Not_applicable	2291	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3570593	BENTO-DEMO-3570593	45	Premenopausal	Not_applicable	0	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3573221	BENTO-DEMO-3573221	72	Postmenopausal	Not_applicable	3650	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3575059	BENTO-DEMO-3575059	47	Premenopausal	Not_applicable	3342	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-35932	BENTO-DEMO-35932	60	Postmenopausal	Not_applicable	2913	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3600848	BENTO-DEMO-3600848	56	Postmenopausal	Not_applicable	2936	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3603833	BENTO-DEMO-3603833	59	Postmenopausal	Not_applicable	3023	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-3653973	BENTO-DEMO-3653973	65	Postmenopausal	Not_applicable	1798	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3663547	BENTO-DEMO-3663547	63	Postmenopausal	Not_applicable	0	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3665366	BENTO-DEMO-3665366	67	Postmenopausal	Not_applicable	2800	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3678302	BENTO-DEMO-3678302	73	Postmenopausal	Other cancer	2457	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-3680830	BENTO-DEMO-3680830	45	Premenopausal	Not_applicable	3237	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3703472	BENTO-DEMO-3703472	54	Postmenopausal	Not_applicable	2834	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3714135	BENTO-DEMO-3714135	46	Premenopausal	Not_applicable	3185	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3715860	BENTO-DEMO-3715860	55	Premenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3727439	BENTO-DEMO-3727439	41	Premenopausal	Not_applicable	3305	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3733981	BENTO-DEMO-3733981	64	Postmenopausal	Not_applicable	3498	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3742479	BENTO-DEMO-3742479	61	Postmenopausal	Not_applicable	1763	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3746167	BENTO-DEMO-3746167	44	Premenopausal	Not_applicable	3633	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3751341	BENTO-DEMO-3751341	48	Premenopausal	Not_applicable	3625	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3752384	BENTO-DEMO-3752384	46	Premenopausal	Other cancer	2147	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-3760312	BENTO-DEMO-3760312	56	Postmenopausal	Not_applicable	3221	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3767627	BENTO-DEMO-3767627	50	Postmenopausal	Not_applicable	2837	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3777100	BENTO-DEMO-3777100	55	Postmenopausal	Not_applicable	3665	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3783667	BENTO-DEMO-3783667	61	Postmenopausal	Not_applicable	1451	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3792531	BENTO-DEMO-3792531	66	Postmenopausal	Not_applicable	3969	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3812959	BENTO-DEMO-3812959	48	Postmenopausal	Not_applicable	2554	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3820530	BENTO-DEMO-3820530	55	Postmenopausal	Not_applicable	2562	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3826610	BENTO-DEMO-3826610	70	Postmenopausal	Not_applicable	3353	Not Reported	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3838045	BENTO-DEMO-3838045	59	Postmenopausal	Not_applicable	2953	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-388240	BENTO-DEMO-388240	44	Premenopausal	Not_applicable	2047	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-389850	BENTO-DEMO-389850	48	Postmenopausal	Not_applicable	2100	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3899237	BENTO-DEMO-3899237	57	Postmenopausal	Not_applicable	2500	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3901754	BENTO-DEMO-3901754	70	Postmenopausal	Not_applicable	4029	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3911136	BENTO-DEMO-3911136	61	Postmenopausal	Not_applicable	1450	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3922776	BENTO-DEMO-3922776	63	Postmenopausal	Not_applicable	2428	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3923216	BENTO-DEMO-3923216	73	Postmenopausal	Not_applicable	3626	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3938509	BENTO-DEMO-3938509	58	Postmenopausal	Not_applicable	379	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-3967139	BENTO-DEMO-3967139	52	Postmenopausal	Not_applicable	4009	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3975069	BENTO-DEMO-3975069	67	Postmenopausal	Not_applicable	1689	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3977115	BENTO-DEMO-3977115	58	Postmenopausal	Not_applicable	367	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3981577	BENTO-DEMO-3981577	42	Premenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3985467	BENTO-DEMO-3985467	55	Postmenopausal	Not_applicable	2920	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3992030	BENTO-DEMO-3992030	66	Postmenopausal	Not_applicable	1783	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3998000	BENTO-DEMO-3998000	52	Premenopausal	Not_applicable	2912	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-3999731	BENTO-DEMO-3999731	62	Postmenopausal	Not_applicable	1763	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-400437	BENTO-DEMO-400437	68	Postmenopausal	Not_applicable	3512	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4027516	BENTO-DEMO-4027516	49	Premenopausal	Not_applicable	2537	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4031362	BENTO-DEMO-4031362	42	Postmenopausal	Not_applicable	2889	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4041996	BENTO-DEMO-4041996	49	Premenopausal	Breast cancer	2553	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-4045988	BENTO-DEMO-4045988	48	Postmenopausal	Not_applicable	3637	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4046743	BENTO-DEMO-4046743	51	Premenopausal	Not_applicable	2883	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-405545	BENTO-DEMO-405545	51	Postmenopausal	Not_applicable	2550	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4078745	BENTO-DEMO-4078745	68	Postmenopausal	Not_applicable	0	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4078798	BENTO-DEMO-4078798	50	Premenopausal	Not_applicable	3567	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4081123	BENTO-DEMO-4081123	57	Postmenopausal	Not_applicable	1842	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4088871	BENTO-DEMO-4088871	48	Postmenopausal	Not_applicable	1541	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4091083	BENTO-DEMO-4091083	55	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4098193	BENTO-DEMO-4098193	58	Postmenopausal	Not_applicable	3268	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4098861	BENTO-DEMO-4098861	56	Postmenopausal	Not_applicable	3421	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4100356	BENTO-DEMO-4100356	58	Postmenopausal	Not_applicable	2527	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4123092	BENTO-DEMO-4123092	65	Postmenopausal	Not_applicable	2681	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4125298	BENTO-DEMO-4125298	62	Postmenopausal	Not_applicable	2607	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-4125543	BENTO-DEMO-4125543	63	Postmenopausal	Not_applicable	3270	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4127975	BENTO-DEMO-4127975	55	Premenopausal	Not_applicable	4070	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-412989	BENTO-DEMO-412989	57	Postmenopausal	Not_applicable	3561	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4150103	BENTO-DEMO-4150103	44	Postmenopausal	Not_applicable	4039	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4152404	BENTO-DEMO-4152404	85	Postmenopausal	Not_applicable	3288	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4154056	BENTO-DEMO-4154056	66	Postmenopausal	Not_applicable	1826	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4167372	BENTO-DEMO-4167372	46	Postmenopausal	Breast cancer	3018	White	Not Reported	Dead	Female
+demographic_data	BENTO-CASE-4167843	BENTO-DEMO-4167843	38	Premenopausal	Not_applicable	3205	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4172620	BENTO-DEMO-4172620	58	Postmenopausal	Not_applicable	169	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4173703	BENTO-DEMO-4173703	59	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4176346	BENTO-DEMO-4176346	42	Premenopausal	Not_applicable	3031	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4187183	BENTO-DEMO-4187183	58	Postmenopausal	Not_applicable	2559	Not Reported	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-42003	BENTO-DEMO-42003	42	Premenopausal	Not_applicable	2194	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4213980	BENTO-DEMO-4213980	56	Postmenopausal	Not_applicable	2197	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4217556	BENTO-DEMO-4217556	55	Postmenopausal	Not_applicable	3612	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4218474	BENTO-DEMO-4218474	46	Premenopausal	Not_applicable	3371	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4243450	BENTO-DEMO-4243450	74	Postmenopausal	Not_applicable	2141	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4257827	BENTO-DEMO-4257827	51	Premenopausal	Not_applicable	2279	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4266728	BENTO-DEMO-4266728	45	Premenopausal	Not_applicable	3029	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4267389	BENTO-DEMO-4267389	67	Postmenopausal	Not_applicable	3051	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-426809	BENTO-DEMO-426809	54	Postmenopausal	Not_applicable	2526	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-4268545	BENTO-DEMO-4268545	71	Postmenopausal	Not_applicable	2891	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4271260	BENTO-DEMO-4271260	54	Premenopausal	Not_applicable	1859	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-4277568	BENTO-DEMO-4277568	50	Premenopausal	Not_applicable	2214	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-428876	BENTO-DEMO-428876	44	Premenopausal	Not_applicable	2871	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4309014	BENTO-DEMO-4309014	69	Postmenopausal	Not_applicable	3647	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4309524	BENTO-DEMO-4309524	67	Postmenopausal	Not_applicable	1204	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4309756	BENTO-DEMO-4309756	55	Postmenopausal	Not_applicable	2184	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4314371	BENTO-DEMO-4314371	49	Premenopausal	Not_applicable	3320	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4323103	BENTO-DEMO-4323103	51	Premenopausal	Not_applicable	4026	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4328738	BENTO-DEMO-4328738	65	Postmenopausal	Not_applicable	2190	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4338673	BENTO-DEMO-4338673	58	Postmenopausal	Not_applicable	2881	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4339130	BENTO-DEMO-4339130	44	Premenopausal	Not_applicable	3374	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-4368232	BENTO-DEMO-4368232	43	Premenopausal	Not_applicable	300	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4368365	BENTO-DEMO-4368365	52	Premenopausal	Not_applicable	0	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4371245	BENTO-DEMO-4371245	51	Postmenopausal	Not_applicable	3562	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-437318	BENTO-DEMO-437318	58	Postmenopausal	Not_applicable	743	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-438982	BENTO-DEMO-438982	63	Postmenopausal	Not_applicable	3467	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4400403	BENTO-DEMO-4400403	69	Postmenopausal	Not_applicable	2249	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4408230	BENTO-DEMO-4408230	37	Premenopausal	Not_applicable	2921	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4431931	BENTO-DEMO-4431931	50	Premenopausal	Not_applicable	3662	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4444673	BENTO-DEMO-4444673	53	Postmenopausal	Not_applicable	1848	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-444584	BENTO-DEMO-444584	67	Postmenopausal	Not_applicable	2501	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4456982	BENTO-DEMO-4456982	71	Postmenopausal	Not_applicable	2506	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4457057	BENTO-DEMO-4457057	64	Postmenopausal	Not_applicable	1755	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-4459496	BENTO-DEMO-4459496	50	Postmenopausal	Not_applicable	531	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4474763	BENTO-DEMO-4474763	53	Postmenopausal	Not_applicable	2544	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4475771	BENTO-DEMO-4475771	66	Postmenopausal	Not_applicable	2752	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4482889	BENTO-DEMO-4482889	68	Postmenopausal	Not_applicable	1780	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4498948	BENTO-DEMO-4498948	52	Postmenopausal	Not_applicable	2492	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4522209	BENTO-DEMO-4522209	48	Postmenopausal	Not_applicable	2911	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4531159	BENTO-DEMO-4531159	50	Postmenopausal	Not_applicable	3501	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4533288	BENTO-DEMO-4533288	44	Premenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4548031	BENTO-DEMO-4548031	60	Postmenopausal	Not_applicable	1474	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-4548661	BENTO-DEMO-4548661	38	Premenopausal	Not_applicable	2045	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4551065	BENTO-DEMO-4551065	29	Premenopausal	Not_applicable	343	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-456745	BENTO-DEMO-456745	43	Premenopausal	Not_applicable	3261	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4567965	BENTO-DEMO-4567965	49	Premenopausal	Not_applicable	3285	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4577913	BENTO-DEMO-4577913	62	Postmenopausal	Not_applicable	192	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4583519	BENTO-DEMO-4583519	54	Postmenopausal	Not_applicable	3291	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4591894	BENTO-DEMO-4591894	61	Postmenopausal	Other cancer	980	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-4611861	BENTO-DEMO-4611861	57	Postmenopausal	Not_applicable	3011	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4615817	BENTO-DEMO-4615817	48	Premenopausal	Not_applicable	3976	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4630899	BENTO-DEMO-4630899	63	Postmenopausal	Not_applicable	2758	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-4633773	BENTO-DEMO-4633773	62	Postmenopausal	Not_applicable	786	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4646304	BENTO-DEMO-4646304	41	Premenopausal	Not_applicable	3279	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4652697	BENTO-DEMO-4652697	41	Premenopausal	Not_applicable	2401	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4655775	BENTO-DEMO-4655775	46	Premenopausal	Not_applicable	0	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4660371	BENTO-DEMO-4660371	50	Premenopausal	Not_applicable	4008	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4686439	BENTO-DEMO-4686439	46	Premenopausal	Not_applicable	1202	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4693560	BENTO-DEMO-4693560	62	Postmenopausal	Not_applicable	3202	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-471426	BENTO-DEMO-471426	64	Postmenopausal	Other cancer	3471	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-472047	BENTO-DEMO-472047	52	Premenopausal	Not_applicable	2404	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4725488	BENTO-DEMO-4725488	47	Postmenopausal	Other	1015	White	Not Reported	Dead	Female
+demographic_data	BENTO-CASE-4726583	BENTO-DEMO-4726583	66	Postmenopausal	Breast cancer	1658	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-4749124	BENTO-DEMO-4749124	62	Postmenopausal	Not_applicable	2528	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4761756	BENTO-DEMO-4761756	54	Postmenopausal	Not_applicable	3282	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4784503	BENTO-DEMO-4784503	49	Premenopausal	Not_applicable	952	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4787342	BENTO-DEMO-4787342	61	Postmenopausal	Not_applicable	2494	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4788690	BENTO-DEMO-4788690	45	Premenopausal	Not_applicable	3170	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4795644	BENTO-DEMO-4795644	67	Postmenopausal	Not_applicable	336	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4801619	BENTO-DEMO-4801619	49	Premenopausal	Not_applicable	3635	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4803087	BENTO-DEMO-4803087	65	Postmenopausal	Not_applicable	2973	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4805341	BENTO-DEMO-4805341	65	Postmenopausal	Not_applicable	840	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4806735	BENTO-DEMO-4806735	56	Postmenopausal	Not_applicable	2798	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4822735	BENTO-DEMO-4822735	43	Premenopausal	Not_applicable	3602	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4831182	BENTO-DEMO-4831182	45	Premenopausal	Other cancer	2151	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-4848131	BENTO-DEMO-4848131	60	Postmenopausal	Not_applicable	2548	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-485469	BENTO-DEMO-485469	63	Postmenopausal	Not_applicable	2170	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4869971	BENTO-DEMO-4869971	47	Postmenopausal	Not_applicable	2979	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4880458	BENTO-DEMO-4880458	52	Premenopausal	Not_applicable	3657	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4884331	BENTO-DEMO-4884331	65	Postmenopausal	Not_applicable	2106	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4901393	BENTO-DEMO-4901393	54	Premenopausal	Not_applicable	2843	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4904427	BENTO-DEMO-4904427	57	Postmenopausal	Not_applicable	2892	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4914362	BENTO-DEMO-4914362	49	Premenopausal	Not_applicable	2862	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4921235	BENTO-DEMO-4921235	43	Premenopausal	Not_applicable	1420	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4924757	BENTO-DEMO-4924757	59	Postmenopausal	Not_applicable	3588	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4938848	BENTO-DEMO-4938848	69	Postmenopausal	Not_applicable	3236	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4948031	BENTO-DEMO-4948031	58	Postmenopausal	Not_applicable	3082	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4954349	BENTO-DEMO-4954349	69	Postmenopausal	Not_applicable	2668	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4958342	BENTO-DEMO-4958342	67	Postmenopausal	Not_applicable	2800	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4960406	BENTO-DEMO-4960406	62	Postmenopausal	Not_applicable	3218	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-496411	BENTO-DEMO-496411	66	Postmenopausal	Not_applicable	2913	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4964595	BENTO-DEMO-4964595	71	Postmenopausal	Not_applicable	3986	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-498582	BENTO-DEMO-498582	50	Premenopausal	Not_applicable	2263	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4988254	BENTO-DEMO-4988254	47	Premenopausal	Not_applicable	2458	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4988907	BENTO-DEMO-4988907	51	Premenopausal	Not_applicable	2269	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-4989805	BENTO-DEMO-4989805	41	Premenopausal	Not_applicable	2912	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5000818	BENTO-DEMO-5000818	63	Postmenopausal	Not_applicable	2555	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5007830	BENTO-DEMO-5007830	57	Postmenopausal	Not_applicable	2531	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5011940	BENTO-DEMO-5011940	53	Postmenopausal	Not_applicable	3646	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5018221	BENTO-DEMO-5018221	39	Premenopausal	Not_applicable	3260	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5021636	BENTO-DEMO-5021636	43	Premenopausal	Not_applicable	2586	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5043415	BENTO-DEMO-5043415	70	Postmenopausal	Not_applicable	3257	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5047410	BENTO-DEMO-5047410	61	Postmenopausal	Not_applicable	2508	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5055128	BENTO-DEMO-5055128	64	Postmenopausal	Not_applicable	2558	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5063957	BENTO-DEMO-5063957	55	Postmenopausal	Not_applicable	1832	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5066842	BENTO-DEMO-5066842	73	Postmenopausal	Not_applicable	2918	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5081103	BENTO-DEMO-5081103	65	Postmenopausal	Not_applicable	3319	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5105458	BENTO-DEMO-5105458	65	Postmenopausal	Not_applicable	1022	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5112835	BENTO-DEMO-5112835	46	Premenopausal	Not_applicable	2488	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5124662	BENTO-DEMO-5124662	54	Premenopausal	Not_applicable	2799	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5128849	BENTO-DEMO-5128849	69	Postmenopausal	Not_applicable	1233	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5140102	BENTO-DEMO-5140102	51	Premenopausal	Not_applicable	485	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5150372	BENTO-DEMO-5150372	62	Postmenopausal	Not_applicable	2192	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5155202	BENTO-DEMO-5155202	69	Postmenopausal	Not_applicable	808	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5157024	BENTO-DEMO-5157024	61	Postmenopausal	Not_applicable	2810	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5157302	BENTO-DEMO-5157302	51	Postmenopausal	Not_applicable	2605	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5161253	BENTO-DEMO-5161253	64	Postmenopausal	Not_applicable	2582	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-517289	BENTO-DEMO-517289	52	Postmenopausal	Not_applicable	2711	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5187802	BENTO-DEMO-5187802	57	Postmenopausal	Not_applicable	3612	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-520293	BENTO-DEMO-520293	50	Premenopausal	Not_applicable	3137	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5213114	BENTO-DEMO-5213114	60	Postmenopausal	Not_applicable	2848	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5223093	BENTO-DEMO-5223093	44	Premenopausal	Not_applicable	3416	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5236164	BENTO-DEMO-5236164	53	Premenopausal	Not_applicable	284	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5241503	BENTO-DEMO-5241503	61	Postmenopausal	Not_applicable	3432	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5254265	BENTO-DEMO-5254265	59	Postmenopausal	Not_applicable	1424	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-525515	BENTO-DEMO-525515	61	Postmenopausal	Not_applicable	3562	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5266493	BENTO-DEMO-5266493	66	Postmenopausal	Not_applicable	3065	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5272618	BENTO-DEMO-5272618	59	Postmenopausal	Not_applicable	1676	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-527718	BENTO-DEMO-527718	49	Postmenopausal	Not_applicable	0	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5289667	BENTO-DEMO-5289667	59	Postmenopausal	Not_applicable	656	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5290693	BENTO-DEMO-5290693	53	Postmenopausal	Not_applicable	2667	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5301402	BENTO-DEMO-5301402	54	Postmenopausal	Not_applicable	1915	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5309230	BENTO-DEMO-5309230	46	Premenopausal	Not_applicable	1858	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5325924	BENTO-DEMO-5325924	54	Postmenopausal	Not_applicable	2513	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5326643	BENTO-DEMO-5326643	51	Postmenopausal	Not_applicable	2777	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5353282	BENTO-DEMO-5353282	63	Postmenopausal	Not_applicable	2987	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-538559	BENTO-DEMO-538559	54	Postmenopausal	Not_applicable	3056	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5414495	BENTO-DEMO-5414495	61	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5418387	BENTO-DEMO-5418387	45	Premenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5426660	BENTO-DEMO-5426660	59	Postmenopausal	Not_applicable	3277	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5434055	BENTO-DEMO-5434055	58	Postmenopausal	Not_applicable	3570	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5465325	BENTO-DEMO-5465325	41	Premenopausal	Not_applicable	3187	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5477289	BENTO-DEMO-5477289	67	Postmenopausal	Not_applicable	2514	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5482390	BENTO-DEMO-5482390	58	Postmenopausal	Not_applicable	3271	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5485627	BENTO-DEMO-5485627	61	Postmenopausal	Not_applicable	3284	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5513595	BENTO-DEMO-5513595	57	Postmenopausal	Not_applicable	2814	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5516920	BENTO-DEMO-5516920	66	Postmenopausal	Not_applicable	301	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5524017	BENTO-DEMO-5524017	51	Premenopausal	Not_applicable	348	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5531167	BENTO-DEMO-5531167	56	Postmenopausal	Breast cancer	2261	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-5562091	BENTO-DEMO-5562091	66	Postmenopausal	Not_applicable	2917	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5572167	BENTO-DEMO-5572167	59	Postmenopausal	Not_applicable	3547	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5576330	BENTO-DEMO-5576330	56	Postmenopausal	Not_applicable	3663	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5600202	BENTO-DEMO-5600202	69	Postmenopausal	Not_applicable	3256	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5616199	BENTO-DEMO-5616199	67	Postmenopausal	Not_applicable	3652	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5625489	BENTO-DEMO-5625489	44	Premenopausal	Not_applicable	2921	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5626207	BENTO-DEMO-5626207	51	Premenopausal	Not_applicable	3266	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5627994	BENTO-DEMO-5627994	70	Postmenopausal	Not_applicable	2512	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5662051	BENTO-DEMO-5662051	34	Premenopausal	Not_applicable	3276	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5666973	BENTO-DEMO-5666973	67	Postmenopausal	Not_applicable	1825	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5674572	BENTO-DEMO-5674572	70	Postmenopausal	Not_applicable	1785	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5685159	BENTO-DEMO-5685159	62	Postmenopausal	Not_applicable	3445	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5686362	BENTO-DEMO-5686362	40	Premenopausal	Not_applicable	2576	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5696450	BENTO-DEMO-5696450	45	Premenopausal	Not_applicable	2864	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5697650	BENTO-DEMO-5697650	36	Premenopausal	Not_applicable	2941	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5707938	BENTO-DEMO-5707938	49	Premenopausal	Not_applicable	2917	Not Reported	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5709220	BENTO-DEMO-5709220	57	Postmenopausal	Not_applicable	2931	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5711116	BENTO-DEMO-5711116	53	Premenopausal	Unknown	1839	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-5718632	BENTO-DEMO-5718632	53	Postmenopausal	Not_applicable	3248	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5720838	BENTO-DEMO-5720838	59	Premenopausal	Not_applicable	3518	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5731102	BENTO-DEMO-5731102	72	Postmenopausal	Not_applicable	2894	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5737617	BENTO-DEMO-5737617	59	Postmenopausal	Breast cancer	2429	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-5753020	BENTO-DEMO-5753020	70	Postmenopausal	Not_applicable	2504	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5753206	BENTO-DEMO-5753206	63	Postmenopausal	Not_applicable	3289	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5756193	BENTO-DEMO-5756193	69	Postmenopausal	Not_applicable	2934	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5757477	BENTO-DEMO-5757477	63	Postmenopausal	Not_applicable	349	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5768656	BENTO-DEMO-5768656	32	Premenopausal	Not_applicable	2569	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5773931	BENTO-DEMO-5773931	50	Premenopausal	Not_applicable	2792	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5775081	BENTO-DEMO-5775081	59	Postmenopausal	Not_applicable	2403	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5784236	BENTO-DEMO-5784236	62	Postmenopausal	Not_applicable	3696	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5812347	BENTO-DEMO-5812347	65	Postmenopausal	Not_applicable	2364	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5812841	BENTO-DEMO-5812841	66	Postmenopausal	Not_applicable	3243	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5824392	BENTO-DEMO-5824392	47	Premenopausal	Not_applicable	3692	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5825284	BENTO-DEMO-5825284	59	Postmenopausal	Not_applicable	3400	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5832844	BENTO-DEMO-5832844	47	Premenopausal	Not_applicable	3617	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5858554	BENTO-DEMO-5858554	54	Premenopausal	Not_applicable	3639	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5865471	BENTO-DEMO-5865471	56	Premenopausal	Breast cancer	1330	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-5869537	BENTO-DEMO-5869537	45	Premenopausal	Not_applicable	3079	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-587617	BENTO-DEMO-587617	57	Postmenopausal	Not_applicable	2527	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-589063	BENTO-DEMO-589063	68	Postmenopausal	Not_applicable	2908	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5897608	BENTO-DEMO-5897608	65	Postmenopausal	Not_applicable	1953	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5904055	BENTO-DEMO-5904055	61	Postmenopausal	Not_applicable	1807	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5909407	BENTO-DEMO-5909407	44	Postmenopausal	Not_applicable	2549	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5915193	BENTO-DEMO-5915193	60	Postmenopausal	Not_applicable	2907	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5919293	BENTO-DEMO-5919293	43	Premenopausal	Not_applicable	2190	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5919439	BENTO-DEMO-5919439	49	Premenopausal	Not_applicable	2924	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5919730	BENTO-DEMO-5919730	69	Postmenopausal	Not_applicable	3719	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5931393	BENTO-DEMO-5931393	46	Premenopausal	Not_applicable	2571	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5946008	BENTO-DEMO-5946008	62	Postmenopausal	Not_applicable	666	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5956323	BENTO-DEMO-5956323	71	Postmenopausal	Not_applicable	3214	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-5967264	BENTO-DEMO-5967264	41	Premenopausal	Not_applicable	4016	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-5971057	BENTO-DEMO-5971057	42	Premenopausal	Not_applicable	2554	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6040272	BENTO-DEMO-6040272	41	Premenopausal	Not_applicable	3716	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6042745	BENTO-DEMO-6042745	72	Postmenopausal	Not_applicable	3065	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6044272	BENTO-DEMO-6044272	54	Premenopausal	Not_applicable	2923	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6049694	BENTO-DEMO-6049694	46	Premenopausal	Not_applicable	2533	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-605581	BENTO-DEMO-605581	55	Postmenopausal	Not_applicable	3626	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6066765	BENTO-DEMO-6066765	51	Premenopausal	Not_applicable	2905	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-609007	BENTO-DEMO-609007	44	Premenopausal	Not_applicable	3989	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6107330	BENTO-DEMO-6107330	66	Postmenopausal	Not_applicable	3047	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-6130004	BENTO-DEMO-6130004	70	Postmenopausal	Not_applicable	2597	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6130646	BENTO-DEMO-6130646	59	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6144760	BENTO-DEMO-6144760	46	Postmenopausal	Not_applicable	2800	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6146632	BENTO-DEMO-6146632	54	Postmenopausal	Not_applicable	3347	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-6160915	BENTO-DEMO-6160915	64	Postmenopausal	Not_applicable	3269	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6161773	BENTO-DEMO-6161773	41	Premenopausal	Not_applicable	2904	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6185616	BENTO-DEMO-6185616	54	Postmenopausal	Not_applicable	2920	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-618563	BENTO-DEMO-618563	60	Postmenopausal	Not_applicable	2982	Not Reported	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6208986	BENTO-DEMO-6208986	67	Postmenopausal	Not_applicable	2883	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6212019	BENTO-DEMO-6212019	46	Premenopausal	Not_applicable	2485	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6213027	BENTO-DEMO-6213027	46	Premenopausal	Not_applicable	0	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-6219854	BENTO-DEMO-6219854	40	Premenopausal	Not_applicable	3321	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6231373	BENTO-DEMO-6231373	60	Postmenopausal	Not_applicable	3651	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6233930	BENTO-DEMO-6233930	66	Postmenopausal	Not_applicable	2906	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6239717	BENTO-DEMO-6239717	69	Postmenopausal	Not_applicable	3648	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6260865	BENTO-DEMO-6260865	61	Postmenopausal	Not_applicable	2611	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6263809	BENTO-DEMO-6263809	46	Premenopausal	Not_applicable	2639	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6269648	BENTO-DEMO-6269648	51	Postmenopausal	Not_applicable	353	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6271186	BENTO-DEMO-6271186	53	Postmenopausal	Not_applicable	3121	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6280506	BENTO-DEMO-6280506	49	Postmenopausal	Not_applicable	3373	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6287969	BENTO-DEMO-6287969	51	Premenopausal	Not_applicable	2556	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6314717	BENTO-DEMO-6314717	51	Premenopausal	Not_applicable	2984	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-631915	BENTO-DEMO-631915	54	Postmenopausal	Not_applicable	4015	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6330154	BENTO-DEMO-6330154	48	Premenopausal	Not_applicable	2566	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6330499	BENTO-DEMO-6330499	50	Postmenopausal	Not_applicable	2568	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6345477	BENTO-DEMO-6345477	47	Premenopausal	Not_applicable	3557	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6350371	BENTO-DEMO-6350371	55	Postmenopausal	Not_applicable	2792	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6356398	BENTO-DEMO-6356398	58	Postmenopausal	Not_applicable	3188	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6366405	BENTO-DEMO-6366405	61	Postmenopausal	Not_applicable	2917	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6371025	BENTO-DEMO-6371025	57	Postmenopausal	Not_applicable	3036	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6375024	BENTO-DEMO-6375024	60	Postmenopausal	Not_applicable	1327	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6378247	BENTO-DEMO-6378247	52	Premenopausal	Not_applicable	2920	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-6384809	BENTO-DEMO-6384809	69	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6394624	BENTO-DEMO-6394624	48	Premenopausal	Other cancer	3015	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-6407376	BENTO-DEMO-6407376	58	Postmenopausal	Other	1512	White	Not Reported	Dead	Female
+demographic_data	BENTO-CASE-6413339	BENTO-DEMO-6413339	53	Premenopausal	Breast cancer	2098	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-6413824	BENTO-DEMO-6413824	58	Postmenopausal	Not_applicable	2179	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-641702	BENTO-DEMO-641702	64	Postmenopausal	Not_applicable	2591	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-641757	BENTO-DEMO-641757	55	Postmenopausal	Not_applicable	3251	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6434984	BENTO-DEMO-6434984	51	Premenopausal	Not_applicable	1623	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6447979	BENTO-DEMO-6447979	69	Postmenopausal	Not_applicable	3275	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6451327	BENTO-DEMO-6451327	65	Postmenopausal	Not_applicable	2682	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6466712	BENTO-DEMO-6466712	47	Postmenopausal	Not_applicable	3300	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6473833	BENTO-DEMO-6473833	48	Premenopausal	Not_applicable	2949	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6476738	BENTO-DEMO-6476738	41	Premenopausal	Not_applicable	3364	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6480531	BENTO-DEMO-6480531	46	Premenopausal	Not_applicable	3626	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6481069	BENTO-DEMO-6481069	45	Premenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6510526	BENTO-DEMO-6510526	53	Postmenopausal	Not_applicable	2563	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6531252	BENTO-DEMO-6531252	52	Premenopausal	Not_applicable	3578	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6531734	BENTO-DEMO-6531734	48	Premenopausal	Not_applicable	2815	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6535378	BENTO-DEMO-6535378	44	Premenopausal	Not_applicable	3662	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6536277	BENTO-DEMO-6536277	53	Postmenopausal	Not_applicable	2337	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6538857	BENTO-DEMO-6538857	46	Premenopausal	Not_applicable	3038	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6539484	BENTO-DEMO-6539484	74	Postmenopausal	Not_applicable	2710	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6540580	BENTO-DEMO-6540580	50	Postmenopausal	Not_applicable	2798	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6546055	BENTO-DEMO-6546055	55	Postmenopausal	Not_applicable	2910	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6551810	BENTO-DEMO-6551810	60	Postmenopausal	Not_applicable	2327	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6555667	BENTO-DEMO-6555667	68	Postmenopausal	Unknown	2558	White	Not Reported	Dead	Female
+demographic_data	BENTO-CASE-6587522	BENTO-DEMO-6587522	66	Postmenopausal	Not_applicable	1688	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6594775	BENTO-DEMO-6594775	58	Postmenopausal	Not_applicable	3641	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-661752	BENTO-DEMO-661752	51	Postmenopausal	Not_applicable	3662	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6618286	BENTO-DEMO-6618286	53	Premenopausal	Not_applicable	3649	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6620781	BENTO-DEMO-6620781	54	Postmenopausal	Not_applicable	3663	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6623177	BENTO-DEMO-6623177	56	Postmenopausal	Not_applicable	3100	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6624931	BENTO-DEMO-6624931	53	Postmenopausal	Not_applicable	2878	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6627257	BENTO-DEMO-6627257	59	Postmenopausal	Not_applicable	1813	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6662408	BENTO-DEMO-6662408	43	Premenopausal	Not_applicable	1755	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-6679431	BENTO-DEMO-6679431	56	Postmenopausal	Not_applicable	2910	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6690147	BENTO-DEMO-6690147	50	Premenopausal	Not_applicable	3637	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6690394	BENTO-DEMO-6690394	52	Postmenopausal	Not_applicable	2702	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6691410	BENTO-DEMO-6691410	75	Postmenopausal	Not_applicable	2726	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6693212	BENTO-DEMO-6693212	52	Postmenopausal	Not_applicable	3111	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-67043	BENTO-DEMO-67043	65	Postmenopausal	Not_applicable	3263	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6738892	BENTO-DEMO-6738892	59	Postmenopausal	Not_applicable	1743	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6740758	BENTO-DEMO-6740758	48	Premenopausal	Not_applicable	3291	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6742058	BENTO-DEMO-6742058	60	Postmenopausal	Not_applicable	2090	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6753561	BENTO-DEMO-6753561	41	Premenopausal	Not_applicable	3249	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6754819	BENTO-DEMO-6754819	51	Premenopausal	Not_applicable	3157	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6763746	BENTO-DEMO-6763746	72	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6769698	BENTO-DEMO-6769698	49	Postmenopausal	Not_applicable	2919	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6781487	BENTO-DEMO-6781487	48	Postmenopausal	Not_applicable	2494	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-679334	BENTO-DEMO-679334	56	Postmenopausal	Not_applicable	3649	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6800409	BENTO-DEMO-6800409	59	Postmenopausal	Not_applicable	1469	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6806137	BENTO-DEMO-6806137	67	Postmenopausal	Not_applicable	3490	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6813724	BENTO-DEMO-6813724	67	Postmenopausal	Not_applicable	2516	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6817486	BENTO-DEMO-6817486	64	Postmenopausal	Not_applicable	2582	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6817769	BENTO-DEMO-6817769	63	Postmenopausal	Not_applicable	3641	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6827024	BENTO-DEMO-6827024	59	Postmenopausal	Not_applicable	3164	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6866275	BENTO-DEMO-6866275	58	Postmenopausal	Not_applicable	2132	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6888488	BENTO-DEMO-6888488	33	Premenopausal	Not_applicable	2093	Not Reported	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6889697	BENTO-DEMO-6889697	61	Postmenopausal	Not_applicable	2906	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6893545	BENTO-DEMO-6893545	52	Premenopausal	Not_applicable	3560	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6895830	BENTO-DEMO-6895830	39	Postmenopausal	Not_applicable	1463	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6907969	BENTO-DEMO-6907969	62	Postmenopausal	Not_applicable	2764	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6916780	BENTO-DEMO-6916780	62	Postmenopausal	Not_applicable	2170	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6919112	BENTO-DEMO-6919112	63	Postmenopausal	Not_applicable	2546	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6922536	BENTO-DEMO-6922536	54	Postmenopausal	Not_applicable	1800	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6941494	BENTO-DEMO-6941494	72	Postmenopausal	Not_applicable	1887	Not Reported	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6961916	BENTO-DEMO-6961916	66	Postmenopausal	Not_applicable	1827	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6965900	BENTO-DEMO-6965900	64	Postmenopausal	Not_applicable	2184	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6965982	BENTO-DEMO-6965982	47	Postmenopausal	Not_applicable	2868	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6977339	BENTO-DEMO-6977339	71	Postmenopausal	Not_applicable	2769	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6979097	BENTO-DEMO-6979097	66	Postmenopausal	Not_applicable	3283	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-6995487	BENTO-DEMO-6995487	42	Premenopausal	Not_applicable	2934	Not Reported	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7004439	BENTO-DEMO-7004439	56	Postmenopausal	Not_applicable	3289	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7006285	BENTO-DEMO-7006285	69	Postmenopausal	Not_applicable	3353	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-7007564	BENTO-DEMO-7007564	58	Postmenopausal	Not_applicable	2540	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-7015459	BENTO-DEMO-7015459	75	Postmenopausal	Not_applicable	2960	Not Reported	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7021621	BENTO-DEMO-7021621	62	Postmenopausal	Not_applicable	2646	Multirace	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7023889	BENTO-DEMO-7023889	62	Postmenopausal	Not_applicable	2515	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7031925	BENTO-DEMO-7031925	57	Postmenopausal	Not_applicable	4022	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-703991	BENTO-DEMO-703991	50	Premenopausal	Not_applicable	348	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7042248	BENTO-DEMO-7042248	63	Postmenopausal	Not_applicable	3312	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7047374	BENTO-DEMO-7047374	47	Premenopausal	Other	2199	White	Not Reported	Dead	Female
+demographic_data	BENTO-CASE-7053769	BENTO-DEMO-7053769	39	Premenopausal	Not_applicable	1759	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7055867	BENTO-DEMO-7055867	52	Postmenopausal	Not_applicable	3020	Not Reported	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7060433	BENTO-DEMO-7060433	61	Postmenopausal	Not_applicable	2728	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-706233	BENTO-DEMO-706233	47	Premenopausal	Not_applicable	654	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7063738	BENTO-DEMO-7063738	66	Postmenopausal	Not_applicable	2876	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7075949	BENTO-DEMO-7075949	49	Premenopausal	Other	304	Black or African American	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-7076648	BENTO-DEMO-7076648	53	Premenopausal	Not_applicable	2493	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7082671	BENTO-DEMO-7082671	63	Postmenopausal	Not_applicable	3283	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-7095544	BENTO-DEMO-7095544	55	Postmenopausal	Not_applicable	3269	Asian	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-711102	BENTO-DEMO-711102	52	Premenopausal	Not_applicable	2383	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7131596	BENTO-DEMO-7131596	54	Postmenopausal	Other cancer	2977	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-713304	BENTO-DEMO-713304	55	Postmenopausal	Not_applicable	1825	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7134774	BENTO-DEMO-7134774	54	Premenopausal	Not_applicable	2578	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7152075	BENTO-DEMO-7152075	46	Premenopausal	Not_applicable	2222	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7156519	BENTO-DEMO-7156519	50	Premenopausal	Not_applicable	3651	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7158897	BENTO-DEMO-7158897	57	Postmenopausal	Not_applicable	1188	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7178584	BENTO-DEMO-7178584	44	Premenopausal	Not_applicable	2155	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7184785	BENTO-DEMO-7184785	55	Postmenopausal	Not_applicable	3298	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7188393	BENTO-DEMO-7188393	43	Premenopausal	Not_applicable	2533	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7193680	BENTO-DEMO-7193680	56	Postmenopausal	Not_applicable	2550	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7222025	BENTO-DEMO-7222025	44	Premenopausal	Not_applicable	3504	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-7225581	BENTO-DEMO-7225581	60	Postmenopausal	Not_applicable	1839	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7230735	BENTO-DEMO-7230735	51	Postmenopausal	Not_applicable	3314	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7257336	BENTO-DEMO-7257336	65	Postmenopausal	Not_applicable	2605	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-726764	BENTO-DEMO-726764	66	Postmenopausal	Not_applicable	1927	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7267956	BENTO-DEMO-7267956	65	Postmenopausal	Not_applicable	2552	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7268340	BENTO-DEMO-7268340	53	Premenopausal	Not_applicable	3259	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7271773	BENTO-DEMO-7271773	46	Premenopausal	Not_applicable	2849	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7278562	BENTO-DEMO-7278562	63	Postmenopausal	Not_applicable	3703	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7299515	BENTO-DEMO-7299515	52	Postmenopausal	Not_applicable	2912	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7300241	BENTO-DEMO-7300241	53	Premenopausal	Not_applicable	3697	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7303259	BENTO-DEMO-7303259	63	Postmenopausal	Unknown	1742	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-7322158	BENTO-DEMO-7322158	62	Postmenopausal	Not_applicable	3048	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7327169	BENTO-DEMO-7327169	54	Postmenopausal	Not_applicable	2847	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7328030	BENTO-DEMO-7328030	65	Postmenopausal	Not_applicable	3768	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7337125	BENTO-DEMO-7337125	49	Premenopausal	Other	746	Asian	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-7338700	BENTO-DEMO-7338700	59	Postmenopausal	Not_applicable	3645	Black or African American	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-7341242	BENTO-DEMO-7341242	46	Postmenopausal	Not_applicable	3388	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7351339	BENTO-DEMO-7351339	58	Postmenopausal	Not_applicable	3283	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7356713	BENTO-DEMO-7356713	50	Postmenopausal	Not_applicable	3337	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7359945	BENTO-DEMO-7359945	73	Postmenopausal	Not_applicable	230	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7366001	BENTO-DEMO-7366001	52	Premenopausal	Not_applicable	2571	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7367233	BENTO-DEMO-7367233	66	Postmenopausal	Not_applicable	2175	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7387842	BENTO-DEMO-7387842	54	Postmenopausal	Not_applicable	2913	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7407810	BENTO-DEMO-7407810	46	Postmenopausal	Not_applicable	2718	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7410955	BENTO-DEMO-7410955	56	Postmenopausal	Not_applicable	3266	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7431210	BENTO-DEMO-7431210	61	Postmenopausal	Breast cancer	1530	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-7444857	BENTO-DEMO-7444857	67	Postmenopausal	Not_applicable	2925	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7455279	BENTO-DEMO-7455279	62	Postmenopausal	Not_applicable	2934	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-7462564	BENTO-DEMO-7462564	48	Premenopausal	Not_applicable	2552	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7463286	BENTO-DEMO-7463286	75	Postmenopausal	Not_applicable	3794	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7467564	BENTO-DEMO-7467564	44	Premenopausal	Not_applicable	346	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7481001	BENTO-DEMO-7481001	45	Premenopausal	Not_applicable	3689	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-7492819	BENTO-DEMO-7492819	52	Postmenopausal	Not_applicable	1793	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-7498420	BENTO-DEMO-7498420	54	Postmenopausal	Not_applicable	0	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7500659	BENTO-DEMO-7500659	36	Premenopausal	Not_applicable	248	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7504278	BENTO-DEMO-7504278	51	Postmenopausal	Not_applicable	3641	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7505101	BENTO-DEMO-7505101	71	Postmenopausal	Not_applicable	3247	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7516630	BENTO-DEMO-7516630	60	Postmenopausal	Not_applicable	3694	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7532437	BENTO-DEMO-7532437	57	Postmenopausal	Not_applicable	3126	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7544164	BENTO-DEMO-7544164	60	Postmenopausal	Not_applicable	2897	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7558435	BENTO-DEMO-7558435	46	Premenopausal	Not_applicable	3507	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-756693	BENTO-DEMO-756693	53	Postmenopausal	Not_applicable	2966	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7583701	BENTO-DEMO-7583701	51	Postmenopausal	Not_applicable	423	Not Reported	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7594764	BENTO-DEMO-7594764	52	Premenopausal	Not_applicable	2529	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7597228	BENTO-DEMO-7597228	60	Postmenopausal	Not_applicable	3784	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-760414	BENTO-DEMO-760414	66	Postmenopausal	Not_applicable	3345	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-7638880	BENTO-DEMO-7638880	63	Postmenopausal	Not_applicable	2132	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7640778	BENTO-DEMO-7640778	56	Postmenopausal	Not_applicable	2552	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7642785	BENTO-DEMO-7642785	52	Premenopausal	Not_applicable	2556	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7664405	BENTO-DEMO-7664405	56	Postmenopausal	Not_applicable	2588	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7672476	BENTO-DEMO-7672476	51	Postmenopausal	Not_applicable	3231	Asian	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-7673385	BENTO-DEMO-7673385	57	Postmenopausal	Not_applicable	1446	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7688060	BENTO-DEMO-7688060	55	Postmenopausal	Not_applicable	1667	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-768912	BENTO-DEMO-768912	58	Postmenopausal	Not_applicable	3647	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-771045	BENTO-DEMO-771045	58	Postmenopausal	Not_applicable	3135	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7722190	BENTO-DEMO-7722190	66	Postmenopausal	Not_applicable	3148	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-77341	BENTO-DEMO-77341	56	Postmenopausal	Not_applicable	2517	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7734923	BENTO-DEMO-7734923	51	Premenopausal	Not_applicable	3323	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7749578	BENTO-DEMO-7749578	52	Premenopausal	Not_applicable	3058	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7751238	BENTO-DEMO-7751238	75	Postmenopausal	Not_applicable	2909	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7763481	BENTO-DEMO-7763481	49	Premenopausal	Not_applicable	2153	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7772713	BENTO-DEMO-7772713	64	Postmenopausal	Not_applicable	1642	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7779645	BENTO-DEMO-7779645	58	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7780012	BENTO-DEMO-7780012	54	Postmenopausal	Not_applicable	2930	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-778497	BENTO-DEMO-778497	40	Premenopausal	Not_applicable	2752	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7798386	BENTO-DEMO-7798386	51	Premenopausal	Not_applicable	3642	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7813760	BENTO-DEMO-7813760	49	Postmenopausal	Not_applicable	1453	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7821341	BENTO-DEMO-7821341	63	Postmenopausal	Not_applicable	2914	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7829352	BENTO-DEMO-7829352	70	Postmenopausal	Not_applicable	2912	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-7830936	BENTO-DEMO-7830936	66	Postmenopausal	Not_applicable	2761	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7837884	BENTO-DEMO-7837884	48	Premenopausal	Not_applicable	4014	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7849582	BENTO-DEMO-7849582	65	Postmenopausal	Not_applicable	3233	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7853402	BENTO-DEMO-7853402	46	Premenopausal	Not_applicable	2141	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7858400	BENTO-DEMO-7858400	38	Premenopausal	Not_applicable	2680	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7880927	BENTO-DEMO-7880927	63	Postmenopausal	Not_applicable	3638	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7898156	BENTO-DEMO-7898156	54	Premenopausal	Not_applicable	2913	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7898599	BENTO-DEMO-7898599	34	Premenopausal	Not_applicable	1827	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7900676	BENTO-DEMO-7900676	65	Postmenopausal	Not_applicable	2345	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7912710	BENTO-DEMO-7912710	64	Postmenopausal	Not_applicable	2907	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7934108	BENTO-DEMO-7934108	51	Postmenopausal	Not_applicable	2827	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7940938	BENTO-DEMO-7940938	50	Postmenopausal	Not_applicable	3621	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7944955	BENTO-DEMO-7944955	51	Premenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7961722	BENTO-DEMO-7961722	39	Premenopausal	Breast cancer	2491	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-7967639	BENTO-DEMO-7967639	64	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7973003	BENTO-DEMO-7973003	73	Postmenopausal	Not_applicable	3658	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7983595	BENTO-DEMO-7983595	54	Postmenopausal	Not_applicable	2919	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-7996175	BENTO-DEMO-7996175	72	Postmenopausal	Not_applicable	2348	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8003558	BENTO-DEMO-8003558	53	Premenopausal	Not_applicable	2934	Not Reported	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8019824	BENTO-DEMO-8019824	59	Postmenopausal	Not_applicable	3775	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8025570	BENTO-DEMO-8025570	48	Premenopausal	Not_applicable	2197	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8025594	BENTO-DEMO-8025594	54	Postmenopausal	Not_applicable	2387	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-803930	BENTO-DEMO-803930	50	Premenopausal	Not_applicable	3612	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8041158	BENTO-DEMO-8041158	48	Premenopausal	Not_applicable	2695	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8050291	BENTO-DEMO-8050291	44	Premenopausal	Not_applicable	3649	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8061003	BENTO-DEMO-8061003	54	Premenopausal	Not_applicable	2213	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8073547	BENTO-DEMO-8073547	48	Premenopausal	Not_applicable	2337	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8075301	BENTO-DEMO-8075301	58	Postmenopausal	Not_applicable	3353	Black or African American	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8079567	BENTO-DEMO-8079567	50	Postmenopausal	Not_applicable	1112	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8088842	BENTO-DEMO-8088842	45	Premenopausal	Not_applicable	3262	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8103536	BENTO-DEMO-8103536	52	Postmenopausal	Not_applicable	1844	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8132085	BENTO-DEMO-8132085	51	Premenopausal	Not_applicable	0	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8134853	BENTO-DEMO-8134853	70	Postmenopausal	Not_applicable	2917	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8138635	BENTO-DEMO-8138635	52	Premenopausal	Not_applicable	3267	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-814020	BENTO-DEMO-814020	52	Premenopausal	Not_applicable	2911	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8142552	BENTO-DEMO-8142552	54	Postmenopausal	Not_applicable	2866	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8148383	BENTO-DEMO-8148383	37	Premenopausal	Not_applicable	606	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8151500	BENTO-DEMO-8151500	45	Premenopausal	Not_applicable	2203	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8169142	BENTO-DEMO-8169142	61	Postmenopausal	Not_applicable	2984	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8172780	BENTO-DEMO-8172780	60	Postmenopausal	Not_applicable	2379	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8176441	BENTO-DEMO-8176441	61	Postmenopausal	Not_applicable	975	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8179964	BENTO-DEMO-8179964	47	Premenopausal	Other cancer	2298	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-8189434	BENTO-DEMO-8189434	62	Postmenopausal	Not_applicable	3203	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8190867	BENTO-DEMO-8190867	69	Postmenopausal	Not_applicable	3496	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-820500	BENTO-DEMO-820500	58	Premenopausal	Not_applicable	1821	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8208071	BENTO-DEMO-8208071	57	Postmenopausal	Not_applicable	2626	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8214982	BENTO-DEMO-8214982	57	Postmenopausal	Not_applicable	3592	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8215343	BENTO-DEMO-8215343	61	Postmenopausal	Not_applicable	3858	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8215348	BENTO-DEMO-8215348	54	Postmenopausal	Not_applicable	2405	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8230719	BENTO-DEMO-8230719	66	Postmenopausal	Not_applicable	3194	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8234229	BENTO-DEMO-8234229	68	Postmenopausal	Not_applicable	2787	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8236068	BENTO-DEMO-8236068	58	Postmenopausal	Not_applicable	3824	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8276654	BENTO-DEMO-8276654	42	Premenopausal	Not_applicable	3704	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8278212	BENTO-DEMO-8278212	50	Postmenopausal	Not_applicable	2163	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8286778	BENTO-DEMO-8286778	63	Postmenopausal	Not_applicable	3628	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8301841	BENTO-DEMO-8301841	51	Postmenopausal	Not_applicable	1827	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8311994	BENTO-DEMO-8311994	48	Premenopausal	Not_applicable	2970	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8312841	BENTO-DEMO-8312841	33	Premenopausal	Not_applicable	2841	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8321295	BENTO-DEMO-8321295	62	Postmenopausal	Not_applicable	3357	Not Reported	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8325100	BENTO-DEMO-8325100	45	Premenopausal	Not_applicable	2515	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8348662	BENTO-DEMO-8348662	59	Postmenopausal	Not_applicable	1751	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8351670	BENTO-DEMO-8351670	53	Postmenopausal	Not_applicable	2360	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8374747	BENTO-DEMO-8374747	49	Premenopausal	Not_applicable	3279	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8377217	BENTO-DEMO-8377217	55	Premenopausal	Not_applicable	2924	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8384767	BENTO-DEMO-8384767	51	Premenopausal	Not_applicable	2879	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-838546	BENTO-DEMO-838546	68	Postmenopausal	Not_applicable	2916	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8387554	BENTO-DEMO-8387554	41	Premenopausal	Not_applicable	3187	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8392669	BENTO-DEMO-8392669	65	Postmenopausal	Not_applicable	2914	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8394372	BENTO-DEMO-8394372	62	Postmenopausal	Not_applicable	3641	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8397310	BENTO-DEMO-8397310	55	Postmenopausal	Not_applicable	2534	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8411600	BENTO-DEMO-8411600	46	Premenopausal	Not_applicable	3654	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8412785	BENTO-DEMO-8412785	46	Premenopausal	Not_applicable	3672	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8414229	BENTO-DEMO-8414229	63	Postmenopausal	Breast cancer	2967	White	Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-841838	BENTO-DEMO-841838	56	Postmenopausal	Not_applicable	2782	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8460076	BENTO-DEMO-8460076	53	Postmenopausal	Not_applicable	2544	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8471970	BENTO-DEMO-8471970	68	Postmenopausal	Not_applicable	3010	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-850193	BENTO-DEMO-850193	46	Premenopausal	Not_applicable	3337	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8507187	BENTO-DEMO-8507187	46	Premenopausal	Not_applicable	3612	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-851309	BENTO-DEMO-851309	70	Postmenopausal	Not_applicable	3412	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8515700	BENTO-DEMO-8515700	47	Premenopausal	Not_applicable	3236	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8522251	BENTO-DEMO-8522251	42	Premenopausal	Not_applicable	2895	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8523433	BENTO-DEMO-8523433	41	Premenopausal	Not_applicable	2276	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8524441	BENTO-DEMO-8524441	72	Postmenopausal	Not_applicable	4004	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-852986	BENTO-DEMO-852986	63	Postmenopausal	Not_applicable	2520	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8535775	BENTO-DEMO-8535775	49	Postmenopausal	Not_applicable	2499	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8537996	BENTO-DEMO-8537996	54	Postmenopausal	Not_applicable	2918	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8540074	BENTO-DEMO-8540074	54	Postmenopausal	Not_applicable	3883	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8548735	BENTO-DEMO-8548735	59	Postmenopausal	Not_applicable	2912	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8551183	BENTO-DEMO-8551183	38	Premenopausal	Not_applicable	3103	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8565611	BENTO-DEMO-8565611	58	Postmenopausal	Not_applicable	3297	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8568244	BENTO-DEMO-8568244	51	Postmenopausal	Not_applicable	3216	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8583915	BENTO-DEMO-8583915	63	Postmenopausal	Not_applicable	1071	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-858657	BENTO-DEMO-858657	42	Premenopausal	Not_applicable	2919	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8600099	BENTO-DEMO-8600099	66	Postmenopausal	Not_applicable	3272	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8606682	BENTO-DEMO-8606682	75	Postmenopausal	Not_applicable	3635	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8606884	BENTO-DEMO-8606884	52	Premenopausal	Not_applicable	2556	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8615254	BENTO-DEMO-8615254	56	Postmenopausal	Not_applicable	3864	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8623762	BENTO-DEMO-8623762	62	Postmenopausal	Not_applicable	1733	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8624552	BENTO-DEMO-8624552	58	Postmenopausal	Not_applicable	2877	American Indian or Alaska Native	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8628052	BENTO-DEMO-8628052	55	Postmenopausal	Not_applicable	3514	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8635793	BENTO-DEMO-8635793	46	Premenopausal	Not_applicable	2091	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-864487	BENTO-DEMO-864487	52	Postmenopausal	Not_applicable	3367	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8645845	BENTO-DEMO-8645845	41	Premenopausal	Not_applicable	1444	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8663346	BENTO-DEMO-8663346	49	Postmenopausal	Not_applicable	2582	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8663858	BENTO-DEMO-8663858	61	Postmenopausal	Not_applicable	2891	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8684827	BENTO-DEMO-8684827	61	Postmenopausal	Not_applicable	2525	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8689175	BENTO-DEMO-8689175	44	Postmenopausal	Not_applicable	2198	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8700704	BENTO-DEMO-8700704	43	Premenopausal	Not_applicable	1092	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8710121	BENTO-DEMO-8710121	48	Postmenopausal	Not_applicable	2770	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8714265	BENTO-DEMO-8714265	72	Postmenopausal	Not_applicable	2949	Not Reported	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8722578	BENTO-DEMO-8722578	68	Postmenopausal	Not_applicable	3307	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-872733	BENTO-DEMO-872733	58	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8739315	BENTO-DEMO-8739315	41	Premenopausal	Other cancer	3053	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-8742086	BENTO-DEMO-8742086	43	Premenopausal	Not_applicable	3232	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8764168	BENTO-DEMO-8764168	49	Postmenopausal	Not_applicable	3587	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8781609	BENTO-DEMO-8781609	41	Premenopausal	Not_applicable	336	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8787892	BENTO-DEMO-8787892	56	Postmenopausal	Not_applicable	3075	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8794774	BENTO-DEMO-8794774	41	Premenopausal	Not_applicable	3260	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8795399	BENTO-DEMO-8795399	57	Postmenopausal	Not_applicable	2655	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8816167	BENTO-DEMO-8816167	49	Premenopausal	Not_applicable	3013	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8831207	BENTO-DEMO-8831207	65	Postmenopausal	Not_applicable	2432	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8842347	BENTO-DEMO-8842347	43	Premenopausal	Not_applicable	2520	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8852472	BENTO-DEMO-8852472	54	Postmenopausal	Not_applicable	2848	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8869616	BENTO-DEMO-8869616	62	Postmenopausal	Not_applicable	3204	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8875038	BENTO-DEMO-8875038	55	Premenopausal	Breast cancer	1016	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-8890103	BENTO-DEMO-8890103	49	Premenopausal	Not_applicable	2726	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8892220	BENTO-DEMO-8892220	64	Postmenopausal	Not_applicable	3349	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8899151	BENTO-DEMO-8899151	46	Postmenopausal	Not_applicable	2224	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-8914059	BENTO-DEMO-8914059	57	Postmenopausal	Not_applicable	3642	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8921757	BENTO-DEMO-8921757	57	Postmenopausal	Not_applicable	3630	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8923972	BENTO-DEMO-8923972	50	Premenopausal	Not_applicable	2891	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-893335	BENTO-DEMO-893335	58	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8933938	BENTO-DEMO-8933938	53	Postmenopausal	Not_applicable	3304	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8936075	BENTO-DEMO-8936075	76	Postmenopausal	Not_applicable	3340	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8936328	BENTO-DEMO-8936328	54	Postmenopausal	Not_applicable	2796	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8948264	BENTO-DEMO-8948264	38	Premenopausal	Not_applicable	1825	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8961341	BENTO-DEMO-8961341	55	Postmenopausal	Not_applicable	3245	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-898648	BENTO-DEMO-898648	64	Postmenopausal	Not_applicable	2550	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-8992585	BENTO-DEMO-8992585	69	Postmenopausal	Not_applicable	3857	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9005152	BENTO-DEMO-9005152	44	Premenopausal	Not_applicable	3616	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-90122	BENTO-DEMO-90122	50	Premenopausal	Not_applicable	3618	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9035547	BENTO-DEMO-9035547	46	Premenopausal	Not_applicable	2527	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-903603	BENTO-DEMO-903603	57	Postmenopausal	Not_applicable	3965	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9046814	BENTO-DEMO-9046814	69	Postmenopausal	Not_applicable	3416	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9047767	BENTO-DEMO-9047767	51	Postmenopausal	Not_applicable	2919	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9048556	BENTO-DEMO-9048556	60	Postmenopausal	Not_applicable	2393	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9048673	BENTO-DEMO-9048673	63	Postmenopausal	Not_applicable	2932	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9048799	BENTO-DEMO-9048799	53	Premenopausal	Not_applicable	2925	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-905698	BENTO-DEMO-905698	48	Premenopausal	Not_applicable	3023	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9068758	BENTO-DEMO-9068758	40	Premenopausal	Not_applicable	1820	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9091687	BENTO-DEMO-9091687	45	Premenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9104008	BENTO-DEMO-9104008	61	Postmenopausal	Not_applicable	3287	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9104081	BENTO-DEMO-9104081	47	Premenopausal	Not_applicable	3080	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9112261	BENTO-DEMO-9112261	55	Premenopausal	Not_applicable	711	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9123729	BENTO-DEMO-9123729	65	Postmenopausal	Not_applicable	1345	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9124643	BENTO-DEMO-9124643	51	Premenopausal	Not_applicable	3259	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-913655	BENTO-DEMO-913655	60	Postmenopausal	Other cancer	2691	Black or African American	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-9142267	BENTO-DEMO-9142267	64	Postmenopausal	Breast cancer	1056	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-9168105	BENTO-DEMO-9168105	46	Premenopausal	Not_applicable	2519	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9169016	BENTO-DEMO-9169016	66	Postmenopausal	Not_applicable	2096	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9174994	BENTO-DEMO-9174994	45	Premenopausal	Not_applicable	4032	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9175071	BENTO-DEMO-9175071	71	Postmenopausal	Not_applicable	3017	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9194883	BENTO-DEMO-9194883	45	Premenopausal	Not_applicable	2099	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9198673	BENTO-DEMO-9198673	52	Premenopausal	Not_applicable	2994	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9202225	BENTO-DEMO-9202225	52	Postmenopausal	Not_applicable	3031	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9203582	BENTO-DEMO-9203582	62	Postmenopausal	Not_applicable	2900	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9211552	BENTO-DEMO-9211552	47	Postmenopausal	Not_applicable	1800	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9215030	BENTO-DEMO-9215030	36	Premenopausal	Not_applicable	4015	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9220314	BENTO-DEMO-9220314	71	Postmenopausal	Not_applicable	3189	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9227175	BENTO-DEMO-9227175	46	Postmenopausal	Not_applicable	2894	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9231591	BENTO-DEMO-9231591	50	Postmenopausal	Not_applicable	0	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9242687	BENTO-DEMO-9242687	62	Postmenopausal	Not_applicable	3597	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9248449	BENTO-DEMO-9248449	41	Postmenopausal	Not_applicable	1797	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9261455	BENTO-DEMO-9261455	46	Premenopausal	Not_applicable	3262	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9271576	BENTO-DEMO-9271576	53	Postmenopausal	Not_applicable	879	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9273842	BENTO-DEMO-9273842	43	Premenopausal	Not_applicable	2555	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9286306	BENTO-DEMO-9286306	48	Postmenopausal	Not_applicable	3562	Not Reported	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9293763	BENTO-DEMO-9293763	65	Postmenopausal	Not_applicable	448	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9318130	BENTO-DEMO-9318130	55	Postmenopausal	Not_applicable	2803	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9320943	BENTO-DEMO-9320943	61	Postmenopausal	Not_applicable	2512	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-933924	BENTO-DEMO-933924	54	Postmenopausal	Not_applicable	3298	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-934273	BENTO-DEMO-934273	42	Postmenopausal	Not_applicable	3228	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9345144	BENTO-DEMO-9345144	52	Premenopausal	Not_applicable	3984	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9368851	BENTO-DEMO-9368851	61	Postmenopausal	Not_applicable	2844	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9373871	BENTO-DEMO-9373871	52	Premenopausal	Not_applicable	2136	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9393989	BENTO-DEMO-9393989	64	Postmenopausal	Not_applicable	3248	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9404378	BENTO-DEMO-9404378	61	Postmenopausal	Not_applicable	2371	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9406839	BENTO-DEMO-9406839	58	Postmenopausal	Not_applicable	1459	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9418358	BENTO-DEMO-9418358	54	Postmenopausal	Not_applicable	2302	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9421642	BENTO-DEMO-9421642	47	Premenopausal	Not_applicable	2680	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-943400	BENTO-DEMO-943400	57	Postmenopausal	Not_applicable	3291	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9446149	BENTO-DEMO-9446149	40	Postmenopausal	Other chronic disease	1094	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-9451689	BENTO-DEMO-9451689	56	Postmenopausal	Not_applicable	2941	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9453727	BENTO-DEMO-9453727	61	Postmenopausal	Not_applicable	3639	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9453744	BENTO-DEMO-9453744	62	Postmenopausal	Not_applicable	2885	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9460853	BENTO-DEMO-9460853	56	Postmenopausal	Not_applicable	2503	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-946833	BENTO-DEMO-946833	57	Postmenopausal	Not_applicable	2587	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9476270	BENTO-DEMO-9476270	74	Postmenopausal	Not_applicable	2548	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9482549	BENTO-DEMO-9482549	50	Postmenopausal	Not_applicable	2365	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9488323	BENTO-DEMO-9488323	70	Postmenopausal	Not_applicable	2410	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9492264	BENTO-DEMO-9492264	40	Premenopausal	Not_applicable	3277	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9499951	BENTO-DEMO-9499951	48	Premenopausal	Not_applicable	3306	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9529709	BENTO-DEMO-9529709	69	Postmenopausal	Not_applicable	3213	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9553802	BENTO-DEMO-9553802	54	Postmenopausal	Not_applicable	2815	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-957698	BENTO-DEMO-957698	61	Postmenopausal	Not_applicable	2576	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9582058	BENTO-DEMO-9582058	56	Postmenopausal	Not_applicable	3327	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9583210	BENTO-DEMO-9583210	42	Premenopausal	Not_applicable	3461	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9590799	BENTO-DEMO-9590799	64	Postmenopausal	Breast cancer	3354	Black or African American	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-9591103	BENTO-DEMO-9591103	48	Premenopausal	Not_applicable	1523	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9613437	BENTO-DEMO-9613437	41	Premenopausal	Not_applicable	3548	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9635288	BENTO-DEMO-9635288	51	Premenopausal	Not_applicable	3583	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9636851	BENTO-DEMO-9636851	57	Premenopausal	Not_applicable	2178	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9648578	BENTO-DEMO-9648578	57	Postmenopausal	Not_applicable	3956	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9649029	BENTO-DEMO-9649029	45	Premenopausal	Not_applicable	3290	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9653874	BENTO-DEMO-9653874	56	Postmenopausal	Not_applicable	2661	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9655604	BENTO-DEMO-9655604	52	Postmenopausal	Not_applicable	2847	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9669254	BENTO-DEMO-9669254	58	Postmenopausal	Not_applicable	2892	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9675051	BENTO-DEMO-9675051	46	Postmenopausal	Not_applicable	3606	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9678416	BENTO-DEMO-9678416	54	Premenopausal	Not_applicable	1618	Black or African American	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9682584	BENTO-DEMO-9682584	48	Premenopausal	Not_applicable	2933	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9688274	BENTO-DEMO-9688274	68	Postmenopausal	Not_applicable	2920	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9689128	BENTO-DEMO-9689128	40	Premenopausal	Not_applicable	1603	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9703831	BENTO-DEMO-9703831	63	Postmenopausal	Not_applicable	3587	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9707108	BENTO-DEMO-9707108	59	Postmenopausal	Other	895	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-9735137	BENTO-DEMO-9735137	64	Postmenopausal	Not_applicable	3218	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9746086	BENTO-DEMO-9746086	46	Premenopausal	Not_applicable	2983	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9755876	BENTO-DEMO-9755876	46	Premenopausal	Not_applicable	2433	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9765204	BENTO-DEMO-9765204	50	Postmenopausal	Not_applicable	3997	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9770087	BENTO-DEMO-9770087	42	Premenopausal	Not_applicable	3740	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9794562	BENTO-DEMO-9794562	49	Premenopausal	Not_applicable	3758	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9796258	BENTO-DEMO-9796258	47	Premenopausal	Not_applicable	2782	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9809419	BENTO-DEMO-9809419	62	Postmenopausal	Not_applicable	2969	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9819151	BENTO-DEMO-9819151	52	Premenopausal	Not_applicable	2838	Not Reported	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9819934	BENTO-DEMO-9819934	58	Postmenopausal	Not_applicable	2531	Asian	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9825792	BENTO-DEMO-9825792	43	Premenopausal	Not_applicable	3270	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9844620	BENTO-DEMO-9844620	54	Premenopausal	Not_applicable	3277	Not Reported	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9851366	BENTO-DEMO-9851366	53	Postmenopausal	Breast cancer	922	White	Not Hispanic or Latino	Dead	Female
+demographic_data	BENTO-CASE-985581	BENTO-DEMO-985581	65	Postmenopausal	Not_applicable	2190	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9857075	BENTO-DEMO-9857075	50	Postmenopausal	Not_applicable	3278	White	Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9900062	BENTO-DEMO-9900062	46	Premenopausal	Not_applicable	2545	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9904075	BENTO-DEMO-9904075	61	Postmenopausal	Not_applicable	2505	White	Not Reported	Alive	Female
+demographic_data	BENTO-CASE-9906506	BENTO-DEMO-9906506	60	Postmenopausal	Not_applicable	3094	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9908684	BENTO-DEMO-9908684	47	Premenopausal	Not_applicable	2870	Not Reported	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9910910	BENTO-DEMO-9910910	53	Premenopausal	Not_applicable	2890	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9971167	BENTO-DEMO-9971167	71	Postmenopausal	Not_applicable	2561	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9979729	BENTO-DEMO-9979729	63	Postmenopausal	Not_applicable	2248	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9982436	BENTO-DEMO-9982436	55	Postmenopausal	Not_applicable	1091	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-9990847	BENTO-DEMO-9990847	53	Premenopausal	Not_applicable	2483	White	Not Hispanic or Latino	Alive	Female
+demographic_data	BENTO-CASE-99932	BENTO-DEMO-99932	49	Premenopausal	Not_applicable	164	Black or African American	Not Hispanic or Latino	Alive	Female
