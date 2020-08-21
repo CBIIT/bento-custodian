@@ -1,0 +1,1001 @@
+type	study_subject.study_subject_id	follow_up_id	days_to_progression	days_to_recurrence	dfs_event_indicator	days_to_distant_recurrence	distant_recurrence_indicator	recurrence_free_indicator	dfs_event_type	first_recurrence_type
+follow_up	BENTO-CASE-16495	BENTO-FU-16495	1827	1827	DFS event reported (dfs is time of first DFS event)	1827	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-29828	BENTO-FU-29828	2240	2240	No DFS event	2240	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-35932	BENTO-FU-35932	511	511	DFS event reported (dfs is time of first DFS event)	2149	No distant recurrence	Recurrence (rfi is time of recurrence)	Ipsilateral breast recurrence	Ipsilateral breast recurrence
+follow_up	BENTO-CASE-42003	BENTO-FU-42003	2159	2159	No DFS event	2159	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-67043	BENTO-FU-67043	3117	3242	DFS event reported (dfs is time of first DFS event)	3242	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-77341	BENTO-FU-77341	2517	2517	No DFS event	2517	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-90122	BENTO-FU-90122	3618	3618	No DFS event	3618	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-99932	BENTO-FU-99932	164	164	No DFS event	164	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-117224	BENTO-FU-117224	2882	2882	No DFS event	2882	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-129972	BENTO-FU-129972	2870	2870	No DFS event	2870	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-132078	BENTO-FU-132078	1785	1785	No DFS event	1785	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-138760	BENTO-FU-138760	1736	1500	DFS event reported (dfs is time of first DFS event)	1500	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-143135	BENTO-FU-143135	2099	2099	No DFS event	2099	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-161513	BENTO-FU-161513	2332	2332	No DFS event	2332	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-181328	BENTO-FU-181328	3261	3261	No DFS event	3261	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-196229	BENTO-FU-196229	3276	3276	No DFS event	3276	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-200434	BENTO-FU-200434	2409	2409	No DFS event	2409	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-209245	BENTO-FU-209245	1778	1778	No DFS event	1778	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-217910	BENTO-FU-217910	1686	1686	No DFS event	1686	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-222647	BENTO-FU-222647	2197	2197	No DFS event	2197	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-231525	BENTO-FU-231525	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-244208	BENTO-FU-244208	3096	2767	DFS event reported (dfs is time of first DFS event)	2767	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-252336	BENTO-FU-252336	811	811	No DFS event	811	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-257807	BENTO-FU-257807	2942	2942	No DFS event	2942	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-262293	BENTO-FU-262293	2772	2772	No DFS event	2772	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-284104	BENTO-FU-284104	2918	2918	No DFS event	2918	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-295887	BENTO-FU-295887	2589	2589	No DFS event	2589	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-307267	BENTO-FU-307267	2816	2816	No DFS event	2816	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-310241	BENTO-FU-310241	2503	2503	No DFS event	2503	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-320738	BENTO-FU-320738	2843	2843	No DFS event	2843	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-338262	BENTO-FU-338262	3624	3624	No DFS event	3624	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-341115	BENTO-FU-341115	2553	2553	No DFS event	2553	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-351802	BENTO-FU-351802	2202	2202	DFS event reported (dfs is time of first DFS event)	2202	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-353728	BENTO-FU-353728	2182	2182	No DFS event	2182	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-388240	BENTO-FU-388240	1816	1816	No DFS event	1816	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-389850	BENTO-FU-389850	2100	2100	No DFS event	2100	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-400437	BENTO-FU-400437	3512	3512	No DFS event	3512	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-405545	BENTO-FU-405545	2550	2550	No DFS event	2550	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-412989	BENTO-FU-412989	1742	3561	DFS event reported (dfs is time of first DFS event)	3561	No distant recurrence	No recurrence	New cancer of the opposite breast	No recurrence
+follow_up	BENTO-CASE-426809	BENTO-FU-426809	2197	2197	No DFS event	2197	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-428876	BENTO-FU-428876	2871	2871	No DFS event	2871	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-437318	BENTO-FU-437318	743	743	No DFS event	743	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-438982	BENTO-FU-438982	3305	3305	No DFS event	3305	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-444584	BENTO-FU-444584	1919	1919	No DFS event	1919	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-456745	BENTO-FU-456745	3261	3261	No DFS event	3261	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-471426	BENTO-FU-471426	2074	2911	DFS event reported (dfs is time of first DFS event)	2911	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-472047	BENTO-FU-472047	2404	2404	No DFS event	2404	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-485469	BENTO-FU-485469	918	1060	DFS event reported (dfs is time of first DFS event)	1060	No distant recurrence	No recurrence	New cancer of the opposite breast	No recurrence
+follow_up	BENTO-CASE-496411	BENTO-FU-496411	2903	2903	No DFS event	2903	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-498582	BENTO-FU-498582	1897	1897	No DFS event	1897	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-517289	BENTO-FU-517289	2711	2711	No DFS event	2711	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-520293	BENTO-FU-520293	3137	3137	No DFS event	3137	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-525515	BENTO-FU-525515	3470	3470	No DFS event	3470	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-527718	BENTO-FU-527718	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-538559	BENTO-FU-538559	3056	3056	No DFS event	3056	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-587617	BENTO-FU-587617	2527	2527	No DFS event	2527	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-589063	BENTO-FU-589063	487	487	DFS event reported (dfs is time of first DFS event)	2908	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Ipsilateral breast recurrence	Ipsilateral breast recurrence
+follow_up	BENTO-CASE-605581	BENTO-FU-605581	3626	3626	No DFS event	3626	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-609007	BENTO-FU-609007	3989	3989	No DFS event	3989	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-618563	BENTO-FU-618563	2982	2982	No DFS event	2982	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-631915	BENTO-FU-631915	3677	3677	No DFS event	3677	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-641702	BENTO-FU-641702	1706	1706	No DFS event	1706	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-641757	BENTO-FU-641757	3246	3246	No DFS event	3246	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-661752	BENTO-FU-661752	3355	3355	No DFS event	3355	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-679334	BENTO-FU-679334	1749	3639	DFS event reported (dfs is time of first DFS event)	3639	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-703991	BENTO-FU-703991	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-706233	BENTO-FU-706233	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-711102	BENTO-FU-711102	2383	2383	No DFS event	2383	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-713304	BENTO-FU-713304	1825	1825	No DFS event	1825	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-726764	BENTO-FU-726764	1927	1927	No DFS event	1927	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-756693	BENTO-FU-756693	2966	2966	No DFS event	2966	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-760414	BENTO-FU-760414	3166	3166	No DFS event	3166	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-768912	BENTO-FU-768912	3647	3647	No DFS event	3647	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-771045	BENTO-FU-771045	2917	2917	No DFS event	2917	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-778497	BENTO-FU-778497	2653	2653	No DFS event	2653	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-803930	BENTO-FU-803930	3612	3612	No DFS event	3612	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-814020	BENTO-FU-814020	2601	2601	No DFS event	2601	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-820500	BENTO-FU-820500	1821	1821	No DFS event	1821	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-838546	BENTO-FU-838546	2916	2916	No DFS event	2916	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-841838	BENTO-FU-841838	2587	2587	No DFS event	2587	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-850193	BENTO-FU-850193	2447	2447	No DFS event	2447	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-851309	BENTO-FU-851309	2002	2002	No DFS event	2002	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-852986	BENTO-FU-852986	2364	2364	No DFS event	2364	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-858657	BENTO-FU-858657	2919	2919	No DFS event	2919	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-864487	BENTO-FU-864487	1618	1618	No DFS event	1618	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-872733	BENTO-FU-872733	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-893335	BENTO-FU-893335	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-898648	BENTO-FU-898648	2550	2550	No DFS event	2550	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-903603	BENTO-FU-903603	3965	3965	No DFS event	3965	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-905698	BENTO-FU-905698	3023	3023	No DFS event	3023	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-913655	BENTO-FU-913655	2672	2675	DFS event reported (dfs is time of first DFS event)	2675	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-933924	BENTO-FU-933924	2707	2707	No DFS event	2707	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-934273	BENTO-FU-934273	2677	2677	No DFS event	2677	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-943400	BENTO-FU-943400	2901	2901	No DFS event	2901	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-946833	BENTO-FU-946833	2587	2587	No DFS event	2587	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-957698	BENTO-FU-957698	1442	1442	DFS event reported (dfs is time of first DFS event)	2576	No distant recurrence	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site	Recurrence at local-regional site
+follow_up	BENTO-CASE-985581	BENTO-FU-985581	2005	2005	No DFS event	2005	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1013342	BENTO-FU-1013342	2302	3178	DFS event reported (dfs is time of first DFS event)	3178	No distant recurrence	No recurrence	New cancer of the opposite breast	No recurrence
+follow_up	BENTO-CASE-1023585	BENTO-FU-1023585	2046	2046	DFS event reported (dfs is time of first DFS event)	2046	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-1028008	BENTO-FU-1028008	2565	2565	No DFS event	2565	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1030608	BENTO-FU-1030608	3331	3331	No DFS event	3331	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1066315	BENTO-FU-1066315	2428	2428	No DFS event	2428	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1069373	BENTO-FU-1069373	3263	3263	No DFS event	3263	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1084980	BENTO-FU-1084980	2540	2540	No DFS event	2540	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1089236	BENTO-FU-1089236	3000	3000	No DFS event	3000	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1107760	BENTO-FU-1107760	2409	2409	No DFS event	2409	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1112836	BENTO-FU-1112836	3206	3206	No DFS event	3206	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1115298	BENTO-FU-1115298	837	837	DFS event reported (dfs is time of first DFS event)	2037	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site	Recurrence at local-regional site
+follow_up	BENTO-CASE-1136116	BENTO-FU-1136116	2087	2087	No DFS event	2087	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1147859	BENTO-FU-1147859	2534	2534	No DFS event	2534	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1164502	BENTO-FU-1164502	3033	3033	No DFS event	3033	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1168317	BENTO-FU-1168317	2129	2129	No DFS event	2129	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1172611	BENTO-FU-1172611	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1188462	BENTO-FU-1188462	3296	3296	No DFS event	3296	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1220346	BENTO-FU-1220346	3559	3559	No DFS event	3559	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1227407	BENTO-FU-1227407	1110	1110	No DFS event	1110	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1228499	BENTO-FU-1228499	2569	2569	No DFS event	2569	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1238079	BENTO-FU-1238079	3279	3279	No DFS event	3279	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1247664	BENTO-FU-1247664	2954	2954	No DFS event	2954	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1287090	BENTO-FU-1287090	3064	3064	No DFS event	3064	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1295746	BENTO-FU-1295746	974	974	No DFS event	974	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1302139	BENTO-FU-1302139	2887	2887	No DFS event	2887	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1312011	BENTO-FU-1312011	2804	2804	No DFS event	2804	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1321814	BENTO-FU-1321814	1770	1770	DFS event reported (dfs is time of first DFS event)	1770	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-1326404	BENTO-FU-1326404	2689	2689	No DFS event	2689	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1334902	BENTO-FU-1334902	1602	1602	No DFS event	1602	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1337295	BENTO-FU-1337295	2661	2661	No DFS event	2661	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1339321	BENTO-FU-1339321	1632	1632	No DFS event	1632	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1340027	BENTO-FU-1340027	2554	2554	No DFS event	2554	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1340742	BENTO-FU-1340742	2416	2416	No DFS event	2416	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1360921	BENTO-FU-1360921	3234	3234	No DFS event	3234	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1364113	BENTO-FU-1364113	1093	2591	DFS event reported (dfs is time of first DFS event)	2591	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-1367780	BENTO-FU-1367780	3079	3079	No DFS event	3079	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1374156	BENTO-FU-1374156	1857	1857	No DFS event	1857	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1378891	BENTO-FU-1378891	1770	1770	No DFS event	1770	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1402925	BENTO-FU-1402925	2218	2218	No DFS event	2218	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1430151	BENTO-FU-1430151	581	581	DFS event reported (dfs is time of first DFS event)	581	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-1430428	BENTO-FU-1430428	2158	2158	No DFS event	2158	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1433922	BENTO-FU-1433922	1442	1442	No DFS event	1442	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1436505	BENTO-FU-1436505	3311	3311	No DFS event	3311	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1461831	BENTO-FU-1461831	27	27	No DFS event	27	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1463281	BENTO-FU-1463281	2468	2468	No DFS event	2468	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1556895	BENTO-FU-1556895	2006	2006	DFS event reported (dfs is time of first DFS event)	2019	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site	Recurrence at local-regional site
+follow_up	BENTO-CASE-1570679	BENTO-FU-1570679	3187	3187	No DFS event	3187	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1608525	BENTO-FU-1608525	2915	2915	No DFS event	2915	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1612428	BENTO-FU-1612428	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1639357	BENTO-FU-1639357	2963	2963	No DFS event	2963	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1641577	BENTO-FU-1641577	425	425	No DFS event	425	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1671481	BENTO-FU-1671481	2801	2801	No DFS event	2801	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1689286	BENTO-FU-1689286	2506	2506	No DFS event	2506	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1695423	BENTO-FU-1695423	2675	2675	No DFS event	2675	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1720989	BENTO-FU-1720989	2343	2343	No DFS event	2343	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1721056	BENTO-FU-1721056	2035	2035	No DFS event	2035	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1732719	BENTO-FU-1732719	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1734819	BENTO-FU-1734819	3137	3137	No DFS event	3137	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1754214	BENTO-FU-1754214	2158	2158	No DFS event	2158	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1764386	BENTO-FU-1764386	2570	2570	No DFS event	2570	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1766813	BENTO-FU-1766813	1798	1798	No DFS event	1798	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1781165	BENTO-FU-1781165	3220	3220	No DFS event	3220	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1789231	BENTO-FU-1789231	2529	2529	No DFS event	2529	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1790063	BENTO-FU-1790063	3287	3287	DFS event reported (dfs is time of first DFS event)	3287	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-1807998	BENTO-FU-1807998	2282	2282	No DFS event	2282	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1825836	BENTO-FU-1825836	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1826985	BENTO-FU-1826985	2918	2918	No DFS event	2918	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1830950	BENTO-FU-1830950	596	2554	DFS event reported (dfs is time of first DFS event)	2554	No distant recurrence	No recurrence	New cancer of the opposite breast	No recurrence
+follow_up	BENTO-CASE-1844136	BENTO-FU-1844136	1722	1722	No DFS event	1722	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1853765	BENTO-FU-1853765	2605	2605	No DFS event	2605	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1865229	BENTO-FU-1865229	174	174	No DFS event	174	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1869564	BENTO-FU-1869564	1826	1826	No DFS event	1826	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1898385	BENTO-FU-1898385	2846	2846	No DFS event	2846	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1904984	BENTO-FU-1904984	1956	1956	No DFS event	1956	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1908165	BENTO-FU-1908165	3125	3125	No DFS event	3125	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1909263	BENTO-FU-1909263	2624	2624	No DFS event	2624	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1915663	BENTO-FU-1915663	1792	1792	No DFS event	1792	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1923229	BENTO-FU-1923229	1420	1420	No DFS event	1420	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1923898	BENTO-FU-1923898	2850	2850	No DFS event	2850	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1931984	BENTO-FU-1931984	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1950709	BENTO-FU-1950709	1873	1873	No DFS event	1873	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1960031	BENTO-FU-1960031	2363	2363	No DFS event	2363	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1966229	BENTO-FU-1966229	2561	2561	No DFS event	2561	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1990270	BENTO-FU-1990270	3528	3528	No DFS event	3528	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1991943	BENTO-FU-1991943	1869	1869	No DFS event	1869	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-1999866	BENTO-FU-1999866	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2043732	BENTO-FU-2043732	3535	3535	No DFS event	3535	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2048703	BENTO-FU-2048703	2926	2926	No DFS event	2926	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2058985	BENTO-FU-2058985	184	184	No DFS event	184	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2069637	BENTO-FU-2069637	3025	3025	No DFS event	3025	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2091565	BENTO-FU-2091565	2463	2463	No DFS event	2463	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2091699	BENTO-FU-2091699	2528	2528	No DFS event	2528	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2116539	BENTO-FU-2116539	3095	3095	No DFS event	3095	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2116671	BENTO-FU-2116671	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2120478	BENTO-FU-2120478	2489	2489	No DFS event	2489	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2131195	BENTO-FU-2131195	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2144888	BENTO-FU-2144888	3266	3266	No DFS event	3266	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2189766	BENTO-FU-2189766	2417	2417	No DFS event	2417	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2198476	BENTO-FU-2198476	1806	1806	No DFS event	1806	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2218183	BENTO-FU-2218183	3496	3496	No DFS event	3496	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2229044	BENTO-FU-2229044	2452	2452	No DFS event	2452	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2235329	BENTO-FU-2235329	3201	3201	No DFS event	3201	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2280029	BENTO-FU-2280029	3323	3323	No DFS event	3323	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2280754	BENTO-FU-2280754	3149	3149	No DFS event	3149	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2280990	BENTO-FU-2280990	1145	1145	DFS event reported (dfs is time of first DFS event)	1145	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-2281872	BENTO-FU-2281872	2547	2547	No DFS event	2547	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2286282	BENTO-FU-2286282	2244	2244	No DFS event	2244	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2290033	BENTO-FU-2290033	3129	3129	No DFS event	3129	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2315660	BENTO-FU-2315660	2394	2394	No DFS event	2394	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2318121	BENTO-FU-2318121	3507	3507	No DFS event	3507	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2334273	BENTO-FU-2334273	2924	2924	No DFS event	2924	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2340784	BENTO-FU-2340784	737	737	No DFS event	737	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2344489	BENTO-FU-2344489	2722	2722	No DFS event	2722	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2362522	BENTO-FU-2362522	2884	2884	No DFS event	2884	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2381902	BENTO-FU-2381902	2477	2477	No DFS event	2477	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2383456	BENTO-FU-2383456	3026	3026	No DFS event	3026	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2395872	BENTO-FU-2395872	2574	2574	No DFS event	2574	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2405814	BENTO-FU-2405814	2839	2839	No DFS event	2839	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2405892	BENTO-FU-2405892	2547	2547	No DFS event	2547	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2406007	BENTO-FU-2406007	3306	3306	No DFS event	3306	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2452180	BENTO-FU-2452180	2648	2648	No DFS event	2648	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2466024	BENTO-FU-2466024	665	721	DFS event reported (dfs is time of first DFS event)	721	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-2472737	BENTO-FU-2472737	2864	2864	No DFS event	2864	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2474318	BENTO-FU-2474318	2701	2701	No DFS event	2701	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2488640	BENTO-FU-2488640	2524	2524	No DFS event	2524	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2523323	BENTO-FU-2523323	3611	3611	No DFS event	3611	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2528262	BENTO-FU-2528262	368	368	No DFS event	368	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2531985	BENTO-FU-2531985	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2532887	BENTO-FU-2532887	3341	3341	No DFS event	3341	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2533756	BENTO-FU-2533756	2918	2918	No DFS event	2918	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2536711	BENTO-FU-2536711	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2551656	BENTO-FU-2551656	3249	3249	No DFS event	3249	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2553076	BENTO-FU-2553076	1893	1893	No DFS event	1893	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2564662	BENTO-FU-2564662	2170	2170	No DFS event	2170	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2565096	BENTO-FU-2565096	2465	2465	No DFS event	2465	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2583064	BENTO-FU-2583064	3634	3634	No DFS event	3634	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2583232	BENTO-FU-2583232	3017	3017	DFS event reported (dfs is time of first DFS event)	3017	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-2593366	BENTO-FU-2593366	2533	2533	No DFS event	2533	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2594297	BENTO-FU-2594297	3279	3279	No DFS event	3279	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2611047	BENTO-FU-2611047	3617	3617	No DFS event	3617	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2611276	BENTO-FU-2611276	1786	1786	No DFS event	1786	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2611480	BENTO-FU-2611480	1776	1776	No DFS event	1776	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2622408	BENTO-FU-2622408	2794	2794	No DFS event	2794	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2626522	BENTO-FU-2626522	2927	2927	No DFS event	2927	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2638208	BENTO-FU-2638208	2537	2537	No DFS event	2537	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2645657	BENTO-FU-2645657	2458	2458	No DFS event	2458	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2663174	BENTO-FU-2663174	2741	2741	No DFS event	2741	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2679972	BENTO-FU-2679972	1647	1647	No DFS event	1647	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2730720	BENTO-FU-2730720	2842	2842	No DFS event	2842	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2739536	BENTO-FU-2739536	3051	3051	No DFS event	3051	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2750519	BENTO-FU-2750519	2841	2841	No DFS event	2841	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2755792	BENTO-FU-2755792	702	702	No DFS event	702	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2777875	BENTO-FU-2777875	3332	3332	No DFS event	3332	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2777951	BENTO-FU-2777951	2796	2796	No DFS event	2796	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2785093	BENTO-FU-2785093	2486	2486	No DFS event	2486	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2791601	BENTO-FU-2791601	1710	1710	No DFS event	1710	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2793779	BENTO-FU-2793779	1644	1644	No DFS event	1644	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2794325	BENTO-FU-2794325	2531	2531	No DFS event	2531	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2806216	BENTO-FU-2806216	2606	2606	No DFS event	2606	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2810076	BENTO-FU-2810076	2515	2515	No DFS event	2515	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2812566	BENTO-FU-2812566	1910	1910	No DFS event	1910	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2819944	BENTO-FU-2819944	161	161	No DFS event	161	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2823107	BENTO-FU-2823107	1072	3644	DFS event reported (dfs is time of first DFS event)	3644	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-2832247	BENTO-FU-2832247	2534	2534	No DFS event	2534	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2832250	BENTO-FU-2832250	594	594	No DFS event	594	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2833951	BENTO-FU-2833951	2463	2463	No DFS event	2463	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2855603	BENTO-FU-2855603	225	2378	DFS event reported (dfs is time of first DFS event)	2378	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-2895766	BENTO-FU-2895766	3630	3630	No DFS event	3630	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2904087	BENTO-FU-2904087	669	669	No DFS event	669	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2915405	BENTO-FU-2915405	359	359	No DFS event	359	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2916194	BENTO-FU-2916194	1568	1568	No DFS event	1568	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2922890	BENTO-FU-2922890	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2926212	BENTO-FU-2926212	2937	2937	No DFS event	2937	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2934942	BENTO-FU-2934942	2120	2120	No DFS event	2120	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2946465	BENTO-FU-2946465	3211	3211	No DFS event	3211	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2950822	BENTO-FU-2950822	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2968052	BENTO-FU-2968052	2732	2732	No DFS event	2732	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2972758	BENTO-FU-2972758	1518	1518	No DFS event	1518	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2981711	BENTO-FU-2981711	1680	1680	No DFS event	1680	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-2988816	BENTO-FU-2988816	3585	3585	No DFS event	3585	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3006389	BENTO-FU-3006389	2089	2089	No DFS event	2089	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3009497	BENTO-FU-3009497	3589	3589	No DFS event	3589	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3013249	BENTO-FU-3013249	3275	3275	No DFS event	3275	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3015177	BENTO-FU-3015177	1816	1816	No DFS event	1816	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3026590	BENTO-FU-3026590	3005	3005	No DFS event	3005	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3035842	BENTO-FU-3035842	2473	2473	No DFS event	2473	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3049073	BENTO-FU-3049073	2548	2548	No DFS event	2548	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3063864	BENTO-FU-3063864	1499	1499	DFS event reported (dfs is time of first DFS event)	1499	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-3064418	BENTO-FU-3064418	3429	3429	No DFS event	3429	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3100918	BENTO-FU-3100918	2434	2434	No DFS event	2434	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3108627	BENTO-FU-3108627	763	3259	DFS event reported (dfs is time of first DFS event)	3259	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-3142006	BENTO-FU-3142006	2183	2183	No DFS event	2183	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3143542	BENTO-FU-3143542	3513	3513	No DFS event	3513	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3187260	BENTO-FU-3187260	3246	3246	No DFS event	3246	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3193236	BENTO-FU-3193236	2637	2637	No DFS event	2637	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3215626	BENTO-FU-3215626	3585	3585	No DFS event	3585	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3240238	BENTO-FU-3240238	2198	1650	DFS event reported (dfs is time of first DFS event)	1650	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-3247339	BENTO-FU-3247339	1841	1841	No DFS event	1841	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3259935	BENTO-FU-3259935	1432	1432	No DFS event	1432	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3266027	BENTO-FU-3266027	603	603	DFS event reported (dfs is time of first DFS event)	603	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-3267700	BENTO-FU-3267700	2385	2385	No DFS event	2385	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3272958	BENTO-FU-3272958	3497	3497	No DFS event	3497	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3276476	BENTO-FU-3276476	1120	1120	No DFS event	1120	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3282798	BENTO-FU-3282798	1787	1787	No DFS event	1787	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3292831	BENTO-FU-3292831	2141	2141	No DFS event	2141	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3295670	BENTO-FU-3295670	2801	2801	No DFS event	2801	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3295756	BENTO-FU-3295756	2777	2777	No DFS event	2777	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3296613	BENTO-FU-3296613	3211	3211	No DFS event	3211	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3307656	BENTO-FU-3307656	2886	2886	No DFS event	2886	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3328327	BENTO-FU-3328327	2462	2462	No DFS event	2462	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3332071	BENTO-FU-3332071	1219	1219	DFS event reported (dfs is time of first DFS event)	1221	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site	Recurrence at local-regional site
+follow_up	BENTO-CASE-3334468	BENTO-FU-3334468	3185	3185	No DFS event	3185	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3343106	BENTO-FU-3343106	1809	1809	No DFS event	1809	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3343163	BENTO-FU-3343163	22	0	DFS event reported (dfs is time of first DFS event)	0	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-3351321	BENTO-FU-3351321	2330	2330	No DFS event	2330	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3356521	BENTO-FU-3356521	2536	2555	DFS event reported (dfs is time of first DFS event)	2555	No distant recurrence	No recurrence	New cancer of the opposite breast	No recurrence
+follow_up	BENTO-CASE-3359263	BENTO-FU-3359263	2852	2852	No DFS event	2852	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3364396	BENTO-FU-3364396	3613	3613	No DFS event	3613	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3365171	BENTO-FU-3365171	2372	2372	No DFS event	2372	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3368345	BENTO-FU-3368345	3888	3888	No DFS event	3888	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3393522	BENTO-FU-3393522	1024	1024	No DFS event	1024	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3394052	BENTO-FU-3394052	2960	2960	No DFS event	2960	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3401013	BENTO-FU-3401013	2597	2597	No DFS event	2597	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3405467	BENTO-FU-3405467	2949	2949	No DFS event	2949	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3406760	BENTO-FU-3406760	2106	2106	DFS event reported (dfs is time of first DFS event)	2106	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-3410751	BENTO-FU-3410751	2861	2861	No DFS event	2861	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3412334	BENTO-FU-3412334	2548	2548	No DFS event	2548	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3443623	BENTO-FU-3443623	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3460732	BENTO-FU-3460732	3223	3223	No DFS event	3223	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3464384	BENTO-FU-3464384	1152	1857	DFS event reported (dfs is time of first DFS event)	1857	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-3473025	BENTO-FU-3473025	2485	2485	No DFS event	2485	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3473627	BENTO-FU-3473627	2627	2627	No DFS event	2627	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3479071	BENTO-FU-3479071	871	832	DFS event reported (dfs is time of first DFS event)	832	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-3493816	BENTO-FU-3493816	2897	2897	No DFS event	2897	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3508142	BENTO-FU-3508142	2585	2585	No DFS event	2585	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3563062	BENTO-FU-3563062	1798	1798	No DFS event	1798	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3570593	BENTO-FU-3570593	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3573221	BENTO-FU-3573221	3650	3650	No DFS event	3650	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3575059	BENTO-FU-3575059	1884	1884	No DFS event	1884	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3600848	BENTO-FU-3600848	973	973	No DFS event	973	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3603833	BENTO-FU-3603833	3023	3023	No DFS event	3023	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3653973	BENTO-FU-3653973	1305	1305	No DFS event	1305	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3663547	BENTO-FU-3663547	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3665366	BENTO-FU-3665366	2800	2800	No DFS event	2800	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3678302	BENTO-FU-3678302	2457	2455	DFS event reported (dfs is time of first DFS event)	2455	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-3680830	BENTO-FU-3680830	3237	3237	No DFS event	3237	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3703472	BENTO-FU-3703472	1992	1992	No DFS event	1992	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3714135	BENTO-FU-3714135	3185	3185	No DFS event	3185	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3715860	BENTO-FU-3715860	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3727439	BENTO-FU-3727439	3016	3016	No DFS event	3016	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3733981	BENTO-FU-3733981	3102	3102	No DFS event	3102	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3742479	BENTO-FU-3742479	1763	1763	No DFS event	1763	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3746167	BENTO-FU-3746167	3633	3633	No DFS event	3633	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3751341	BENTO-FU-3751341	3324	3324	No DFS event	3324	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3752384	BENTO-FU-3752384	1693	1812	DFS event reported (dfs is time of first DFS event)	1812	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-3760312	BENTO-FU-3760312	1816	3221	DFS event reported (dfs is time of first DFS event)	3221	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-3767627	BENTO-FU-3767627	2837	2837	No DFS event	2837	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3777100	BENTO-FU-3777100	3665	3665	No DFS event	3665	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3783667	BENTO-FU-3783667	1451	1451	No DFS event	1451	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3792531	BENTO-FU-3792531	3967	3967	No DFS event	3967	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3812959	BENTO-FU-3812959	2230	2230	No DFS event	2230	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3820530	BENTO-FU-3820530	1856	1856	No DFS event	1856	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3826610	BENTO-FU-3826610	3353	3353	No DFS event	3353	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3838045	BENTO-FU-3838045	2816	2816	No DFS event	2816	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3899237	BENTO-FU-3899237	2500	2500	No DFS event	2500	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3901754	BENTO-FU-3901754	739	2151	DFS event reported (dfs is time of first DFS event)	2151	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-3911136	BENTO-FU-3911136	1450	1450	No DFS event	1450	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3922776	BENTO-FU-3922776	2064	2064	No DFS event	2064	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3923216	BENTO-FU-3923216	3626	3626	No DFS event	3626	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3938509	BENTO-FU-3938509	288	288	No DFS event	288	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3967139	BENTO-FU-3967139	3132	3132	DFS event reported (dfs is time of first DFS event)	3132	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-3975069	BENTO-FU-3975069	1689	1689	No DFS event	1689	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3977115	BENTO-FU-3977115	367	367	No DFS event	367	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3981577	BENTO-FU-3981577	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3985467	BENTO-FU-3985467	2002	2002	No DFS event	2002	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3992030	BENTO-FU-3992030	1747	1747	No DFS event	1747	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-3998000	BENTO-FU-3998000	529	2877	DFS event reported (dfs is time of first DFS event)	2877	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-3999731	BENTO-FU-3999731	1763	1763	No DFS event	1763	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4027516	BENTO-FU-4027516	2327	2327	No DFS event	2327	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4031362	BENTO-FU-4031362	1828	1828	No DFS event	1828	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4041996	BENTO-FU-4041996	2087	2518	DFS event reported (dfs is time of first DFS event)	2518	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	New cancer of the opposite breast	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-4045988	BENTO-FU-4045988	3524	3524	No DFS event	3524	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4046743	BENTO-FU-4046743	2883	2883	No DFS event	2883	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4078745	BENTO-FU-4078745	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4078798	BENTO-FU-4078798	3567	3567	No DFS event	3567	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4081123	BENTO-FU-4081123	1842	1842	No DFS event	1842	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4088871	BENTO-FU-4088871	1541	1541	No DFS event	1541	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4091083	BENTO-FU-4091083	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4098193	BENTO-FU-4098193	2688	2688	DFS event reported (dfs is time of first DFS event)	2688	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-4098861	BENTO-FU-4098861	2923	2923	No DFS event	2923	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4100356	BENTO-FU-4100356	2481	2481	No DFS event	2481	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4123092	BENTO-FU-4123092	2681	2681	No DFS event	2681	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4125298	BENTO-FU-4125298	2607	2607	No DFS event	2607	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4125543	BENTO-FU-4125543	3270	3270	No DFS event	3270	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4127975	BENTO-FU-4127975	1938	4034	DFS event reported (dfs is time of first DFS event)	4034	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-4150103	BENTO-FU-4150103	4033	4033	No DFS event	4033	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4152404	BENTO-FU-4152404	3288	3288	No DFS event	3288	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4154056	BENTO-FU-4154056	1742	1742	No DFS event	1742	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4167372	BENTO-FU-4167372	562	562	DFS event reported (dfs is time of first DFS event)	2639	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site	Recurrence at local-regional site
+follow_up	BENTO-CASE-4167843	BENTO-FU-4167843	3205	3205	No DFS event	3205	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4172620	BENTO-FU-4172620	73	169	DFS event reported (dfs is time of first DFS event)	169	No distant recurrence	No recurrence	New cancer of the opposite breast	No recurrence
+follow_up	BENTO-CASE-4173703	BENTO-FU-4173703	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4176346	BENTO-FU-4176346	2407	2407	No DFS event	2407	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4187183	BENTO-FU-4187183	2434	2434	No DFS event	2434	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4213980	BENTO-FU-4213980	2197	2197	No DFS event	2197	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4217556	BENTO-FU-4217556	3612	3612	No DFS event	3612	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4218474	BENTO-FU-4218474	3330	3371	DFS event reported (dfs is time of first DFS event)	3371	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-4243450	BENTO-FU-4243450	2141	2141	No DFS event	2141	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4257827	BENTO-FU-4257827	1529	1529	No DFS event	1529	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4266728	BENTO-FU-4266728	3029	3029	No DFS event	3029	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4267389	BENTO-FU-4267389	2688	2688	No DFS event	2688	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4268545	BENTO-FU-4268545	2891	2891	No DFS event	2891	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4271260	BENTO-FU-4271260	1859	1859	No DFS event	1859	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4277568	BENTO-FU-4277568	1486	1486	No DFS event	1486	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4309014	BENTO-FU-4309014	1268	1268	DFS event reported (dfs is time of first DFS event)	1268	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-4309524	BENTO-FU-4309524	1204	1204	No DFS event	1204	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4309756	BENTO-FU-4309756	2184	2184	No DFS event	2184	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4314371	BENTO-FU-4314371	3180	3180	No DFS event	3180	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4323103	BENTO-FU-4323103	4026	4026	No DFS event	4026	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4328738	BENTO-FU-4328738	750	750	No DFS event	750	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4338673	BENTO-FU-4338673	2555	2555	No DFS event	2555	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4339130	BENTO-FU-4339130	3165	3165	No DFS event	3165	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4368232	BENTO-FU-4368232	300	300	No DFS event	300	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4368365	BENTO-FU-4368365	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4371245	BENTO-FU-4371245	3417	3417	No DFS event	3417	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4400403	BENTO-FU-4400403	1178	1178	No DFS event	1178	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4408230	BENTO-FU-4408230	2921	2921	No DFS event	2921	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4431931	BENTO-FU-4431931	3662	3662	No DFS event	3662	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4444673	BENTO-FU-4444673	1848	1848	No DFS event	1848	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4456982	BENTO-FU-4456982	2506	2506	No DFS event	2506	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4457057	BENTO-FU-4457057	1755	1755	No DFS event	1755	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4459496	BENTO-FU-4459496	531	531	No DFS event	531	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4474763	BENTO-FU-4474763	2205	2544	DFS event reported (dfs is time of first DFS event)	2544	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-4475771	BENTO-FU-4475771	2606	2606	No DFS event	2606	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4482889	BENTO-FU-4482889	1780	1780	No DFS event	1780	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4498948	BENTO-FU-4498948	2492	2492	No DFS event	2492	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4522209	BENTO-FU-4522209	2826	2826	No DFS event	2826	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4531159	BENTO-FU-4531159	3501	3501	No DFS event	3501	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4533288	BENTO-FU-4533288	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4548031	BENTO-FU-4548031	1380	1380	No DFS event	1380	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4548661	BENTO-FU-4548661	1991	1991	DFS event reported (dfs is time of first DFS event)	2045	No distant recurrence	Recurrence (rfi is time of recurrence)	Ipsilateral breast recurrence	Ipsilateral breast recurrence
+follow_up	BENTO-CASE-4551065	BENTO-FU-4551065	343	343	No DFS event	343	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4567965	BENTO-FU-4567965	3062	3062	No DFS event	3062	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4577913	BENTO-FU-4577913	192	192	No DFS event	192	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4583519	BENTO-FU-4583519	3090	3090	No DFS event	3090	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4591894	BENTO-FU-4591894	819	679	DFS event reported (dfs is time of first DFS event)	679	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-4611861	BENTO-FU-4611861	1352	1352	No DFS event	1352	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4615817	BENTO-FU-4615817	3976	3976	No DFS event	3976	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4630899	BENTO-FU-4630899	2758	2758	No DFS event	2758	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4633773	BENTO-FU-4633773	786	786	No DFS event	786	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4646304	BENTO-FU-4646304	895	2997	DFS event reported (dfs is time of first DFS event)	2997	No distant recurrence	No recurrence	New cancer of the opposite breast	No recurrence
+follow_up	BENTO-CASE-4652697	BENTO-FU-4652697	2198	2198	No DFS event	2198	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4655775	BENTO-FU-4655775	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4660371	BENTO-FU-4660371	2789	2789	No DFS event	2789	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4686439	BENTO-FU-4686439	736	736	No DFS event	736	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4693560	BENTO-FU-4693560	3202	3202	No DFS event	3202	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4725488	BENTO-FU-4725488	1015	852	DFS event reported (dfs is time of first DFS event)	852	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-4726583	BENTO-FU-4726583	879	879	DFS event reported (dfs is time of first DFS event)	994	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site	Recurrence at local-regional site
+follow_up	BENTO-CASE-4749124	BENTO-FU-4749124	2528	2528	No DFS event	2528	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4761756	BENTO-FU-4761756	3167	3167	No DFS event	3167	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4784503	BENTO-FU-4784503	952	952	No DFS event	952	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4787342	BENTO-FU-4787342	2494	2494	No DFS event	2494	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4788690	BENTO-FU-4788690	3170	3170	No DFS event	3170	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4795644	BENTO-FU-4795644	35	35	No DFS event	35	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4801619	BENTO-FU-4801619	3243	3243	No DFS event	3243	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4803087	BENTO-FU-4803087	2934	2934	No DFS event	2934	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4805341	BENTO-FU-4805341	111	111	No DFS event	111	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4806735	BENTO-FU-4806735	2798	2798	No DFS event	2798	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4822735	BENTO-FU-4822735	3364	3364	No DFS event	3364	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4831182	BENTO-FU-4831182	339	339	DFS event reported (dfs is time of first DFS event)	2151	No distant recurrence	Recurrence (rfi is time of recurrence)	Ipsilateral breast recurrence	Ipsilateral breast recurrence
+follow_up	BENTO-CASE-4848131	BENTO-FU-4848131	2548	2548	No DFS event	2548	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4869971	BENTO-FU-4869971	2669	2669	No DFS event	2669	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4880458	BENTO-FU-4880458	3450	3450	No DFS event	3450	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4884331	BENTO-FU-4884331	2106	2106	No DFS event	2106	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4901393	BENTO-FU-4901393	2499	2499	No DFS event	2499	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4904427	BENTO-FU-4904427	2892	2892	No DFS event	2892	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4914362	BENTO-FU-4914362	2859	2859	No DFS event	2859	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4921235	BENTO-FU-4921235	845	845	No DFS event	845	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4924757	BENTO-FU-4924757	3136	3136	No DFS event	3136	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4938848	BENTO-FU-4938848	3236	3236	No DFS event	3236	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4948031	BENTO-FU-4948031	3081	3081	No DFS event	3081	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4954349	BENTO-FU-4954349	2668	2668	No DFS event	2668	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4958342	BENTO-FU-4958342	2800	2800	No DFS event	2800	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4960406	BENTO-FU-4960406	3029	3029	DFS event reported (dfs is time of first DFS event)	3029	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-4964595	BENTO-FU-4964595	3986	3986	No DFS event	3986	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4988254	BENTO-FU-4988254	2425	2425	No DFS event	2425	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4988907	BENTO-FU-4988907	1981	1981	No DFS event	1981	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-4989805	BENTO-FU-4989805	2912	2912	No DFS event	2912	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5000818	BENTO-FU-5000818	1816	1816	No DFS event	1816	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5007830	BENTO-FU-5007830	2436	2436	No DFS event	2436	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5011940	BENTO-FU-5011940	3646	3646	No DFS event	3646	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5018221	BENTO-FU-5018221	3260	3260	No DFS event	3260	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5021636	BENTO-FU-5021636	2586	2586	No DFS event	2586	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5043415	BENTO-FU-5043415	1164	1164	DFS event reported (dfs is time of first DFS event)	1164	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-5047410	BENTO-FU-5047410	2508	2508	No DFS event	2508	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5055128	BENTO-FU-5055128	2558	2558	No DFS event	2558	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5063957	BENTO-FU-5063957	1832	1832	No DFS event	1832	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5066842	BENTO-FU-5066842	1779	1779	No DFS event	1779	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5081103	BENTO-FU-5081103	2386	2386	No DFS event	2386	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5105458	BENTO-FU-5105458	1022	1022	No DFS event	1022	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5112835	BENTO-FU-5112835	2286	2286	No DFS event	2286	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5124662	BENTO-FU-5124662	2799	2799	No DFS event	2799	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5128849	BENTO-FU-5128849	1233	1233	No DFS event	1233	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5140102	BENTO-FU-5140102	485	485	No DFS event	485	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5150372	BENTO-FU-5150372	2192	2192	No DFS event	2192	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5155202	BENTO-FU-5155202	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5157024	BENTO-FU-5157024	2333	2333	No DFS event	2333	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5157302	BENTO-FU-5157302	2605	2605	No DFS event	2605	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5161253	BENTO-FU-5161253	2582	2582	No DFS event	2582	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5187802	BENTO-FU-5187802	3218	3218	No DFS event	3218	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5213114	BENTO-FU-5213114	2848	2848	No DFS event	2848	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5223093	BENTO-FU-5223093	3416	3416	No DFS event	3416	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5236164	BENTO-FU-5236164	213	213	No DFS event	213	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5241503	BENTO-FU-5241503	3432	3432	No DFS event	3432	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5254265	BENTO-FU-5254265	1424	1424	No DFS event	1424	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5266493	BENTO-FU-5266493	3065	3065	No DFS event	3065	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5272618	BENTO-FU-5272618	1676	1676	No DFS event	1676	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5289667	BENTO-FU-5289667	656	656	No DFS event	656	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5290693	BENTO-FU-5290693	2275	2275	No DFS event	2275	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5301402	BENTO-FU-5301402	1721	1721	No DFS event	1721	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5309230	BENTO-FU-5309230	1858	1858	No DFS event	1858	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5325924	BENTO-FU-5325924	2151	2151	No DFS event	2151	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5326643	BENTO-FU-5326643	2777	2777	No DFS event	2777	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5353282	BENTO-FU-5353282	2987	2987	No DFS event	2987	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5414495	BENTO-FU-5414495	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5418387	BENTO-FU-5418387	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5426660	BENTO-FU-5426660	3277	3277	No DFS event	3277	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5434055	BENTO-FU-5434055	3037	3037	No DFS event	3037	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5465325	BENTO-FU-5465325	3187	3187	No DFS event	3187	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5477289	BENTO-FU-5477289	2008	2008	No DFS event	2008	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5482390	BENTO-FU-5482390	3271	3271	No DFS event	3271	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5485627	BENTO-FU-5485627	2681	2681	No DFS event	2681	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5513595	BENTO-FU-5513595	2814	2814	No DFS event	2814	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5516920	BENTO-FU-5516920	301	301	No DFS event	301	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5524017	BENTO-FU-5524017	304	304	No DFS event	304	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5531167	BENTO-FU-5531167	2261	2261	DFS event reported (dfs is time of first DFS event)	2261	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-5562091	BENTO-FU-5562091	1909	1909	No DFS event	1909	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5572167	BENTO-FU-5572167	3547	3547	No DFS event	3547	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5576330	BENTO-FU-5576330	3663	3663	No DFS event	3663	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5600202	BENTO-FU-5600202	3256	3256	No DFS event	3256	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5616199	BENTO-FU-5616199	3597	3597	No DFS event	3597	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5625489	BENTO-FU-5625489	1422	2448	DFS event reported (dfs is time of first DFS event)	2448	No distant recurrence	No recurrence	New cancer of the opposite breast	No recurrence
+follow_up	BENTO-CASE-5626207	BENTO-FU-5626207	2936	2936	No DFS event	2936	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5627994	BENTO-FU-5627994	2512	2512	No DFS event	2512	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5662051	BENTO-FU-5662051	3276	3276	No DFS event	3276	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5666973	BENTO-FU-5666973	1446	1446	No DFS event	1446	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5674572	BENTO-FU-5674572	1785	1785	No DFS event	1785	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5685159	BENTO-FU-5685159	1666	1666	No DFS event	1666	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5686362	BENTO-FU-5686362	2236	2236	No DFS event	2236	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5696450	BENTO-FU-5696450	2577	2577	No DFS event	2577	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5697650	BENTO-FU-5697650	2941	2941	No DFS event	2941	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5707938	BENTO-FU-5707938	2917	2917	No DFS event	2917	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5709220	BENTO-FU-5709220	2931	2931	No DFS event	2931	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5711116	BENTO-FU-5711116	1839	1683	DFS event reported (dfs is time of first DFS event)	1683	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-5718632	BENTO-FU-5718632	2391	2391	No DFS event	2391	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5720838	BENTO-FU-5720838	3518	3518	No DFS event	3518	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5731102	BENTO-FU-5731102	2894	2894	No DFS event	2894	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5737617	BENTO-FU-5737617	2136	2136	DFS event reported (dfs is time of first DFS event)	2136	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-5753020	BENTO-FU-5753020	2252	2252	No DFS event	2252	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5753206	BENTO-FU-5753206	1810	1810	No DFS event	1810	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5756193	BENTO-FU-5756193	2934	2934	No DFS event	2934	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5757477	BENTO-FU-5757477	349	349	No DFS event	349	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5768656	BENTO-FU-5768656	2513	2513	No DFS event	2513	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5773931	BENTO-FU-5773931	2792	2792	No DFS event	2792	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5775081	BENTO-FU-5775081	2105	2403	DFS event reported (dfs is time of first DFS event)	2403	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-5784236	BENTO-FU-5784236	1751	1751	No DFS event	1751	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5812347	BENTO-FU-5812347	2176	2176	No DFS event	2176	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5812841	BENTO-FU-5812841	3243	3243	No DFS event	3243	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5824392	BENTO-FU-5824392	3609	3609	No DFS event	3609	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5825284	BENTO-FU-5825284	3400	3400	No DFS event	3400	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5832844	BENTO-FU-5832844	3260	3260	No DFS event	3260	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5858554	BENTO-FU-5858554	3639	3639	No DFS event	3639	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5865471	BENTO-FU-5865471	973	973	DFS event reported (dfs is time of first DFS event)	973	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-5869537	BENTO-FU-5869537	3079	3079	No DFS event	3079	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5897608	BENTO-FU-5897608	1953	1953	No DFS event	1953	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5904055	BENTO-FU-5904055	1807	1807	No DFS event	1807	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5909407	BENTO-FU-5909407	2549	2549	No DFS event	2549	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5915193	BENTO-FU-5915193	2842	2842	No DFS event	2842	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5919293	BENTO-FU-5919293	2098	2098	No DFS event	2098	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5919439	BENTO-FU-5919439	665	665	No DFS event	665	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5919730	BENTO-FU-5919730	1051	1051	No DFS event	1051	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5931393	BENTO-FU-5931393	2571	2571	No DFS event	2571	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5946008	BENTO-FU-5946008	421	421	No DFS event	421	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5956323	BENTO-FU-5956323	3140	3140	No DFS event	3140	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5967264	BENTO-FU-5967264	3761	3761	No DFS event	3761	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-5971057	BENTO-FU-5971057	2422	2422	No DFS event	2422	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6040272	BENTO-FU-6040272	833	2388	DFS event reported (dfs is time of first DFS event)	2388	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	New primary cancer at other than breast or non-melanoma skin cancer	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-6042745	BENTO-FU-6042745	3043	3043	No DFS event	3043	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6044272	BENTO-FU-6044272	2566	2566	No DFS event	2566	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6049694	BENTO-FU-6049694	2533	2533	No DFS event	2533	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6066765	BENTO-FU-6066765	2352	2352	No DFS event	2352	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6107330	BENTO-FU-6107330	3047	3047	No DFS event	3047	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6130004	BENTO-FU-6130004	2419	2419	No DFS event	2419	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6130646	BENTO-FU-6130646	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6144760	BENTO-FU-6144760	2800	2800	No DFS event	2800	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6146632	BENTO-FU-6146632	2220	2220	No DFS event	2220	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6160915	BENTO-FU-6160915	3183	3183	No DFS event	3183	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6161773	BENTO-FU-6161773	2904	2904	No DFS event	2904	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6185616	BENTO-FU-6185616	2743	2743	No DFS event	2743	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6208986	BENTO-FU-6208986	2673	2673	No DFS event	2673	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6212019	BENTO-FU-6212019	1938	1938	No DFS event	1938	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6213027	BENTO-FU-6213027	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6219854	BENTO-FU-6219854	3321	3321	No DFS event	3321	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6231373	BENTO-FU-6231373	3561	3561	No DFS event	3561	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6233930	BENTO-FU-6233930	1832	1832	No DFS event	1832	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6239717	BENTO-FU-6239717	2819	3648	DFS event reported (dfs is time of first DFS event)	3648	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-6260865	BENTO-FU-6260865	2134	2134	No DFS event	2134	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6263809	BENTO-FU-6263809	2639	2639	No DFS event	2639	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6269648	BENTO-FU-6269648	347	347	DFS event reported (dfs is time of first DFS event)	347	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-6271186	BENTO-FU-6271186	3121	3121	No DFS event	3121	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6280506	BENTO-FU-6280506	3009	3009	No DFS event	3009	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6287969	BENTO-FU-6287969	120	120	No DFS event	120	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6314717	BENTO-FU-6314717	2984	2984	No DFS event	2984	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6330154	BENTO-FU-6330154	2566	2566	No DFS event	2566	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6330499	BENTO-FU-6330499	2129	2129	No DFS event	2129	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6345477	BENTO-FU-6345477	3557	3557	No DFS event	3557	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6350371	BENTO-FU-6350371	2792	2792	No DFS event	2792	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6356398	BENTO-FU-6356398	2940	2940	No DFS event	2940	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6366405	BENTO-FU-6366405	2917	2917	No DFS event	2917	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6371025	BENTO-FU-6371025	3036	3036	No DFS event	3036	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6375024	BENTO-FU-6375024	921	921	No DFS event	921	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6378247	BENTO-FU-6378247	2892	2892	No DFS event	2892	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6384809	BENTO-FU-6384809	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6394624	BENTO-FU-6394624	692	3010	DFS event reported (dfs is time of first DFS event)	3010	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-6407376	BENTO-FU-6407376	1512	1512	DFS event reported (dfs is time of first DFS event)	1512	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-6413339	BENTO-FU-6413339	1770	1770	DFS event reported (dfs is time of first DFS event)	1770	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-6413824	BENTO-FU-6413824	2179	2179	No DFS event	2179	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6434984	BENTO-FU-6434984	1623	1623	No DFS event	1623	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6447979	BENTO-FU-6447979	3182	3182	No DFS event	3182	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6451327	BENTO-FU-6451327	2682	2682	No DFS event	2682	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6466712	BENTO-FU-6466712	1281	1281	DFS event reported (dfs is time of first DFS event)	2509	No distant recurrence	Recurrence (rfi is time of recurrence)	Ipsilateral breast recurrence	Ipsilateral breast recurrence
+follow_up	BENTO-CASE-6473833	BENTO-FU-6473833	1639	1639	No DFS event	1639	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6476738	BENTO-FU-6476738	3364	3364	No DFS event	3364	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6480531	BENTO-FU-6480531	3626	3626	No DFS event	3626	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6481069	BENTO-FU-6481069	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6510526	BENTO-FU-6510526	2186	2186	No DFS event	2186	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6531252	BENTO-FU-6531252	3578	3578	No DFS event	3578	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6531734	BENTO-FU-6531734	2815	2815	No DFS event	2815	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6535378	BENTO-FU-6535378	1945	3275	DFS event reported (dfs is time of first DFS event)	3275	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-6536277	BENTO-FU-6536277	1702	1702	DFS event reported (dfs is time of first DFS event)	1702	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-6538857	BENTO-FU-6538857	2194	2194	No DFS event	2194	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6539484	BENTO-FU-6539484	2194	2194	No DFS event	2194	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6540580	BENTO-FU-6540580	2745	2745	No DFS event	2745	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6546055	BENTO-FU-6546055	2783	2783	No DFS event	2783	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6551810	BENTO-FU-6551810	2327	2327	No DFS event	2327	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6555667	BENTO-FU-6555667	2558	1814	DFS event reported (dfs is time of first DFS event)	1814	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-6587522	BENTO-FU-6587522	1688	1688	No DFS event	1688	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6594775	BENTO-FU-6594775	3641	3641	No DFS event	3641	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6618286	BENTO-FU-6618286	3558	3558	No DFS event	3558	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6620781	BENTO-FU-6620781	3572	3572	No DFS event	3572	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6623177	BENTO-FU-6623177	2925	2925	No DFS event	2925	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6624931	BENTO-FU-6624931	2878	2878	No DFS event	2878	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6627257	BENTO-FU-6627257	1813	1813	No DFS event	1813	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6662408	BENTO-FU-6662408	1755	1755	No DFS event	1755	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6679431	BENTO-FU-6679431	2815	2858	DFS event reported (dfs is time of first DFS event)	2858	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-6690147	BENTO-FU-6690147	200	3637	DFS event reported (dfs is time of first DFS event)	3637	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-6690394	BENTO-FU-6690394	2702	2702	No DFS event	2702	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6691410	BENTO-FU-6691410	2320	2320	No DFS event	2320	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6693212	BENTO-FU-6693212	2391	2391	No DFS event	2391	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6738892	BENTO-FU-6738892	1743	1743	No DFS event	1743	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6740758	BENTO-FU-6740758	2149	2149	DFS event reported (dfs is time of first DFS event)	3168	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Ipsilateral breast recurrence	Ipsilateral breast recurrence
+follow_up	BENTO-CASE-6742058	BENTO-FU-6742058	1876	1876	No DFS event	1876	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6753561	BENTO-FU-6753561	3249	3249	No DFS event	3249	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6754819	BENTO-FU-6754819	3157	3157	No DFS event	3157	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6763746	BENTO-FU-6763746	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6769698	BENTO-FU-6769698	2844	2844	No DFS event	2844	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6781487	BENTO-FU-6781487	2408	2408	No DFS event	2408	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6800409	BENTO-FU-6800409	1469	1469	No DFS event	1469	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6806137	BENTO-FU-6806137	1272	2149	DFS event reported (dfs is time of first DFS event)	2149	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	New primary cancer at other than breast or non-melanoma skin cancer	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-6813724	BENTO-FU-6813724	2446	2446	No DFS event	2446	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6817486	BENTO-FU-6817486	2582	2582	No DFS event	2582	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6817769	BENTO-FU-6817769	3570	3570	No DFS event	3570	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6827024	BENTO-FU-6827024	3164	3164	No DFS event	3164	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6866275	BENTO-FU-6866275	2083	2083	No DFS event	2083	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6888488	BENTO-FU-6888488	2093	2093	No DFS event	2093	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6889697	BENTO-FU-6889697	2556	2556	No DFS event	2556	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6893545	BENTO-FU-6893545	3189	3189	No DFS event	3189	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6895830	BENTO-FU-6895830	1463	1463	No DFS event	1463	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6907969	BENTO-FU-6907969	2764	2764	No DFS event	2764	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6916780	BENTO-FU-6916780	786	786	No DFS event	786	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6919112	BENTO-FU-6919112	2546	2546	No DFS event	2546	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6922536	BENTO-FU-6922536	1368	1368	DFS event reported (dfs is time of first DFS event)	1674	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site	Recurrence at local-regional site
+follow_up	BENTO-CASE-6941494	BENTO-FU-6941494	1887	1887	No DFS event	1887	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6961916	BENTO-FU-6961916	1813	1813	No DFS event	1813	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6965900	BENTO-FU-6965900	2002	2002	No DFS event	2002	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6965982	BENTO-FU-6965982	2594	2594	No DFS event	2594	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6977339	BENTO-FU-6977339	2454	2454	No DFS event	2454	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6979097	BENTO-FU-6979097	3283	3283	No DFS event	3283	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-6995487	BENTO-FU-6995487	2934	2934	No DFS event	2934	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7004439	BENTO-FU-7004439	2374	2374	No DFS event	2374	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7006285	BENTO-FU-7006285	3353	3353	No DFS event	3353	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7007564	BENTO-FU-7007564	2242	2242	No DFS event	2242	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7015459	BENTO-FU-7015459	1856	1856	No DFS event	1856	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7021621	BENTO-FU-7021621	2444	2444	No DFS event	2444	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7023889	BENTO-FU-7023889	2346	2346	No DFS event	2346	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7031925	BENTO-FU-7031925	3808	3808	No DFS event	3808	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7042248	BENTO-FU-7042248	3292	3292	No DFS event	3292	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7047374	BENTO-FU-7047374	2199	1785	DFS event reported (dfs is time of first DFS event)	1785	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-7053769	BENTO-FU-7053769	1759	1759	No DFS event	1759	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7055867	BENTO-FU-7055867	3020	3020	No DFS event	3020	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7060433	BENTO-FU-7060433	2724	2724	No DFS event	2724	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7063738	BENTO-FU-7063738	2737	2737	No DFS event	2737	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7075949	BENTO-FU-7075949	304	265	DFS event reported (dfs is time of first DFS event)	265	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-7076648	BENTO-FU-7076648	2136	2136	No DFS event	2136	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7082671	BENTO-FU-7082671	3283	3283	No DFS event	3283	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7095544	BENTO-FU-7095544	2805	2805	DFS event reported (dfs is time of first DFS event)	2805	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-7131596	BENTO-FU-7131596	2937	2811	DFS event reported (dfs is time of first DFS event)	2811	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-7134774	BENTO-FU-7134774	2364	2364	No DFS event	2364	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7152075	BENTO-FU-7152075	2222	2222	No DFS event	2222	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7156519	BENTO-FU-7156519	3461	3461	No DFS event	3461	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7158897	BENTO-FU-7158897	1188	1188	No DFS event	1188	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7178584	BENTO-FU-7178584	1427	1427	No DFS event	1427	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7184785	BENTO-FU-7184785	2605	3298	DFS event reported (dfs is time of first DFS event)	3298	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-7188393	BENTO-FU-7188393	2482	2482	No DFS event	2482	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7193680	BENTO-FU-7193680	2550	2550	No DFS event	2550	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7222025	BENTO-FU-7222025	3504	3504	No DFS event	3504	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7225581	BENTO-FU-7225581	1839	1839	No DFS event	1839	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7230735	BENTO-FU-7230735	2046	3314	DFS event reported (dfs is time of first DFS event)	3314	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-7257336	BENTO-FU-7257336	2605	2605	No DFS event	2605	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7267956	BENTO-FU-7267956	2182	2182	No DFS event	2182	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7268340	BENTO-FU-7268340	3259	3259	No DFS event	3259	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7271773	BENTO-FU-7271773	2849	2849	No DFS event	2849	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7278562	BENTO-FU-7278562	3585	3585	No DFS event	3585	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7299515	BENTO-FU-7299515	2912	2912	No DFS event	2912	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7300241	BENTO-FU-7300241	3586	3586	No DFS event	3586	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7303259	BENTO-FU-7303259	1742	1357	DFS event reported (dfs is time of first DFS event)	1357	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-7322158	BENTO-FU-7322158	3048	3048	No DFS event	3048	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7327169	BENTO-FU-7327169	2826	2826	No DFS event	2826	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7328030	BENTO-FU-7328030	562	3607	DFS event reported (dfs is time of first DFS event)	3607	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-7337125	BENTO-FU-7337125	746	635	DFS event reported (dfs is time of first DFS event)	635	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-7338700	BENTO-FU-7338700	3645	3645	No DFS event	3645	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7341242	BENTO-FU-7341242	2892	2892	No DFS event	2892	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7351339	BENTO-FU-7351339	2506	2506	No DFS event	2506	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7356713	BENTO-FU-7356713	3337	3337	No DFS event	3337	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7359945	BENTO-FU-7359945	230	230	No DFS event	230	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7366001	BENTO-FU-7366001	2571	2571	No DFS event	2571	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7367233	BENTO-FU-7367233	2175	2175	No DFS event	2175	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7387842	BENTO-FU-7387842	2913	2913	No DFS event	2913	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7407810	BENTO-FU-7407810	2530	2530	No DFS event	2530	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7410955	BENTO-FU-7410955	2930	2930	No DFS event	2930	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7431210	BENTO-FU-7431210	1530	1530	DFS event reported (dfs is time of first DFS event)	1530	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-7444857	BENTO-FU-7444857	2739	2739	No DFS event	2739	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7455279	BENTO-FU-7455279	2604	2604	No DFS event	2604	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7462564	BENTO-FU-7462564	2552	2552	No DFS event	2552	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7463286	BENTO-FU-7463286	3679	3679	No DFS event	3679	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7467564	BENTO-FU-7467564	339	339	No DFS event	339	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7481001	BENTO-FU-7481001	3689	3689	No DFS event	3689	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7492819	BENTO-FU-7492819	1772	1772	No DFS event	1772	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7498420	BENTO-FU-7498420	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7500659	BENTO-FU-7500659	248	248	No DFS event	248	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7504278	BENTO-FU-7504278	3641	3641	No DFS event	3641	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7505101	BENTO-FU-7505101	3217	3217	No DFS event	3217	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7516630	BENTO-FU-7516630	3292	3292	No DFS event	3292	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7532437	BENTO-FU-7532437	3126	3126	No DFS event	3126	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7544164	BENTO-FU-7544164	2315	2315	No DFS event	2315	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7558435	BENTO-FU-7558435	539	539	DFS event reported (dfs is time of first DFS event)	3507	No distant recurrence	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site	Recurrence at local-regional site
+follow_up	BENTO-CASE-7583701	BENTO-FU-7583701	423	423	No DFS event	423	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7594764	BENTO-FU-7594764	2438	2438	No DFS event	2438	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7597228	BENTO-FU-7597228	3724	3724	No DFS event	3724	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7638880	BENTO-FU-7638880	2132	2132	No DFS event	2132	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7640778	BENTO-FU-7640778	2419	2419	No DFS event	2419	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7642785	BENTO-FU-7642785	2120	2120	No DFS event	2120	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7664405	BENTO-FU-7664405	2588	2588	No DFS event	2588	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7672476	BENTO-FU-7672476	2762	2762	No DFS event	2762	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7673385	BENTO-FU-7673385	1446	1446	No DFS event	1446	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7688060	BENTO-FU-7688060	1667	1667	No DFS event	1667	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7722190	BENTO-FU-7722190	3148	3148	No DFS event	3148	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7734923	BENTO-FU-7734923	3317	3317	No DFS event	3317	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7749578	BENTO-FU-7749578	3058	3058	No DFS event	3058	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7751238	BENTO-FU-7751238	2544	2544	No DFS event	2544	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7763481	BENTO-FU-7763481	1698	1698	No DFS event	1698	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7772713	BENTO-FU-7772713	1642	1642	No DFS event	1642	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7779645	BENTO-FU-7779645	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7780012	BENTO-FU-7780012	2404	2404	No DFS event	2404	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7798386	BENTO-FU-7798386	3642	3642	No DFS event	3642	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7813760	BENTO-FU-7813760	1453	1453	No DFS event	1453	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7821341	BENTO-FU-7821341	2914	2914	No DFS event	2914	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7829352	BENTO-FU-7829352	2540	2540	No DFS event	2540	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7830936	BENTO-FU-7830936	2761	2761	No DFS event	2761	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7837884	BENTO-FU-7837884	2633	2633	DFS event reported (dfs is time of first DFS event)	2633	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-7849582	BENTO-FU-7849582	3233	3233	No DFS event	3233	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7853402	BENTO-FU-7853402	2141	2141	No DFS event	2141	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7858400	BENTO-FU-7858400	2680	2680	No DFS event	2680	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7880927	BENTO-FU-7880927	3267	3267	No DFS event	3267	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7898156	BENTO-FU-7898156	2913	2913	No DFS event	2913	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7898599	BENTO-FU-7898599	1827	1827	No DFS event	1827	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7900676	BENTO-FU-7900676	1836	1836	No DFS event	1836	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7912710	BENTO-FU-7912710	2830	2830	No DFS event	2830	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7934108	BENTO-FU-7934108	2827	2827	No DFS event	2827	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7940938	BENTO-FU-7940938	3621	3621	No DFS event	3621	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7944955	BENTO-FU-7944955	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7961722	BENTO-FU-7961722	2351	2351	DFS event reported (dfs is time of first DFS event)	2351	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-7967639	BENTO-FU-7967639	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7973003	BENTO-FU-7973003	1870	1870	No DFS event	1870	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7983595	BENTO-FU-7983595	2569	2569	No DFS event	2569	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-7996175	BENTO-FU-7996175	2348	2348	No DFS event	2348	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8003558	BENTO-FU-8003558	2934	2934	No DFS event	2934	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8019824	BENTO-FU-8019824	3775	3775	No DFS event	3775	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8025570	BENTO-FU-8025570	2197	2197	No DFS event	2197	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8025594	BENTO-FU-8025594	2387	2387	No DFS event	2387	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8041158	BENTO-FU-8041158	2151	2151	No DFS event	2151	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8050291	BENTO-FU-8050291	2662	2662	No DFS event	2662	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8061003	BENTO-FU-8061003	663	663	No DFS event	663	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8073547	BENTO-FU-8073547	1674	2337	DFS event reported (dfs is time of first DFS event)	2337	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-8075301	BENTO-FU-8075301	3041	3041	No DFS event	3041	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8079567	BENTO-FU-8079567	1112	1112	No DFS event	1112	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8088842	BENTO-FU-8088842	3262	3262	No DFS event	3262	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8103536	BENTO-FU-8103536	1844	1844	No DFS event	1844	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8132085	BENTO-FU-8132085	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8134853	BENTO-FU-8134853	2605	2605	No DFS event	2605	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8138635	BENTO-FU-8138635	3267	3267	No DFS event	3267	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8142552	BENTO-FU-8142552	2866	2866	No DFS event	2866	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8148383	BENTO-FU-8148383	577	577	DFS event reported (dfs is time of first DFS event)	606	No distant recurrence	Recurrence (rfi is time of recurrence)	Ipsilateral breast recurrence	Ipsilateral breast recurrence
+follow_up	BENTO-CASE-8151500	BENTO-FU-8151500	2203	2203	No DFS event	2203	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8169142	BENTO-FU-8169142	2984	2984	No DFS event	2984	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8172780	BENTO-FU-8172780	2106	2106	No DFS event	2106	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8176441	BENTO-FU-8176441	591	591	No DFS event	591	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8179964	BENTO-FU-8179964	2164	2285	DFS event reported (dfs is time of first DFS event)	2285	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-8189434	BENTO-FU-8189434	3203	3203	No DFS event	3203	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8190867	BENTO-FU-8190867	3448	3448	No DFS event	3448	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8208071	BENTO-FU-8208071	2626	2626	No DFS event	2626	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8214982	BENTO-FU-8214982	3592	3592	No DFS event	3592	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8215343	BENTO-FU-8215343	3858	3858	No DFS event	3858	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8215348	BENTO-FU-8215348	2405	2405	No DFS event	2405	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8230719	BENTO-FU-8230719	3194	3194	No DFS event	3194	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8234229	BENTO-FU-8234229	2548	2548	No DFS event	2548	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8236068	BENTO-FU-8236068	2310	2310	No DFS event	2310	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8276654	BENTO-FU-8276654	3704	3704	No DFS event	3704	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8278212	BENTO-FU-8278212	2162	2162	No DFS event	2162	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8286778	BENTO-FU-8286778	3628	3628	No DFS event	3628	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8301841	BENTO-FU-8301841	1774	1774	No DFS event	1774	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8311994	BENTO-FU-8311994	2204	2204	DFS event reported (dfs is time of first DFS event)	2204	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-8312841	BENTO-FU-8312841	2841	2841	No DFS event	2841	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8321295	BENTO-FU-8321295	3357	3357	No DFS event	3357	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8325100	BENTO-FU-8325100	2515	2515	No DFS event	2515	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8348662	BENTO-FU-8348662	1751	1751	No DFS event	1751	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8351670	BENTO-FU-8351670	2360	2360	No DFS event	2360	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8374747	BENTO-FU-8374747	3279	3279	No DFS event	3279	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8377217	BENTO-FU-8377217	2924	2924	No DFS event	2924	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8384767	BENTO-FU-8384767	2217	2217	No DFS event	2217	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8387554	BENTO-FU-8387554	2772	2772	DFS event reported (dfs is time of first DFS event)	3156	No distant recurrence	Recurrence (rfi is time of recurrence)	Ipsilateral breast recurrence	Ipsilateral breast recurrence
+follow_up	BENTO-CASE-8392669	BENTO-FU-8392669	2307	2307	No DFS event	2307	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8394372	BENTO-FU-8394372	3641	3641	No DFS event	3641	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8397310	BENTO-FU-8397310	2534	2534	No DFS event	2534	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8411600	BENTO-FU-8411600	1954	1954	No DFS event	1954	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8412785	BENTO-FU-8412785	3672	3672	No DFS event	3672	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8414229	BENTO-FU-8414229	1342	1342	DFS event reported (dfs is time of first DFS event)	1342	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-8460076	BENTO-FU-8460076	2173	2173	No DFS event	2173	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8471970	BENTO-FU-8471970	1583	1583	No DFS event	1583	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8507187	BENTO-FU-8507187	3612	3612	No DFS event	3612	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8515700	BENTO-FU-8515700	3044	3044	No DFS event	3044	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8522251	BENTO-FU-8522251	1984	2894	DFS event reported (dfs is time of first DFS event)	2894	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-8523433	BENTO-FU-8523433	2276	2276	No DFS event	2276	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8524441	BENTO-FU-8524441	4004	4004	No DFS event	4004	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8535775	BENTO-FU-8535775	2499	2499	No DFS event	2499	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8537996	BENTO-FU-8537996	2918	2918	No DFS event	2918	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8540074	BENTO-FU-8540074	3326	3326	No DFS event	3326	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8548735	BENTO-FU-8548735	1788	1788	DFS event reported (dfs is time of first DFS event)	1788	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-8551183	BENTO-FU-8551183	3103	3103	No DFS event	3103	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8565611	BENTO-FU-8565611	2527	2527	No DFS event	2527	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8568244	BENTO-FU-8568244	2576	2576	No DFS event	2576	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8583915	BENTO-FU-8583915	1037	1037	No DFS event	1037	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8600099	BENTO-FU-8600099	3115	3115	No DFS event	3115	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8606682	BENTO-FU-8606682	3635	3635	No DFS event	3635	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8606884	BENTO-FU-8606884	2177	2177	No DFS event	2177	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8615254	BENTO-FU-8615254	3795	3795	No DFS event	3795	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8623762	BENTO-FU-8623762	1733	1733	No DFS event	1733	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8624552	BENTO-FU-8624552	2732	2877	DFS event reported (dfs is time of first DFS event)	2877	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-8628052	BENTO-FU-8628052	3325	3325	No DFS event	3325	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8635793	BENTO-FU-8635793	2091	2091	No DFS event	2091	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8645845	BENTO-FU-8645845	1101	1101	No DFS event	1101	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8663346	BENTO-FU-8663346	2582	2582	No DFS event	2582	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8663858	BENTO-FU-8663858	2891	2891	No DFS event	2891	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8684827	BENTO-FU-8684827	2518	2518	No DFS event	2518	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8689175	BENTO-FU-8689175	2198	2198	No DFS event	2198	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8700704	BENTO-FU-8700704	1092	1092	No DFS event	1092	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8710121	BENTO-FU-8710121	2770	2770	No DFS event	2770	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8714265	BENTO-FU-8714265	2949	2949	No DFS event	2949	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8722578	BENTO-FU-8722578	3307	3307	No DFS event	3307	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8739315	BENTO-FU-8739315	3053	2905	DFS event reported (dfs is time of first DFS event)	2905	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-8742086	BENTO-FU-8742086	3225	3225	No DFS event	3225	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8764168	BENTO-FU-8764168	3587	3587	No DFS event	3587	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8781609	BENTO-FU-8781609	336	336	No DFS event	336	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8787892	BENTO-FU-8787892	3075	3075	No DFS event	3075	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8794774	BENTO-FU-8794774	2911	2911	No DFS event	2911	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8795399	BENTO-FU-8795399	2605	2605	No DFS event	2605	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8816167	BENTO-FU-8816167	1983	1983	No DFS event	1983	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8831207	BENTO-FU-8831207	2141	2141	No DFS event	2141	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8842347	BENTO-FU-8842347	2520	2520	No DFS event	2520	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8852472	BENTO-FU-8852472	2848	2848	No DFS event	2848	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8869616	BENTO-FU-8869616	3204	3204	No DFS event	3204	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8875038	BENTO-FU-8875038	476	476	DFS event reported (dfs is time of first DFS event)	476	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-8890103	BENTO-FU-8890103	2726	2726	No DFS event	2726	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8892220	BENTO-FU-8892220	3349	3349	No DFS event	3349	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8899151	BENTO-FU-8899151	1723	1723	No DFS event	1723	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8914059	BENTO-FU-8914059	3611	3611	No DFS event	3611	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8921757	BENTO-FU-8921757	3344	3344	No DFS event	3344	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8923972	BENTO-FU-8923972	2891	2891	No DFS event	2891	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8933938	BENTO-FU-8933938	2723	2723	No DFS event	2723	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8936075	BENTO-FU-8936075	3283	3283	No DFS event	3283	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8936328	BENTO-FU-8936328	2689	2689	No DFS event	2689	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8948264	BENTO-FU-8948264	1673	1673	No DFS event	1673	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8961341	BENTO-FU-8961341	3245	3245	No DFS event	3245	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-8992585	BENTO-FU-8992585	3857	3857	No DFS event	3857	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9005152	BENTO-FU-9005152	3616	3616	No DFS event	3616	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9035547	BENTO-FU-9035547	2527	2527	No DFS event	2527	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9046814	BENTO-FU-9046814	3416	3416	No DFS event	3416	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9047767	BENTO-FU-9047767	2562	2562	No DFS event	2562	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9048556	BENTO-FU-9048556	2393	2393	No DFS event	2393	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9048673	BENTO-FU-9048673	2932	2932	No DFS event	2932	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9048799	BENTO-FU-9048799	2925	2925	No DFS event	2925	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9068758	BENTO-FU-9068758	1820	1820	No DFS event	1820	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9091687	BENTO-FU-9091687	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9104008	BENTO-FU-9104008	2750	2750	No DFS event	2750	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9104081	BENTO-FU-9104081	3080	3080	No DFS event	3080	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9112261	BENTO-FU-9112261	711	711	No DFS event	711	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9123729	BENTO-FU-9123729	1345	1345	No DFS event	1345	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9124643	BENTO-FU-9124643	3259	3259	No DFS event	3259	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9142267	BENTO-FU-9142267	754	754	DFS event reported (dfs is time of first DFS event)	771	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site	Recurrence at local-regional site
+follow_up	BENTO-CASE-9168105	BENTO-FU-9168105	2519	2519	No DFS event	2519	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9169016	BENTO-FU-9169016	1700	1700	No DFS event	1700	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9174994	BENTO-FU-9174994	3463	3463	No DFS event	3463	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9175071	BENTO-FU-9175071	3017	3017	No DFS event	3017	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9194883	BENTO-FU-9194883	2099	2099	No DFS event	2099	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9198673	BENTO-FU-9198673	2994	2994	No DFS event	2994	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9202225	BENTO-FU-9202225	2865	2865	No DFS event	2865	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9203582	BENTO-FU-9203582	2900	2900	No DFS event	2900	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9211552	BENTO-FU-9211552	1800	1800	No DFS event	1800	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9215030	BENTO-FU-9215030	3892	3892	No DFS event	3892	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9220314	BENTO-FU-9220314	3189	3189	No DFS event	3189	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9227175	BENTO-FU-9227175	2894	2894	No DFS event	2894	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9231591	BENTO-FU-9231591	0	0	No DFS event	0	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9242687	BENTO-FU-9242687	3414	3414	No DFS event	3414	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9248449	BENTO-FU-9248449	1797	1797	No DFS event	1797	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9261455	BENTO-FU-9261455	3250	3250	No DFS event	3250	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9271576	BENTO-FU-9271576	843	843	No DFS event	843	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9273842	BENTO-FU-9273842	2205	2205	No DFS event	2205	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9286306	BENTO-FU-9286306	1567	1567	DFS event reported (dfs is time of first DFS event)	3508	No distant recurrence	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site	Recurrence at local-regional site
+follow_up	BENTO-CASE-9293763	BENTO-FU-9293763	448	448	No DFS event	448	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9318130	BENTO-FU-9318130	2803	2803	No DFS event	2803	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9320943	BENTO-FU-9320943	2512	2512	No DFS event	2512	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9345144	BENTO-FU-9345144	1991	1991	DFS event reported (dfs is time of first DFS event)	3984	No distant recurrence	Recurrence (rfi is time of recurrence)	Recurrence at local-regional site	Recurrence at local-regional site
+follow_up	BENTO-CASE-9368851	BENTO-FU-9368851	2682	2682	No DFS event	2682	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9373871	BENTO-FU-9373871	2136	2136	No DFS event	2136	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9393989	BENTO-FU-9393989	3248	3248	No DFS event	3248	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9404378	BENTO-FU-9404378	2371	2371	No DFS event	2371	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9406839	BENTO-FU-9406839	1459	1459	No DFS event	1459	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9418358	BENTO-FU-9418358	2302	2302	No DFS event	2302	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9421642	BENTO-FU-9421642	2680	2680	No DFS event	2680	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9446149	BENTO-FU-9446149	1094	664	DFS event reported (dfs is time of first DFS event)	664	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-9451689	BENTO-FU-9451689	2582	2582	No DFS event	2582	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9453727	BENTO-FU-9453727	3639	3639	No DFS event	3639	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9453744	BENTO-FU-9453744	2885	2885	No DFS event	2885	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9460853	BENTO-FU-9460853	2296	2296	No DFS event	2296	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9476270	BENTO-FU-9476270	1820	1820	No DFS event	1820	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9482549	BENTO-FU-9482549	2365	2365	No DFS event	2365	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9488323	BENTO-FU-9488323	1918	1918	No DFS event	1918	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9492264	BENTO-FU-9492264	2547	2547	No DFS event	2547	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9499951	BENTO-FU-9499951	3306	3306	No DFS event	3306	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9529709	BENTO-FU-9529709	2152	2152	No DFS event	2152	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9553802	BENTO-FU-9553802	2815	2815	No DFS event	2815	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9582058	BENTO-FU-9582058	3327	3327	No DFS event	3327	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9583210	BENTO-FU-9583210	3461	3461	No DFS event	3461	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9590799	BENTO-FU-9590799	3354	3354	DFS event reported (dfs is time of first DFS event)	3354	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-9591103	BENTO-FU-9591103	1523	1523	No DFS event	1523	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9613437	BENTO-FU-9613437	1763	3548	DFS event reported (dfs is time of first DFS event)	3548	No distant recurrence	No recurrence	New primary cancer at other than breast or non-melanoma skin cancer	No recurrence
+follow_up	BENTO-CASE-9635288	BENTO-FU-9635288	3219	3219	No DFS event	3219	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9636851	BENTO-FU-9636851	2176	2176	No DFS event	2176	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9648578	BENTO-FU-9648578	3956	3956	No DFS event	3956	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9649029	BENTO-FU-9649029	3165	3165	No DFS event	3165	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9653874	BENTO-FU-9653874	776	776	No DFS event	776	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9655604	BENTO-FU-9655604	2847	2847	No DFS event	2847	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9669254	BENTO-FU-9669254	2892	2892	No DFS event	2892	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9675051	BENTO-FU-9675051	3606	3606	No DFS event	3606	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9678416	BENTO-FU-9678416	1618	1618	No DFS event	1618	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9682584	BENTO-FU-9682584	2266	2266	No DFS event	2266	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9688274	BENTO-FU-9688274	2555	2555	No DFS event	2555	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9689128	BENTO-FU-9689128	1561	1561	No DFS event	1561	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9703831	BENTO-FU-9703831	3587	3587	No DFS event	3587	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9707108	BENTO-FU-9707108	895	885	DFS event reported (dfs is time of first DFS event)	885	No distant recurrence	No recurrence	Death without another event reported	No recurrence
+follow_up	BENTO-CASE-9735137	BENTO-FU-9735137	3143	3143	No DFS event	3143	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9746086	BENTO-FU-9746086	2983	2983	No DFS event	2983	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9755876	BENTO-FU-9755876	2433	2433	No DFS event	2433	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9765204	BENTO-FU-9765204	3123	3123	No DFS event	3123	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9770087	BENTO-FU-9770087	1505	1505	No DFS event	1505	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9794562	BENTO-FU-9794562	3758	3758	No DFS event	3758	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9796258	BENTO-FU-9796258	2395	2395	No DFS event	2395	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9809419	BENTO-FU-9809419	2550	2550	No DFS event	2550	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9819151	BENTO-FU-9819151	2474	2474	No DFS event	2474	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9819934	BENTO-FU-9819934	2531	2531	No DFS event	2531	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9825792	BENTO-FU-9825792	3270	3270	No DFS event	3270	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9844620	BENTO-FU-9844620	1947	1947	DFS event reported (dfs is time of first DFS event)	1947	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	Recurrence at distant site (includes concurrent distant and local-regional)	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-9851366	BENTO-FU-9851366	796	847	DFS event reported (dfs is time of first DFS event)	847	Distant recurrence (drfi is time of distant recurrence)	Recurrence (rfi is time of recurrence)	New primary cancer at other than breast or non-melanoma skin cancer	Recurrence at distant site (includes concurrent distant and local-regional)
+follow_up	BENTO-CASE-9857075	BENTO-FU-9857075	3278	3278	No DFS event	3278	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9900062	BENTO-FU-9900062	2545	2545	No DFS event	2545	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9904075	BENTO-FU-9904075	2438	2438	No DFS event	2438	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9906506	BENTO-FU-9906506	3086	3086	No DFS event	3086	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9908684	BENTO-FU-9908684	2870	2870	No DFS event	2870	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9910910	BENTO-FU-9910910	2805	2805	No DFS event	2805	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9971167	BENTO-FU-9971167	2561	2561	No DFS event	2561	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9979729	BENTO-FU-9979729	2069	2069	No DFS event	2069	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9982436	BENTO-FU-9982436	1091	1091	No DFS event	1091	No distant recurrence	No recurrence	No recurrence	No recurrence
+follow_up	BENTO-CASE-9990847	BENTO-FU-9990847	2483	2483	No DFS event	2483	No distant recurrence	No recurrence	No recurrence	No recurrence

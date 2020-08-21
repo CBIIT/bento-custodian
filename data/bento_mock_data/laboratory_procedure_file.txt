@@ -1,0 +1,2 @@
+type	program.program_id	laboratory_procedure_id	laboratory_procedure_type	laboratory_procedure_target_type	test_name
+laboratory_procedure	NCT00310180	BENTO-LAB-001	Quantitative RT-PCR on a panel of 21 genes	RNA isolated from tumor biospecimens	Oncotype DX
