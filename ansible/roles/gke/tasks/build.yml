@@ -114,3 +114,38 @@
     source: build
     force_source: yes
     push: yes
+
+- name: Create a k8s namespace
+  k8s:
+    name: demo
+    api_version: v1
+    kind: Namespace
+    state: present
+
+- name: deploy frontend and backend bento applications
+  k8s:
+    state: present
+    definition: "{{ lookup('template', '{{item}}') | from_yaml }}"
+    validate_certs: no
+    force: yes
+  loop:
+    - bento-backend.yml.j2
+    - bento-frontend.yml.j2
+
+- name: deploy frontend and backend services
+  k8s:
+    state: present
+    definition: "{{ lookup('template', '{{item}}') | from_yaml }}"
+    validate_certs: no
+    apply: yes
+  loop:
+    - backend.yml.j2
+    - frontend.yml.j2
+
+- name: deploy ingress 
+  k8s:
+    state: present
+    definition: "{{ lookup('template', 'ingress.yml.j2') | from_yaml }}"
+    validate_certs: no
+    apply: yes
+ 
