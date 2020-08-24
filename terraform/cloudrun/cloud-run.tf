@@ -1,5 +1,5 @@
 resource "google_vpc_access_connector" "connector" {
-  name          = "${var.stack_name}-${var.env}-vpc-connector"
+  name          = "${var.stack_name}-${var.env}-vpc-cxt"
   region        = var.gcp_region
   ip_cidr_range = var.connector_network
   network       = google_compute_network.vpc.name
