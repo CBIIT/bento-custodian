@@ -3,10 +3,12 @@
   hosts: all
   connection: local
   gather_facts: yes
-    
+  
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
   tasks:
     - name: deploy stage
       include_role:
         name: gke
-        tasks_from: deploy
+        tasks_from: build
       
