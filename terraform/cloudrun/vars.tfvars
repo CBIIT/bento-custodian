@@ -1,11 +1,11 @@
 gcp_auth_file = "gcloud_api_key.json"
 gcp_region = "us-east4"
-gcp_project = "bento-cloudrun"
-stack_name = "bento"
+gcp_project = "custodian-demo"
+stack_name = "custodian"
 machine_type = "n1-standard-1"
-env = "demo"
+env = "test"
 
-service_account_id = "bento-sa"
+service_account_id = "custodian-admin"
 project_services = {
   vpc_connector = "vpcaccess.googleapis.com"
   compute = "compute.googleapis.com"
