@@ -58,7 +58,7 @@
       python3
       loader.py 
       {{workspace}}/data-model/data-loader/config.yml
-    chdir: "{{workspace}}/data"
+    chdir: "{{workspace}}/data-model/data-loader"
   register: data_loader
 
 - name: show dataloader output
