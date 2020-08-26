@@ -18,14 +18,14 @@
 
 - name: clone backend github
   git:
-    repo: 'https://github.com/CBIIT/bento-backend'
+    repo: "{{backend_repo}}"
     dest: "{{workspace}}/backend"
     force: yes
     version: master
 
 - name: clone frontend github
   git:
-    repo: 'https://github.com/CBIIT/bento-frontend'
+    repo: "{{frontend_repo}}"
     dest: "{{workspace}}/frontend"
     force: yes
     version: master
@@ -34,7 +34,7 @@
   ec2_instance_facts:
     region: "{{region}}"
     filters:
-      "tag:Name": "{{stack_name}}-{{database_asg_name}}" 
+      "tag:Name": "{{stack_name}}-{{database_name}}" 
       "instance-state-name": running
   register: database
 
