@@ -13,7 +13,7 @@
 - name: clone dataloader
   git:
     repo: "{{data_repo}}"
-    dest: "{{workspace}}/data"
+    dest: "{{workspace}}/data-model"
     track_submodules: yes
     update: yes
     version: master
@@ -25,7 +25,7 @@
 
 - name: update settings
   template:
-    dest: "{{workspace}}/data/data-loader/config.yml"
+    dest: "{{workspace}}/data-model/data-loader/config.yml"
     src: config.yml.j2
 
 - name: install python3
@@ -35,7 +35,7 @@
 
 - name: pip install requirements
   pip:
-    requirements: "{{workspace}}/data/data-loader/requirements.txt"
+    requirements: "{{workspace}}/data-model/data-loader/requirements.txt"
     executable: pip3
 
 - name: set neo4j password
@@ -57,7 +57,7 @@
     cmd: >
       python3
       loader.py 
-      {{workspace}}/data/dataloader/config.yml
+      {{workspace}}/data-model/data-loader/config.yml
     chdir: "{{workspace}}/data"
   register: data_loader
 
