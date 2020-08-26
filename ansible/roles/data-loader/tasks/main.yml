@@ -12,8 +12,8 @@
 
 - name: clone dataloader
   git:
-    repo: 'https://github.com/CBIIT/icdc-dataloader'
-    dest: "{{workspace}}/icdc-dataloader"
+    repo: "{{data_repo}}"
+    dest: "{{workspace}}/data"
     track_submodules: yes
     update: yes
     version: master
@@ -25,7 +25,7 @@
 
 - name: update settings
   template:
-    dest: "{{workspace}}/icdc-dataloader/config.yml"
+    dest: "{{workspace}}/data/data-loader/config.yml"
     src: config.yml.j2
 
 - name: install python3
@@ -35,7 +35,7 @@
 
 - name: pip install requirements
   pip:
-    requirements: "{{workspace}}/icdc-dataloader/requirements.txt"
+    requirements: "{{workspace}}/data/data-loader/requirements.txt"
     executable: pip3
 
 - name: set neo4j password
@@ -50,14 +50,15 @@
     headers:
       Accept: "application/json"
       Content-Type: "application/json"
+  when: init_db == "yes"
 
 - name: loader data
   shell:
     cmd: >
       python3
       loader.py 
-      {{workspace}}/icdc-dataloader/config.yml
-    chdir: "{{workspace}}/icdc-dataloader"
+      {{workspace}}/data/dataloader/config.yml
+    chdir: "{{workspace}}/data"
   register: data_loader
 
 - name: show dataloader output

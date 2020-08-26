@@ -4,6 +4,8 @@ neo4j_password: "{{neo4j_password}}"
 neo4j_user: neo4j
 workspace: "/tmp/workspace"
 neo4j_ip: 127.0.0.1
+dataset: "{{dataset}}"
+data_repo: "{{data_repo}}"
 
 
 
