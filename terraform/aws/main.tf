@@ -26,7 +26,7 @@ resource "local_file" "ansible_hosts" {
     key_path = local_file.private_key.filename
   }
   )
-  filename = "../ansible/hosts"
+  filename = "${path.module}/ansible/hosts"
 }
 
 resource "local_file" "ansible_vars" {
