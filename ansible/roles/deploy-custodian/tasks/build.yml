@@ -6,6 +6,11 @@
       - wget
       - curl
       - java-11-openjdk-devel
+      - python-setuptools
+- name: install boto3
+  pip:
+    name:
+      - boto3
 
 - name: install maven and nodejs to build 
   shell: >
