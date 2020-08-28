@@ -2,6 +2,7 @@
 - name: install wget and curl
   yum:
     name:
+      - git
       - wget
       - curl
       - java-11-openjdk-devel
@@ -30,21 +31,13 @@
     force: yes
     version: master
 
-- name: gather neo4j facts
-  ec2_instance_facts:
-    region: "{{region}}"
-    filters:
-      "tag:Name": "{{stack_name}}-{{database_name}}" 
-      "instance-state-name": running
-  register: database
-
 - name: set neo4j bearer
   shell: echo "Basic $(echo -n "neo4j:{{neo4j_password}}" | base64)"
   register: output_bearer
 
 - name: set instance ip
   set_fact:
-    neo4j_ip: "{{ database.instances[0].network_interfaces[0].private_ip_address }}"
+    # neo4j_ip: "{{ database.instances[0].network_interfaces[0].private_ip_address }}"
     bearer: "{{output_bearer.stdout_lines}}"
 
 - name: remove the application_example.properties file 
@@ -56,6 +49,7 @@
   template:
     src: application.properties.j2
     dest: "{{workspace}}/backend/src/main/resources/application.properties"
+    mode: 0644
 
 - name: build backend code
   command: /usr/local/maven/bin/mvn package -DskipTests
@@ -73,6 +67,7 @@
     build:
       path: "{{workspace}}/backend"
       dockerfile: "{{workspace}}/backend/dockerfiles/backend-dockerfile"
+      pull: yes
     name: custodian/bento-backend
     tag: latest
     force_tag: yes
@@ -82,6 +77,7 @@
   template:
     src: env.j2
     dest: "{{workspace}}/frontend/.env"
+    mode: 0644
 
 - name: run npm install in {{workspace}}/bento-frontend/
   shell: "{{item}}"
@@ -102,7 +98,7 @@
     build:
       path: "{{workspace}}/frontend"
       dockerfile: "{{workspace}}/backend/dockerfiles/frontend-dockerfile"
-      # pull: yes
+      pull: yes
       nocache: yes
     name: custodian/bento-frontend
     tag: latest

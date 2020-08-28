@@ -1,10 +1,10 @@
 ---
 # vars file for cicd
 workspace: "/tmp/workspace"
-region: "{{region}}"
+# region: "{{region}}"
 maven_version: 3.6.3
 version: master
-stack_name: "{{stack_name}}"
-database_name: "{{database_name}}"
-backend_repo: "{{backend_repo}}"
-frontend_repo: "{{frontend_repo}}"
+# stack_name: "{{stack_name}}"
+# database_name: "{{database_name}}"
+# backend_repo: "{{backend_repo}}"
+# frontend_repo: "{{frontend_repo}}"
