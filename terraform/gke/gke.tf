@@ -49,6 +49,7 @@ resource "google_container_node_pool" "dev_nodes" {
       "https://www.googleapis.com/auth/monitoring",
       "https://www.googleapis.com/auth/compute",
       "https://www.googleapis.com/auth/cloud-platform",
+      "https://www.googleapis.com/auth/devstorage.full_control"
     ]
 
     labels = {
