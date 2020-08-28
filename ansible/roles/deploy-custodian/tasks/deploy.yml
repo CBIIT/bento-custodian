@@ -40,13 +40,13 @@
   register: task_frontend
 
 - name: query task definition
-  ecs_taskdefinition_info:
+  ecs_taskdefinition_facts:
     task_definition: "{{stack_name}}-backend"
     region: "{{region}}" 
   register: task_backend
 
 - name: query backend service
-  ecs_service_info:
+  ecs_service_facts:
     cluster: "{{cluster_name}}"
     service: "{{stack_name}}-backend"
     details: true
@@ -54,7 +54,7 @@
   register: service_backend
 
 - name: query ecs service
-  ecs_service_info:
+  ecs_service_facts:
     cluster: "{{cluster_name}}"
     service: "{{stack_name}}-frontend"
     details: true
