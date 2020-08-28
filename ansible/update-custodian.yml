@@ -1,0 +1,22 @@
+---
+- name: setup deploy custodian
+  hosts: bastion
+  # connection: local
+  become: yes
+  gather_facts: yes
+  
+  vars_files:
+    - vars.yaml
+  tasks:
+    - name: install docker
+      include_role:
+        name: docker
+    - name: build custodian
+      include_role:
+        name: deploy-custodian
+        tasks_from: build
+    - name: deploy custodian
+      include_role:
+        name: deploy-custodian
+        tasks_from: deploy
+

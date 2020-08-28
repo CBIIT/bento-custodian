@@ -1,4 +1,97 @@
 ---
+- name: clone backend github
+  git:
+    repo: "{{backend_repo}}"
+    dest: "{{workspace}}/backend"
+    force: yes
+    version: master
+
+- name: clone frontend github
+  git:
+    repo: "{{frontend_repo}}"
+    dest: "{{workspace}}/frontend"
+    force: yes
+    version: master
+
+- name: gather neo4j facts
+  ec2_instance_facts:
+    region: "{{region}}"
+    filters:
+      "tag:Name": "{{stack_name}}-{{database_name}}" 
+      "instance-state-name": running
+  register: database
+
+- name: set neo4j bearer
+  shell: echo "Basic $(echo -n "neo4j:{{neo4j_password}}" | base64)"
+  register: output_bearer
+
+- name: set instance ip
+  set_fact:
+    neo4j_ip: "{{ database.instances[0].network_interfaces[0].private_ip_address }}"
+    bearer: "{{output_bearer.stdout_lines}}"
+
+- name: remove the application_example.properties file 
+  file:
+    path: "{{workspace}}/backend/src/main/resources/application_example.properties"
+    state: absent
+
+- name: copy application.properties file to /src/main/resources/
+  template:
+    src: application.properties.j2
+    dest: "{{workspace}}/backend/src/main/resources/application.properties"
+
+- name: build backend code
+  command: /usr/local/maven/bin/mvn package -DskipTests
+  args:
+    chdir: "{{workspace}}/backend"
+
+- name: copy Bento-0.0.1.war to api.war
+  copy:
+    remote_src: yes
+    src: "{{workspace}}/backend/target/Bento-0.0.1.war"
+    dest: "{{workspace}}/backend/target/ROOT.war"
+
+- name: build custodian/bento-backend image
+  docker_image:
+    build:
+      path: "{{workspace}}/backend"
+      dockerfile: "{{workspace}}/backend/dockerfiles/backend-dockerfile"
+    name: custodian/bento-backend
+    tag: latest
+    force_tag: yes
+    source: build
+    
+- name: copy environment file to {{workspace}}/bento-frontend
+  template:
+    src: env.j2
+    dest: "{{workspace}}/frontend/.env"
+
+- name: run npm install in {{workspace}}/bento-frontend/
+  shell: "{{item}}"
+  args:
+    chdir: "{{workspace}}/frontend"
+  ignore_errors: True
+  loop:
+    - npm install 
+  
+- name: run npm build in frontend
+  shell: npm run-script build
+  args:
+    chdir: "{{workspace}}/frontend"
+  ignore_errors: True
+          
+- name: build custodian/bento-frontend image
+  docker_image:
+    build:
+      path: "{{workspace}}/frontend"
+      dockerfile: "{{workspace}}/backend/dockerfiles/frontend-dockerfile"
+      # pull: yes
+      nocache: yes
+    name: custodian/bento-frontend
+    tag: latest
+    force_tag: yes
+    source: build
+
 - name: create task definition 
   ecs_taskdefinition:
     containers:
@@ -40,13 +133,13 @@
   register: task_frontend
 
 - name: query task definition
-  ecs_taskdefinition_info:
+  ecs_taskdefinition_facts:
     task_definition: "{{stack_name}}-backend"
     region: "{{region}}" 
   register: task_backend
 
 - name: query backend service
-  ecs_service_info:
+  ecs_service_facts:
     cluster: "{{cluster_name}}"
     service: "{{stack_name}}-backend"
     details: true
@@ -54,7 +147,7 @@
   register: service_backend
 
 - name: query ecs service
-  ecs_service_info:
+  ecs_service_facts:
     cluster: "{{cluster_name}}"
     service: "{{stack_name}}-frontend"
     details: true
@@ -102,3 +195,4 @@
     load_balancers: "{{ lb_backend }}"
     region: "{{region}}"
   register: service_backend_output
+

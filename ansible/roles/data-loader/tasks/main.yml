@@ -27,6 +27,7 @@
   template:
     dest: "{{workspace}}/data-model/data-loader/config.yml"
     src: config.yml.j2
+    mode: 0644
 
 - name: install python3
   yum:
