@@ -7,11 +7,15 @@ output "custodian_url" {
   description = "Custodian URL"
 }
 output "custodian_api_endpoint" {
-  value = "http://${aws_lb.alb.dns_name}/api/graphql/"
+  value = "http://${aws_lb.alb.dns_name}/v1/graphql/"
   description = "Custodian API Endpoint"
 }
 
 output "admin_user" {
-  value = var.devops_user
+  value = var.ssh_user
   description = "The admin user with ssh access"
+}
+output "private_key" {
+  value = tls_private_key.privkey.private_key_pem
+  sensitive = true
 }

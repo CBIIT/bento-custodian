@@ -300,7 +300,7 @@ variable "bastion_instance_type" {
   description = "ec2 instance type to use"
   type = string
 }
-variable "devops_user" {
+variable "ssh_user" {
   type = string
   description = "name of the ec2 user"
 }
@@ -308,10 +308,7 @@ variable "db_instance_volume_size" {
   description = "volume size of the instances"
   type = number
 }
-variable "database_asg_name" {
-  description = "database asg name"
-  type = string
-}
+
 variable "database_name" {
   description = "name of the database"
   type = string
@@ -327,5 +324,22 @@ variable "database_password" {
 }
 variable "ssh_public_key_filename" {
   description = "name of the ssh public key file "
+  type = string
+}
+variable "backend_repo" {
+  description = "bento backend repo url"
+  type = string
+}
+variable "frontend_repo" {
+  description = "bento backend repo url"
+  type = string
+}
+variable "data_repo" {
+  description = "bento data related repo url"
+  type = string
+}
+
+variable "dataset" {
+  description = "name of the dataset to be used."
   type = string
 }

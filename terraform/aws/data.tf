@@ -38,7 +38,7 @@ users:
     groups: wheel
     shell: /bin/bash
     ssh_authorized_keys:
-    - "${file("${path.module}/${var.ssh_public_key_filename}")}"
+    - "${tls_private_key.privkey.public_key_openssh}"
 EOF
   }
 
@@ -47,3 +47,17 @@ EOF
     content      = file("${path.module}/ssm.sh")
   }
 }
+
+//data "aws_subnet" "az" {
+//  vpc_id = aws_vpc.vpc.id
+//  availability_zone = var.availability_zone
+//  filter {
+//    name = "tag:Name"
+//    values = ["${var.stack_name}-private-${var.availability_zone}"]
+//  }
+////  filter {
+////    name = "tag:Environment"
+////    values = [
+////      var.env]
+////  }
+//}

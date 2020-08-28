@@ -12,20 +12,20 @@ private_subnets = ["10.0.10.0/24"]
 public_subnets = ["10.0.0.0/24","10.0.1.0/24"]
 
 #enter the region in which your aws resources will be provisioned
-region = "us-east-1"
+region = "us-west-1"
 
-#specify your aws credential profile. Note this is not IAM role but rather profile configure during AWS CLI installation 
-profile = "custodian"
+#specify your aws credential profile. Note this is not IAM role but rather profile configured during AWS CLI installation
+profile = "icdc"
 
 #specify the name you will like to call this project.
-stack_name = "evay"
+stack_name = "demo"
 
-#specify availability zones to provision your resources. Note the availability zone must match the number of public subnets
-availaiblity_zones = ["us-east-1a","us-east-1b"]
-
+#specify availability zones to provision your resources. Note the availability zone must match the number of public subnets. Also availability zones depends on the region.
+#If you change the region use the corresponding availability zones
+availaiblity_zones = ["us-west-1b","us-west-1c"]
 
 #provide the name of the ecs cluster 
-ecs_cluster_name = "evay-cluster"
+ecs_cluster_name = "bento"
 
 #specify the number of container replicas, minimum is 1
 container_replicas = 1
@@ -42,7 +42,6 @@ min_size = 1
 
 #provide name for the auto-scalling-groups
 frontend_asg_name = "frontend"
-database_asg_name = "database"
 
 desired_ec2_instance_capacity = 1
 
@@ -56,10 +55,10 @@ ssh_key_name = "jilivay"
 fronted_instance_type = "t3.medium"
 
 #provide the name of the admin user for ssh login
-devops_user = "evay"
+ssh_user = "bento"
 
 #availability zone 
-availability_zone = "us-east-1a"
+availability_zone = "us-east-2a"
 
 #specify the aws compute instance type for the database
 database_instance_type =  "t3.medium"
@@ -80,9 +79,22 @@ database_password = "custodian"
 ssh_public_key_filename = "bento-ssh-key.pub"
 
 #specify the instance type of the bastion host
-bastion_instance_type = "t2.micro"
+bastion_instance_type = "t3.medium"
 
+#specify the url of the bento backend repository
 
+backend_repo = "https://github.com/CBIIT/bento-demo-backend"
 
+#specify the url of the bento frontend repository
+
+frontend_repo = "https://github.com/CBIIT/bento-demo-frontend"
+
+#specify the url of the bento data repository
+
+data_repo = "https://github.com/CBIIT/bento-demo-data-model"
+
+#specify dataset to be used
+
+dataset = "Bento_Mock_Data_for_PACT1"
 
 

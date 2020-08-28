@@ -40,7 +40,7 @@ resource "aws_instance" "bastion_host" {
   key_name                 = var.ssh_key_name
   subnet_id                = aws_subnet.public_subnet.*[0].id
   source_dest_check           = false
-
+  iam_instance_profile = aws_iam_instance_profile.ecs-instance-profile.id
   user_data  = data.template_cloudinit_config.user_data.rendered
 
   tags = merge(
@@ -55,3 +55,4 @@ resource "aws_eip" "bastion" {
   instance = aws_instance.bastion_host.id
   vpc      = true
 }
+
