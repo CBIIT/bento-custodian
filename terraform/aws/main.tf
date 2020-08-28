@@ -27,6 +27,7 @@ resource "local_file" "ansible_hosts" {
   }
   )
   filename = "${path.module}/ansible/hosts"
+  depends_on = [aws_instance.bastion_host]
 }
 
 resource "local_file" "ansible_vars" {
