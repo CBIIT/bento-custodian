@@ -15,7 +15,3 @@ output "admin_user" {
   value = var.ssh_user
   description = "The admin user with ssh access"
 }
-output "private_key" {
-  value = tls_private_key.privkey.private_key_pem
-  sensitive = true
-}
