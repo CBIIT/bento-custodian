@@ -5,7 +5,7 @@ locals {
   tcp_protocol = "tcp"
   https_port = "443"
   all_ips  = ["0.0.0.0/0"]
-  devops_user = var.devops_user
+  devops_user = var.ssh_user
   bastion_port = 22
   neo4j_http = 7474
   neo4j_https = 7473

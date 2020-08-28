@@ -1,0 +1,12 @@
+region: ${region}
+neo4j_password: ${neo4j_password}
+alb_dns_name: ${alb_dns_name}
+stack_name: ${stack_name}
+database_name: ${database_name}
+cluster_name: ${cluster_name}
+backend_repo: ${backend_repo}
+frontend_repo: ${frontend_repo}
+dataset: ${dataset}
+init_db: no
+data_repo: ${data_repo}
+neo4j_ip: ${neo4j_ip}

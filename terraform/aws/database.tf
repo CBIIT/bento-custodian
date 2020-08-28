@@ -1,46 +1,24 @@
-
-resource "aws_launch_configuration" "asg_launch_config" {
-  name              = "${var.stack_name}-database-launch-configuration"
-  image_id          =  data.aws_ami.centos.id
-  instance_type     =  var.database_instance_type
+resource "aws_instance" "db" {
+  ami            =  data.aws_ami.centos.id
+  instance_type  =  var.database_instance_type
+  key_name                 = var.ssh_key_name
+  subnet_id                = aws_subnet.private_subnet.*[0].id
   iam_instance_profile = aws_iam_instance_profile.ecs-instance-profile.id
+  source_dest_check           = false
   security_groups   = [aws_security_group.database-sg.id]
-  associate_public_ip_address = var.associate_public_ip_address
-  key_name    = var.ssh_key_name
-  user_data   = data.template_cloudinit_config.user_data.rendered
+  user_data  = data.template_cloudinit_config.user_data.rendered
+//  private_ip = var.db_instance_private_ip
   root_block_device {
     volume_type   = var.evs_volume_type
     volume_size   = var.db_instance_volume_size
     delete_on_termination = true
   }
-
-  lifecycle {
-    create_before_destroy = true
-  }
-
-}
-
-resource "aws_autoscaling_group" "db_asg" {
-  name                 = join("-",[var.stack_name,var.database_asg_name,"asg"])
-  max_size = var.max_size
-  min_size = var.min_size
-  desired_capacity     = var.desired_ec2_instance_capacity
-  vpc_zone_identifier  = aws_subnet.private_subnet.*.id
-  launch_configuration = aws_launch_configuration.asg_launch_config.name
-  health_check_type    =  var.health_check_type
-  tag {
-    key = "Name"
-    propagate_at_launch = true
-    value = "${var.stack_name}-${var.database_asg_name}"
-  }
-  dynamic "tag" {
-    for_each = var.tags
-    content {
-      key = tag.key
-      value = tag.value
-      propagate_at_launch = true
-    }
-  }
+  tags = merge(
+  {
+    "Name" = "${var.stack_name}-${var.database_name}",
+  },
+  var.tags,
+  )
 }
 
 #create database security group
@@ -72,6 +50,16 @@ resource "aws_security_group_rule" "bastion_host_ssh" {
   security_group_id = aws_security_group.database-sg.id
   type = "ingress"
 }
+
+resource "aws_security_group_rule" "bastion_host_bolt" {
+  from_port = local.neo4j_bolt
+  protocol = local.tcp_protocol
+  to_port = local.neo4j_bolt
+  source_security_group_id = aws_security_group.bastion-sg.id
+  security_group_id = aws_security_group.database-sg.id
+  type = "ingress"
+}
+
 resource "aws_security_group_rule" "neo4j_https" {
   from_port = local.neo4j_https
   protocol = local.tcp_protocol
@@ -152,7 +140,7 @@ mainSteps:
     runCommand:
     - set -ex
     - cd /tmp/bento-custodian/ansible
-    - ansible-playbook data-loader.yml  -e neo4j_password="${var.database_password}"
+    - ansible-playbook data-loader.yml -e neo4j_ip="${aws_instance.db.private_ip}" -e dataset="${var.dataset}" -e init_db="yes" -e neo4j_password="${var.database_password}" -e  data_repo="${var.data_repo}"
   DOC
   tags = merge(
   {
@@ -198,8 +186,8 @@ DOC
 resource "aws_ssm_association" "database" {
   name = aws_ssm_document.bootstrap_database.name
   targets {
-    key   = "tag:aws:autoscaling:groupName"
-    values = [aws_autoscaling_group.db_asg.name]
+    key    = "tag:Name"
+    values = ["${var.stack_name}-${var.database_name}"]
   }
-  depends_on = [aws_autoscaling_group.db_asg]
+  depends_on = [aws_instance.db]
 }
