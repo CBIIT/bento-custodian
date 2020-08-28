@@ -14,7 +14,7 @@ resource "aws_key_pair" "keypair" {
 resource "local_file" "private_key" {
   content = tls_private_key.privkey.private_key_pem
   file_permission = "0600"
-  filename = "../ansible/ssh_private_key.pem"
+  filename = "${path.module}/ansible/ssh_private_key.pem"
   depends_on = [aws_instance.bastion_host]
 }
 

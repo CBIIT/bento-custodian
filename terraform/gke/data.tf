@@ -5,3 +5,6 @@ data "google_compute_image" "image" {
 data "google_projects" "bento_demo" {
   filter = "name:${var.gcp_project}"
 }
+data "google_service_account" "service_account" {
+  account_id = var.service_account_id
+}

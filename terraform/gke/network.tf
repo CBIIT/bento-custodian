@@ -119,3 +119,7 @@ resource "google_compute_firewall" "allow-pod-db" {
   }
   source_ranges = ["10.8.0.0/28"]
 }
+
+resource "google_compute_global_address" "default" {
+  name = "web-frontend-ip"
+}
