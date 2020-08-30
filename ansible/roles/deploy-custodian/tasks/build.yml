@@ -69,7 +69,7 @@
     dest: "{{workspace}}/backend/target/ROOT.war"
 
 - name: get ecr-login
-  shell: "$(/usr/local/bin/aws ecr get-login --no-include-email --region {{region}})"
+  shell: aws ecr get-login-password --region {{region}}) | docker login --username AWS --password-stdin {{ecr}}
 
 - name: build custodian/bento-backend image
   docker_image:
