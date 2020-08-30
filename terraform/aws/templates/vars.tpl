@@ -10,3 +10,4 @@ dataset: ${dataset}
 init_db: no
 data_repo: ${data_repo}
 neo4j_ip: ${neo4j_ip}
+ecr: ${ecr}

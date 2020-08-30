@@ -1,3 +1,4 @@
 ---
 # defaults file for cicd
 tag: latest
+ecr: custodian

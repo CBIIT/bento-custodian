@@ -4,7 +4,7 @@
     containers:
     - name: backend
       essential: true
-      image: "custodian/bento-backend:{{tag}}"
+      image: "{{ecr}}:backend-{{tag}}"
       portMappings:
       - containerPort: "8080"
         hostPort: "8080"
@@ -21,7 +21,7 @@
     containers:
     - name: frontend
       essential: true
-      image: "custodian/bento-frontend:{{tag}}"
+      image: "{{ecr}}:frontend-{{tag}}"
       portMappings:
       - containerPort: "80"
         hostPort: "80"

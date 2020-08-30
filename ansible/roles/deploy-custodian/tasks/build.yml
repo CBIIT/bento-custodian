@@ -11,6 +11,7 @@
   pip:
     name:
       - boto3
+      - awscli
 
 - name: install maven and nodejs to build 
   shell: >
@@ -67,15 +68,19 @@
     src: "{{workspace}}/backend/target/Bento-0.0.1.war"
     dest: "{{workspace}}/backend/target/ROOT.war"
 
+- name: get ecr-login
+  shell: "$(/usr/local/bin/aws ecr get-login --no-include-email --region {{region}})"
+
 - name: build custodian/bento-backend image
   docker_image:
     build:
       path: "{{workspace}}/backend"
       dockerfile: "{{workspace}}/backend/dockerfiles/backend-dockerfile"
       pull: yes
-    name: custodian/bento-backend
-    tag: "{{tag}}"
+    name: "{{ecr}}"
+    tag: "backend-{{tag}}"
     force_tag: yes
+    push: yes
     source: build
     
 - name: copy environment file to {{workspace}}/bento-frontend
@@ -105,7 +110,8 @@
       dockerfile: "{{workspace}}/backend/dockerfiles/frontend-dockerfile"
       pull: yes
       nocache: yes
-    name: custodian/bento-frontend
-    tag: "{{tag}}"
+    name: "{{ecr}}"
+    tag: "frontend-{{tag}}"
+    push: yes
     force_tag: yes
     source: build
