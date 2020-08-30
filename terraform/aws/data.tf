@@ -49,6 +49,19 @@ EOF
   }
 }
 
+
+data "aws_instance" "db" {
+ instance_tags = {
+   Name = "${var.stack_name}-${var.database_name}"
+ }
+  depends_on = [aws_instance.db]
+}
+
+data "aws_ecr_repository" "ecr" {
+  name = aws_ecr_repository.ecr.name
+
+  depends_on = [aws_ecr_repository.ecr]
+}
 //data "aws_subnet" "az" {
 //  vpc_id = aws_vpc.vpc.id
 //  availability_zone = var.availability_zone
