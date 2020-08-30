@@ -67,6 +67,7 @@
     remote_src: yes
     src: "{{workspace}}/backend/target/Bento-0.0.1.war"
     dest: "{{workspace}}/backend/target/ROOT.war"
+    mode: "0664"
 
 - name: get ecr-login
   shell: aws ecr get-login-password --region {{region}} | docker login --username AWS --password-stdin {{ecr}}
