@@ -18,3 +18,7 @@ locals {
   nat_gateway_ips = split(",", (var.reuse_nat_ips ? join(",", var.external_nat_ip_ids) : join(",", aws_eip.nat.*.id)))
 }
 
+locals {
+  my_account = format("arn:aws:iam::%s:root", data.aws_caller_identity.account.account_id)
+}
+

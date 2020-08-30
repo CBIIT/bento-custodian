@@ -1,4 +1,5 @@
-
+data "aws_caller_identity" "account" {
+}
 
 #grab latest centos ami
 data "aws_ami" "centos" {
