@@ -193,10 +193,6 @@ variable "enable_dns_support" {
   default = true
 }
 
-# variable "ec2_instance_type" {
-#   description = "ec2 instance type to use"
-#   type = string
-# }
 
 variable "alb_rule_priority" {
   description = "priority number to assign to alb rule"
@@ -219,10 +215,7 @@ variable "backend_container_port" {
   description = "port on which the container listens"
   type = number
 }
-//variable "backend_instance_type" {
-//  description = "instance type for the backend"
-//  type = string
-//}
+
 variable "fronted_instance_type" {
   description = "what size of instance to run"
   type = string
@@ -322,10 +315,7 @@ variable "database_password" {
   type = string
   default = "custodian"
 }
-variable "ssh_public_key_filename" {
-  description = "name of the ssh public key file "
-  type = string
-}
+
 variable "backend_repo" {
   description = "bento backend repo url"
   type = string
