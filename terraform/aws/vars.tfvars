@@ -49,7 +49,7 @@ desired_ec2_instance_capacity = 1
 instance_volume_size = 40
 
 #name of the ssh key imported in the deployment instruction
-ssh_key_name = "jilivay"
+ssh_key_name = "demo-ssh-key"
 
 #specify the aws compute instance type for the bento
 fronted_instance_type = "t3.medium"
@@ -74,9 +74,6 @@ alb_rule_priority = 100
 
 #specify neo4j database
 database_password = "custodian"
-
-#specify the name of the public ssh key parameter created in the deployment guide
-ssh_public_key_filename = "bento-ssh-key.pub"
 
 #specify the instance type of the bastion host
 bastion_instance_type = "t3.medium"
