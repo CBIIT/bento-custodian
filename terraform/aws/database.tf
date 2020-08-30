@@ -5,7 +5,7 @@ resource "aws_instance" "db" {
   subnet_id                = aws_subnet.private_subnet.*[0].id
   iam_instance_profile = aws_iam_instance_profile.ecs-instance-profile.id
   source_dest_check           = false
-  security_groups   = [aws_security_group.database-sg.id]
+  vpc_security_group_ids = [aws_security_group.database-sg.id]
   user_data  = data.template_cloudinit_config.user_data.rendered
 //  private_ip = var.db_instance_private_ip
   root_block_device {
