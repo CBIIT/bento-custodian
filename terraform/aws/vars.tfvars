@@ -96,4 +96,4 @@ dataset = "Bento_Mock_Data_for_PACT1"
 model_file_name = "bento_tailorx_model_file.yaml"
 
 # specify data schema properties file if changed from default
-properties_file_name = "bento_tailorx_model_properties.yaml"
+properties_filename = "bento_tailorx_model_properties.yaml"
