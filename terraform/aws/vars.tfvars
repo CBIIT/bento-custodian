@@ -92,4 +92,8 @@ data_repo = "https://github.com/CBIIT/bento-demo-data-model"
 
 dataset = "Bento_Mock_Data_for_PACT1"
 
+#specify data schema model file name if changed from default
+model_file_name = "bento_tailorx_model_file.yaml"
 
+# specify data schema properties file if changed from default
+properties_file_name = "bento_tailorx_model_properties.yaml"

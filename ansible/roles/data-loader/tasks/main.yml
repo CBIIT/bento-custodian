@@ -16,7 +16,7 @@
     dest: "{{workspace}}/data-model"
     track_submodules: yes
     update: yes
-    version: master
+    version: "{{data_tag}}"
 
 - name: clone bento-custodian
   git:

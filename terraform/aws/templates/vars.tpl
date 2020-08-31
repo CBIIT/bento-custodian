@@ -46,5 +46,14 @@ backend_tag: master
 #specify git tag for the forked frontend repository
 frontend_tag: master
 
+#specify git tag for the forked data model repository
+data_tag: master
+
 #specify docker tag for both frontend and backend images
 image_tag: release
+
+#specify data schema model file name if changed from default
+model_file_name: ${model_file_name}
+
+# specify data schema properties file if changed from default
+properties_file_name: ${properties_file_name}
