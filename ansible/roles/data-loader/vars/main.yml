@@ -1,10 +1,7 @@
 ---
 # vars file for data loading
-# neo4j_password: "{{neo4j_password}}"
 neo4j_user: neo4j
 workspace: "/tmp/wkspace"
-# dataset: "{{dataset}}"
-# data_repo: "{{data_repo}}"
 
 
 
