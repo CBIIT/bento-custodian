@@ -26,7 +26,7 @@ dataset: ${dataset}
 init_db: no
 
 #specify data schema properties file if changed from default
-properties_filename: ${properties_filename}
+property_filename: ${property_filename}
 
 #The url of the data-model repository
 data_repo: ${data_repo}

@@ -29,6 +29,7 @@ resource "local_file" "ansible_vars" {
   content = templatefile("${path.module}/templates/vars.tpl",
   {
     region = var.region
+    property_filename = var.property_filename
     neo4j_password = var.database_password
     alb_dns_name = aws_lb.alb.dns_name
     stack_name = var.stack_name
@@ -40,7 +41,6 @@ resource "local_file" "ansible_vars" {
     neo4j_ip = aws_instance.db.private_ip
     ecr = aws_ecr_repository.ecr.repository_url
     model_file_name = var.model_file_name
-    properties_filenane = var.properties_filename
   }
   )
   filename = "../../ansible/vars.yaml"
