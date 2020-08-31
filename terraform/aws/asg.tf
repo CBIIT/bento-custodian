@@ -230,7 +230,7 @@ mainSteps:
     runCommand:
     - set -ex
     - cd /tmp/bento-custodian/ansible
-    - ansible-playbook deploy-custodian.yml -e ecr="${aws_ecr_repository.ecr.repository_url}" -e neo4j_ip="${aws_instance.db.private_ip}" -e region="${var.region}" -e neo4j_password="${var.database_password}" -e alb_dns_name="${aws_lb.alb.dns_name}" -e stack_name="${var.stack_name}" -e database_name="${var.database_name}" -e cluster_name="${var.ecs_cluster_name}" -e backend_repo="${var.backend_repo}"  -e frontend_repo="${var.frontend_repo}"
+    - ansible-playbook deploy-custodian.yml -e ecr="${aws_ecr_repository.ecr.repository_url}" -e neo4j_ip="${aws_instance.db.private_ip}" -e region="${var.region}" -e neo4j_password="${var.database_password}" -e alb_dns_name="${aws_lb.alb.dns_name}" -e stack_name="${var.stack_name}"  -e cluster_name="${var.ecs_cluster_name}" -e backend_repo="${var.backend_repo}"  -e frontend_repo="${var.frontend_repo}"
   DOC
   tags = merge(
   {

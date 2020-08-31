@@ -10,9 +10,6 @@ alb_dns_name: ${alb_dns_name}
 #The name of the project specified in vars.tfvars file.
 stack_name: ${stack_name}
 
-#The name of the database specified in vars.tfvars file.
-database_name: ${database_name}
-
 # The name of the ECS cluster.
 cluster_name: ${cluster_name}
 

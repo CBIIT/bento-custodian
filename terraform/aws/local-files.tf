@@ -32,7 +32,6 @@ resource "local_file" "ansible_vars" {
     neo4j_password = var.database_password
     alb_dns_name = aws_lb.alb.dns_name
     stack_name = var.stack_name
-    database_name = var.database_name
     cluster_name = var.ecs_cluster_name
     backend_repo = var.backend_repo
     frontend_repo = var.frontend_repo
