@@ -16,7 +16,7 @@ cluster_name: ${cluster_name}
 #The url of the backend repository
 backend_repo: ${backend_repo}
 
-The url of the frontend repository
+#The url of the frontend repository
 frontend_repo: ${frontend_repo}
 
 #The file name of the dataset if changed from the default
