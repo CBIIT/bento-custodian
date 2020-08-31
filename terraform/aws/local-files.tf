@@ -41,7 +41,7 @@ resource "local_file" "ansible_vars" {
     neo4j_ip = aws_instance.db.private_ip
     ecr = aws_ecr_repository.ecr.repository_url
     model_file_name = var.model_file_name
-    
+//    properties_file_nane = var.properties_file_name
   }
   )
   filename = "../../ansible/vars.yaml"
