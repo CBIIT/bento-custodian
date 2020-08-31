@@ -79,11 +79,9 @@ database_password = "custodian"
 bastion_instance_type = "t3.medium"
 
 #specify the url of the bento backend repository
-
 backend_repo = "https://github.com/CBIIT/bento-demo-backend"
 
 #specify the url of the bento frontend repository
-
 frontend_repo = "https://github.com/CBIIT/bento-demo-frontend"
 
 #specify the url of the bento data repository

@@ -4,7 +4,7 @@
     containers:
     - name: backend
       essential: true
-      image: "{{ecr}}:backend-{{tag}}"
+      image: "{{ecr}}:backend-{{image_tag}}"
       portMappings:
       - containerPort: "8080"
         hostPort: "8080"
@@ -21,7 +21,7 @@
     containers:
     - name: frontend
       essential: true
-      image: "{{ecr}}:frontend-{{tag}}"
+      image: "{{ecr}}:frontend-{{image_tag}}"
       portMappings:
       - containerPort: "80"
         hostPort: "80"

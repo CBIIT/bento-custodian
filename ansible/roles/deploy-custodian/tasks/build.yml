@@ -28,14 +28,14 @@
     repo: "{{backend_repo}}"
     dest: "{{workspace}}/backend"
     force: yes
-    version: master
+    version: "{{backend_tag}}"
 
 - name: clone frontend github
   git:
     repo: "{{frontend_repo}}"
     dest: "{{workspace}}/frontend"
     force: yes
-    version: master
+    version: "{{frontend_tag}}"
 
 - name: set neo4j bearer
   shell: echo "Basic $(echo -n "neo4j:{{neo4j_password}}" | base64)"
@@ -79,7 +79,7 @@
       dockerfile: "{{workspace}}/backend/dockerfiles/backend-dockerfile"
       pull: yes
     name: "{{ecr}}"
-    tag: "backend-{{tag}}"
+    tag: "backend-{{image_tag}}"
     force_tag: yes
     push: yes
     source: build
@@ -112,7 +112,7 @@
       pull: yes
       nocache: yes
     name: "{{ecr}}"
-    tag: "frontend-{{tag}}"
+    tag: "frontend-{{image_tag}}"
     push: yes
     force_tag: yes
     source: build
