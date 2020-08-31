@@ -25,6 +25,9 @@ dataset: ${dataset}
 #Do not change
 init_db: no
 
+#specify data schema properties file if changed from default
+properties_filename: ${properties_filename}
+
 #The url of the data-model repository
 data_repo: ${data_repo}
 
@@ -51,6 +54,3 @@ image_tag: release
 
 #specify data schema model file name if changed from default
 model_file_name: ${model_file_name}
-
-#specify data schema properties file if changed from default
-properties_filename: ${properties_filename}
