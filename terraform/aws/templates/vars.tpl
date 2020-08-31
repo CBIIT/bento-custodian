@@ -55,5 +55,5 @@ image_tag: release
 #specify data schema model file name if changed from default
 model_file_name: ${model_file_name}
 
-# specify data schema properties file if changed from default
+#specify data schema properties file if changed from default
 properties_file_name: ${properties_file_name}
