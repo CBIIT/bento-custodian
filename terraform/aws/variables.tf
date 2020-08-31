@@ -338,7 +338,7 @@ variable "model_file_name" {
   description = "specify data schema model file name if changed from default"
   type = string
 }
-variable "properties_file_name" {
+variable "properties_filename" {
   description = "specify data schema properties file if changed from default"
   type = string
 }
