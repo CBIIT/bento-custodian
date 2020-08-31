@@ -1,4 +1,7 @@
 ---
 # defaults file for cicd
-tag: latest
+image_tag: latest
 ecr: custodian
+backend_tag: master
+frontend_tag: master
+release_tag: master
