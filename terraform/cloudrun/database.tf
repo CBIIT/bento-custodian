@@ -15,7 +15,7 @@ resource "google_compute_instance" "neo4j" {
     }
   }
   metadata = {
-    ssh-keys = "${var.ssh_user}:${file("${var.public_ssh_key}")}"
+    ssh-keys = "${var.ssh_user}:${tls_private_key.privkey.public_key_openssh}"
   }
   metadata_startup_script = <<SCRIPT
           set -ex

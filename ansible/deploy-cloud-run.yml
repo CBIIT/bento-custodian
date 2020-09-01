@@ -10,8 +10,5 @@
       include_role:
         name: cloud-run
         tasks_from: build
-    # - name: deploy custodian
-    #   include_role:
-    #     name: deploy-custodian
-    #     tasks_from: deploy
+    
 
