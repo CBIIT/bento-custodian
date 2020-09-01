@@ -4,9 +4,6 @@ region: ${region}
 # This is the password of the neo4j database provisioned using terraform.
 neo4j_password: ${neo4j_password}
 
-# The dns name of the Application loadbalancer
-alb_dns_name: ${alb_dns_name}
-
 #The name of the project specified in vars.tfvars file.
 stack_name: ${stack_name}
 
