@@ -12,7 +12,7 @@ resource "google_cloud_run_service" "frontend" {
   template {
     spec {
       containers {
-        image = "gcr.io/${var.gcp_project}/bento-frontend:latest"
+        image = "gcr.io/${var.gcp_project}/frontend:latest"
       }
     }
   }
@@ -30,7 +30,7 @@ resource "google_cloud_run_service" "backend" {
   template {
     spec {
       containers {
-        image = "gcr.io/${var.gcp_project}/bento-backend:latest"
+        image = "gcr.io/${var.gcp_project}/backend:latest"
         resources {
           limits = {
             memory = "512M"
