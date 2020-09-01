@@ -13,7 +13,7 @@ spec:
     spec:
       containerConcurrency: 80
       containers:
-      - image: gcr.io/${gcp_project}/bento-frontend:${tag}
+      - image: gcr.io/${gcp_project}/frontend:${image_tag}
         ports:
         - containerPort: 8080
         resources:

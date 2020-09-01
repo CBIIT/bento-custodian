@@ -16,7 +16,7 @@ resource "google_compute_instance" "bastion" {
   }
 
   metadata = {
-    ssh-keys = "${var.ssh_user}:${file("${var.public_ssh_key}")}"
+    ssh-keys = "${var.ssh_user}:${tls_private_key.privkey.public_key_openssh}"
   }
 
   network_interface {
@@ -31,7 +31,7 @@ resource "google_compute_instance" "bastion" {
     connection {
       type = "ssh"
       user = var.ssh_user
-      private_key = file("${path.module}/${var.private_ssh_key}")
+      private_key = file("${path.module}/ansible/ssh_private_key.pem")
       agent = "false"
       host = self.network_interface.0.access_config.0.nat_ip
     }
@@ -43,7 +43,7 @@ resource "google_compute_instance" "bastion" {
     connection {
       type = "ssh"
       user = var.ssh_user
-      private_key = file("${path.module}/${var.private_ssh_key}")
+      private_key = file("${path.module}/ansible/ssh_private_key.pem")
       agent = "false"
       host = self.network_interface.0.access_config.0.nat_ip
     }
@@ -56,7 +56,7 @@ resource "google_compute_instance" "bastion" {
     connection {
       type = "ssh"
       user = var.ssh_user
-      private_key =  file("${path.module}/${var.private_ssh_key}")
+      private_key =  file("${path.module}/ansible/ssh_private_key.pem")
       agent = "false"
       host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }
@@ -66,23 +66,26 @@ resource "google_compute_instance" "bastion" {
 }
 
 resource "local_file" "update" {
-  content = templatefile("${path.module}/scripts/update_script.sh",
+  content = templatefile("${path.module}/templates/update_script.tpl",
   {
     gcp_project = var.gcp_project,
     gcp_auth_file = var.gcp_auth_file,
     neo4j_ip = google_compute_instance.neo4j.network_interface.0.network_ip,
     neo4j_password = var.db_password,
     backend_url = google_cloud_run_service.backend.status[0].url,
-    tag = var.tag_name,
+    image_tag = var.image_tag,
+    backend_repo = var.backend_repo,
+    frontend_repo = var.frontend_repo,
   })
   filename = "${path.module}/update.sh"
 }
 
 resource "local_file" "db_loader" {
-  content = templatefile("${path.module}/scripts/dataloader.sh",
+  content = templatefile("${path.module}/templates/dataloader.tpl",
   {
     neo4j_ip = google_compute_instance.neo4j.network_interface.0.network_ip,
-    neo4j_password = var.db_password
+    neo4j_password = var.db_password,
+    data_repo = var.data_repo,
   })
   filename = "${path.module}/loader.sh"
 }
@@ -98,7 +101,7 @@ resource "null_resource" "update_deployment" {
     connection {
       type = "ssh"
       user = var.ssh_user
-      private_key =  file("${path.module}/${var.private_ssh_key}")
+      private_key =  file("${path.module}/ansible/ssh_private_key.pem")
       agent = "false"
       host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }
@@ -110,7 +113,7 @@ resource "null_resource" "update_deployment" {
     connection {
       type = "ssh"
       user = var.ssh_user
-      private_key =  file("${path.module}/${var.private_ssh_key}")
+      private_key =  file("${path.module}/ansible/ssh_private_key.pem")
       agent = "false"
       host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }
@@ -122,7 +125,7 @@ resource "null_resource" "update_deployment" {
     connection {
       type = "ssh"
       user = var.ssh_user
-      private_key =  file("${path.module}/${var.private_ssh_key}")
+      private_key =  file("${path.module}/ansible/ssh_private_key.pem")
       agent = "false"
       host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }
@@ -138,7 +141,7 @@ resource "null_resource" "update_deployment" {
     connection {
       type = "ssh"
       user = var.ssh_user
-      private_key =  file("${path.module}/${var.private_ssh_key}")
+      private_key =  file("${path.module}/ansible/ssh_private_key.pem")
       agent = "false"
       host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }
@@ -154,7 +157,7 @@ resource "null_resource" "data_loader" {
     connection {
       type = "ssh"
       user = var.ssh_user
-      private_key =  file("${path.module}/${var.private_ssh_key}")
+      private_key =  file("${path.module}/ansible/ssh_private_key.pem")
       agent = "false"
       host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }
@@ -167,7 +170,7 @@ resource "null_resource" "data_loader" {
     connection {
       type = "ssh"
       user = var.ssh_user
-      private_key =  file("${path.module}/${var.private_ssh_key}")
+      private_key =  file("${path.module}/ansible/ssh_private_key.pem")
       agent = "false"
       host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }

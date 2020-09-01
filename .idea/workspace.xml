@@ -1,15 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c551673-5767-426d-8938-a5c87eaa360e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/terraform/cloudrun/templates/update_script.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/deploy-cloud-run.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/deploy-cloud-run.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/cloud-run/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/cloud-run/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/cloud-run/tasks/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/cloud-run/tasks/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/cloud-run/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/cloud-run/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/data-loader/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/data-loader/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/aws/local-files.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/aws/local-files.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/bastion.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/bastion.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/database.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/database.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/scripts/backend.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/templates/backend.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/scripts/dataloader.sh" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/templates/dataloader.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/scripts/frontend.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/templates/frontend.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/scripts/startup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/templates/startup.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/scripts/update_script.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/vars.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/vars.tfvars" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.14.1/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1grlYqmm5cnYYLOlrkBsb2TtfZM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/terraform/cloudrun/templates" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c551673-5767-426d-8938-a5c87eaa360e" name="Default Changelist" comment="" />
+      <created>1598880642121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598880642121</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
 </project>
