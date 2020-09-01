@@ -55,3 +55,6 @@ backend_url: ${backend_url}
 
 #indicate whether we're updating the app or not
 update: yes
+
+#name of gpc projects
+gpc_project: ${gcp_project}
