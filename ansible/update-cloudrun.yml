@@ -4,7 +4,9 @@
 
   become: yes
   gather_facts: yes
-
+  
+  vars_files:
+    - vars.yaml
   tasks:
     - name: build custodian
       include_role:
