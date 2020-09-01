@@ -134,6 +134,6 @@
 - name: update deployments
   shell: "{{item}}"
   loop:
-    - gcloud beta run services replace {{workspace}}/backend.yml --platform managed --region  {{gcp_region}}
-    - gcloud beta run services replace {{workspace}}/frontend.yml --platform managed --region {{gcp_region}}
+    - gcloud beta run services replace {{workspace}}/backend.yml --platform managed --region  {{region}}
+    - gcloud beta run services replace {{workspace}}/frontend.yml --platform managed --region {{region}}
   when: update == "yes"

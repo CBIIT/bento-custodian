@@ -3,7 +3,7 @@ kind: Service
 metadata:
   annotations: {}
   labels:
-    cloud.googleapis.com/location: {{gcp_region}}
+    cloud.googleapis.com/location: {{region}}
   name: {{stack_name}}-cloudrun-backend
 spec:
   template:
