@@ -20,6 +20,17 @@
   args:
     warn: False
 
+- name: Check if {{workspace}} directory exist
+  stat:
+    path: "{{workspace}}"
+  register: workspace_result
+
+- name: remove old {{workspace}} directory
+  file:
+    path: "{{workspace}}"
+    state: absent
+  when: workspace_result.stat.exists
+
 - name: clone backend github
   git:
     repo: "{{backend_repo}}"
