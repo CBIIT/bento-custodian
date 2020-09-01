@@ -52,3 +52,6 @@ connector_name: ${connector_name}
 
 #specify url to the backend container
 backend_url: ${backend_url}
+
+#indicate whether we're updating the app or not
+update: yes
