@@ -7,8 +7,6 @@ neo4j_password: ${neo4j_password}
 #The name of the project specified in vars.tfvars file.
 stack_name: ${stack_name}
 
-# The name of the ECS cluster.
-cluster_name: ${cluster_name}
 
 #The url of the backend repository
 backend_repo: ${backend_repo}
