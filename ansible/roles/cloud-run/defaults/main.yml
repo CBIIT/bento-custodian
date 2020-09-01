@@ -9,4 +9,5 @@ stack_name: bento
 tag: latest
 backend_url: http://localhost
 image_tag: latest
-release_tag: master
+connector_name: local
+

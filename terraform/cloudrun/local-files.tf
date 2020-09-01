@@ -72,6 +72,8 @@ resource "local_file" "ansible_vars" {
     neo4j_ip = google_compute_instance.neo4j.network_interface.0.network_ip
     gcp_project = var.stack_name
     model_file_name = var.model_file_name
+    backend_url = google_cloud_run_service.backend.status[0].url
+    connector_name = google_vpc_access_connector.connector.name
   }
   )
   filename = "../../ansible/vars.yaml"
