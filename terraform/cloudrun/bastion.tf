@@ -31,7 +31,7 @@ resource "google_compute_instance" "bastion" {
     connection {
       type = "ssh"
       user = var.ssh_user
-      private_key = file("${path.module}/ansible/ssh_private_key.pem")
+      private_key = local.private_key
       agent = "false"
       host = self.network_interface.0.access_config.0.nat_ip
     }
