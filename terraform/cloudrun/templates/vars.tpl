@@ -57,4 +57,4 @@ backend_url: ${backend_url}
 update: yes
 
 #name of gpc projects
-gpc_project: ${gcp_project}
+gcp_project: ${gcp_project}
