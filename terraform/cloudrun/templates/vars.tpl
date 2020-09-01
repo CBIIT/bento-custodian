@@ -29,9 +29,6 @@ data_repo: ${data_repo}
 #specify database private ip. This value is auto populated from terraform.
 neo4j_ip: ${neo4j_ip}
 
-#specify docker registry to be used. Note this document assumes you're using AWS ECR
-ecr: ${ecr}
-
 #This is an arbitrary tag for the final deployed application. This value shows at the bottom of the application on the index page
 release_tag: master
 
