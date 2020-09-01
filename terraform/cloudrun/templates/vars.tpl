@@ -46,3 +46,9 @@ image_tag: release
 
 #specify data schema model file name if changed from default
 model_file_name: ${model_file_name}
+
+#specify vpc connector name
+connector_name: ${connector_name}
+
+#specify url to the backend container
+backend_url: ${backend_url}

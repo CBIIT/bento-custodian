@@ -52,6 +52,15 @@
     src: application.properties.j2
     dest: "{{workspace}}/backend/src/main/resources/application.properties"
 
+
+- name: update frontend and backend config
+  template:
+    src: "{{ item.src }}"
+    dest: "{{ item.dest }}"
+  loop:
+    - {src: 'backend.yml.j2',dest: '{{workspace}}/backend.yml'}
+    - {src: 'frontend.yml.j2',dest: '{{workspace}}/frontend.yml'}
+
 - name: build backend code
   command: /usr/local/maven/bin/mvn package -DskipTests
   args:
@@ -121,3 +130,10 @@
     source: build
     force_source: yes
     push: yes
+
+- name: update deployments
+  shell: "{{item}}"
+  loop:
+    - gcloud beta run services replace {{workspace}}/backend.yml --platform managed --region  {{gcp_region}}
+    - gcloud beta run services replace {{workspace}}/frontend.yml --platform managed --region {{gcp_region}}
+  when: update == "yes"
