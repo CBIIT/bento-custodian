@@ -54,7 +54,7 @@ connector_name: ${connector_name}
 backend_url: ${backend_url}
 
 #indicate whether we're updating the app or not
-update: yes
+update: "yes"
 
 #name of gpc projects
 gcp_project: ${gcp_project}
