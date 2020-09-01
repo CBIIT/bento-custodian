@@ -1,0 +1,14 @@
+---
+- name: setup deploy custodian
+  hosts: bastion
+
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: build custodian
+      include_role:
+        name: cloud-run
+        tasks_from: build
+    
+
