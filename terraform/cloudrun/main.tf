@@ -9,6 +9,10 @@ provider "google-beta" {
   region  = var.gcp_region
 }
 
+resource "tls_private_key" "privkey" {
+  algorithm = "RSA"
+  rsa_bits = 2048
+}
 
 resource "google_container_registry" "gcr" {
   project  = var.gcp_project
