@@ -72,7 +72,7 @@
     - {src: 'backend.yml.j2',dest: '{{workspace}}/backend.yml'}
     - {src: 'frontend.yml.j2',dest: '{{workspace}}/frontend.yml'}
   when: update == "yes"
-  
+
 - name: build backend code
   command: /usr/local/maven/bin/mvn package -DskipTests
   args:

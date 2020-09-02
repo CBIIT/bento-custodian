@@ -10,4 +10,4 @@ tag: latest
 backend_url: http://localhost
 image_tag: latest
 connector_name: local
-
+update: no
