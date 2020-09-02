@@ -1,7 +1,3 @@
- resource "tls_private_key" "privkey" {
-  algorithm = "RSA"
-  rsa_bits = 2048
-}
 
  resource "local_file" "init_script" {
    content = templatefile("${path.module}/templates/startup.tpl",
