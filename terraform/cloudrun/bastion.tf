@@ -126,7 +126,7 @@ resource "null_resource" "update_deployment" {
     connection {
       type = "ssh"
       user = var.ssh_user
-      private_key =  file("${path.module}/ansible/ssh_private_key.pem")
+      private_key =  local.private_key
       agent = "false"
       host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }
