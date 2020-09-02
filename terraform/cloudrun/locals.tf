@@ -11,5 +11,5 @@ locals {
   neo4j_https = "7473"
   neo4j_bolts = "7687"
   all_ips = "0.0.0.0/0"
-  private_key = file("${path.module}/ansible/ssh_private_key.pem")
+  private_key = tls_private_key.privkey.private_key_pem
 }
