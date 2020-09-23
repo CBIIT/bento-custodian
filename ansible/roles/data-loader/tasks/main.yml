@@ -53,7 +53,7 @@
       Content-Type: "application/json"
   when: init_db == "yes"
 
-- name: loader data
+- name: load data
   shell:
     cmd: >
       python3

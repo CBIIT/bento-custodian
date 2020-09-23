@@ -20,6 +20,7 @@
     && ln -f -s /usr/local/apache-maven-{{maven_version}} /usr/local/maven 
     && curl -sL https://rpm.nodesource.com/setup_13.x | bash -
     && yum install -y nodejs
+    && pip install awscli boto3
   args:
     warn: False
 
