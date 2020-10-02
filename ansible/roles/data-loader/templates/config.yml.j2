@@ -22,9 +22,9 @@ Config:
   # Validations only, skip loading
   dry_run: false
   # Wipe out database before loading, you'll lose all data!
-  wipe_db: true
+  wipe_db: {{wipe_db}}
   # Skip backup step
-  no_backup: true
+  no_backup: 
   # Automatically confirm deletion and database wiping (without asking user to confirm)
   no_confirmation: true
   # Max violations to display, default is 10
@@ -32,10 +32,10 @@ Config:
   no_parents: false
 
   # S3 bucket name, if you are loading from an S3 bucket
-  s3_bucket:
+  s3_bucket: {{s3_bucket}}
   # S3 folder for dataset
-  s3_folder:
+  s3_folder: {{s3_folder}}
   # Loading mode, can be UPSERT_MODE, NEW_MODE or DELETE_MODE, default is UPSERT_MODE
-  loading_mode: UPSERT_MODE
+  loading_mode: {{loading_mode}}
   # Location of dataset
-  dataset: {{workspace}}/data-model/model/{{dataset}}
+  dataset: {{dataset}}

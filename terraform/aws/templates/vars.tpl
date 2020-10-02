@@ -20,7 +20,7 @@ backend_repo: ${backend_repo}
 frontend_repo: ${frontend_repo}
 
 #The file name of the dataset if changed from the default
-dataset: ${dataset}
+dataset: ""
 
 #Do not change
 init_db: no
@@ -54,3 +54,26 @@ image_tag: release
 
 #specify data schema model file name if changed from default
 model_file_name: ${model_file_name}
+
+#provide the name of the s3 bucket to load data from
+s3_bucket: ""
+
+#provide the name of the s3 folder containing the data set
+s3_folder: ""
+
+#specify the mode of data loading, choose one of the following(UPSERT_MODE, NEW_MODE or DELETE_MODE)
+loading_mode: "NEW_MODE"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
