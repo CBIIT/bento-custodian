@@ -4,4 +4,8 @@ neo4j_ip: 127.0.0.1
 data_tag: master
 model_file_name: bento_tailorx_model_file.yaml
 properties_file_name: bento_tailorx_model_properties.yaml
-dataset: Bento_Mock_Data_for_PACT1
+dataset: "{{workspace}}/data-model/model/Bento_Mock_Data_for_PACT1"
+wipe_db: true
+s3_folder: ""
+loading_mode: NEW_MODE
+s3_bucket: ""
