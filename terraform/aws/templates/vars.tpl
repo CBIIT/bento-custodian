@@ -64,6 +64,8 @@ s3_folder: ""
 #specify the mode of data loading, choose one of the following(UPSERT_MODE, NEW_MODE or DELETE_MODE)
 loading_mode: "NEW_MODE"
 
+#specify if you would like to wipe the existing db during the new upload or not
+wipe_db: true
 
 
 
