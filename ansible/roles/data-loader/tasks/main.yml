@@ -1,4 +1,8 @@
 ---
+- name: install git
+  yum:
+    name: git
+    state: installed
 - name: Check if workspace exists
   stat:
     path: "{{workspace}}"
