@@ -7,5 +7,5 @@ properties_file_name: bento_tailorx_model_properties.yaml
 dataset: "{{workspace}}/data-model/model/Bento_Mock_Data_for_PACT1"
 wipe_db: true
 s3_folder: ""
-loading_mode: NEW_MODE
+loading_mode: UPSERT_MODE
 s3_bucket: ""
