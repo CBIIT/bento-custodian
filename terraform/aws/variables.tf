@@ -329,11 +329,6 @@ variable "data_repo" {
   type = string
 }
 
-variable "dataset" {
-  description = "name of the dataset to be used."
-  type = string
-}
-
 variable "model_file_name" {
   description = "specify data schema model file name if changed from default"
   type = string
