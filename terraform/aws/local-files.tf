@@ -36,7 +36,6 @@ resource "local_file" "ansible_vars" {
     cluster_name = var.ecs_cluster_name
     backend_repo = var.backend_repo
     frontend_repo = var.frontend_repo
-    dataset = var.dataset
     data_repo = var.data_repo
     neo4j_ip = aws_instance.db.private_ip
     ecr = aws_ecr_repository.ecr.repository_url
