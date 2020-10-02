@@ -38,4 +38,4 @@ Config:
   # Loading mode, can be UPSERT_MODE, NEW_MODE or DELETE_MODE, default is UPSERT_MODE
   loading_mode: {{loading_mode}}
   # Location of dataset
-  dataset: {{dataset}}
+  dataset: {% if s3_folder == '' %}{{dataset}}{% else %}{{s3_folder}}{% endif %}
