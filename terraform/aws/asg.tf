@@ -155,7 +155,12 @@ resource "aws_lb_listener_rule" "frontend_alb_listener" {
     type = "forward"
     target_group_arn = aws_lb_target_group.frontend_target_group.arn
   }
+  condition {
+    host_header {
+      values = ["${var.env}.${var.domain_name}"]
+    }
 
+  }
    condition {
     path_pattern  {
       values = ["/*"]
@@ -171,7 +176,12 @@ resource "aws_lb_listener_rule" "backend_alb_listener" {
     type = "forward"
     target_group_arn = aws_lb_target_group.backend_target_group.arn
   }
+  condition {
+    host_header {
+      values = ["${var.env}.${var.domain_name}"]
+    }
 
+  }
   condition {
     path_pattern  {
       values = ["/v1/graphql/*"]

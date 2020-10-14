@@ -97,3 +97,5 @@ model_file_name = "bento_tailorx_model_file.yaml"
 
 # specify data schema properties file if changed from default
 property_filename = "bento_tailorx_model_properties.yaml"
+#specify domain name to use
+domain_name = "example.com"

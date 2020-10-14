@@ -337,3 +337,7 @@ variable "property_filename" {
   description = "specify data schema properties file if changed from default"
   type = string
 }
+variable "domain_name" {
+  description = "name of domain"
+  type = string
+}
