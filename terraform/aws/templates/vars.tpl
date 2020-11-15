@@ -29,7 +29,7 @@ init_db: no
 properties_filename: ${properties_filename}
 
 #The url of the data-model repository
-data_repo: ${data_repo}
+data_model_repo: ${data_model_repo}
 
 #The url of the data-loader repository
 data_loader_repo: ${data_loader_repo}
