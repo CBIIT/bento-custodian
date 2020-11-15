@@ -140,7 +140,7 @@ mainSteps:
     runCommand:
     - set -ex
     - cd /tmp/bento-custodian/ansible
-    - ansible-playbook data-loader.yml -e neo4j_ip="${aws_instance.db.private_ip}" -e init_db="yes" -e neo4j_password="${var.database_password}" -e  data_repo="${var.data_repo}"
+    - ansible-playbook data-loader.yml -e properties_filename="${var.properties_filename}" -e model_filename="${var.model_filename}" -e neo4j_ip="${aws_instance.db.private_ip}" -e init_db="yes" -e neo4j_password="${var.database_password}" -e s3_bucket="${var.s3_bucket}" -e s3_folder="${var.s3_folder}" -e  data_model_repo="${var.data_model_repo}" -e data_loader_repo="${var.data_loader_repo}"
   DOC
   tags = merge(
   {

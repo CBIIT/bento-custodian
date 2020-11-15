@@ -1,11 +1,17 @@
 ---
 # defaults file for data-processing
 neo4j_ip: 127.0.0.1
-data_tag: master
-model_file_name: bento_tailorx_model_file.yaml
-properties_file_name: bento_tailorx_model_properties.yaml
-dataset: "{{workspace}}/data-model/model/Bento_Mock_Data_for_PACT1"
+model_tag: master
+loader_tag: master
+model_filename: bento_tailorx_model_file.yaml
+properties_filename: bento_tailorx_model_properties.yaml
+dataset: "{{workspace}}/dataset/Bento_Mock_Data_for_PACT1"
 wipe_db: true
 s3_folder: ""
 loading_mode: UPSERT_MODE
 s3_bucket: ""
+data_loader_repo: https://github.com/CBIIT/icdc-dataloader
+data_model_repo: https://github.com/CBIIT/BENTO-TAILORx-model
+split_transactions: true
+cheat_mode: false
+prop_file: props-bento-ext.yml

@@ -16,20 +16,33 @@
 
 - name: clone dataloader
   git:
-    repo: "{{data_repo}}"
-    dest: "{{workspace}}/data-model"
+    repo: "{{data_loader_repo}}"
+    dest: "{{workspace}}/data-loader"
     track_submodules: yes
     update: yes
-    version: "{{data_tag}}"
+    version: "{{loader_tag}}"
+
+- name: clone data model
+  git:
+    repo: "{{data_model_repo}}"
+    dest: "{{workspace}}/data-model"
+    update: yes
+    version: "{{model_tag}}"
+
+- name: clone default dataset
+  git:
+    repo: 'https://github.com/CBIIT/bento-demo-dataset'
+    dest: "{{workspace}}/dataset"
+    version: master
 
 - name: clone bento-custodian
   git:
     repo: 'https://github.com/CBIIT/bento-custodian'
     dest: "{{workspace}}/bento-custodian"
 
-- name: update settings
+- name: update config.yml
   template:
-    dest: "{{workspace}}/data-model/data-loader/config.yml"
+    dest: "{{workspace}}/data-loader/config/config.yml"
     src: config.yml.j2
     mode: 0644
 
@@ -40,7 +53,7 @@
 
 - name: pip install requirements
   pip:
-    requirements: "{{workspace}}/data-model/data-loader/requirements.txt"
+    requirements: "{{workspace}}/data-loader/requirements.txt"
     executable: pip3
 
 - name: set neo4j password
@@ -62,8 +75,8 @@
     cmd: >
       python3
       loader.py 
-      {{workspace}}/data-model/data-loader/config.yml
-    chdir: "{{workspace}}/data-model/data-loader"
+      {{workspace}}/data-loader/config/config.yml
+    chdir: "{{workspace}}/data-loader"
   register: data_loader
 
 - name: show dataloader output

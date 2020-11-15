@@ -26,10 +26,13 @@ dataset: ""
 init_db: no
 
 #specify data schema properties file if changed from default
-property_filename: ${property_filename}
+properties_filename: ${properties_filename}
 
 #The url of the data-model repository
 data_repo: ${data_repo}
+
+#The url of the data-loader repository
+data_loader_repo: ${data_loader_repo}
 
 #specify database private ip. This value is auto populated from terraform.
 neo4j_ip: ${neo4j_ip}
@@ -46,20 +49,23 @@ backend_tag: master
 #specify git tag for the forked frontend repository
 frontend_tag: master
 
+#specify git tag for the forked dataloader repository
+loader_tag: master
+
 #specify git tag for the forked data model repository
-data_tag: master
+model_tag: master
 
 #specify docker tag for both frontend and backend images
 image_tag: release
 
 #specify data schema model file name if changed from default
-model_file_name: ${model_file_name}
+model_filename: ${model_filename}
 
 #provide the name of the s3 bucket to load data from
-s3_bucket: ""
+s3_bucket: ${s3_bucket}
 
 #provide the name of the s3 folder containing the data set
-s3_folder: ""
+s3_folder: ${s3_folder}
 
 #specify the mode of data loading, choose one of the following(UPSERT_MODE, NEW_MODE or DELETE_MODE)
 loading_mode: "NEW_MODE"
