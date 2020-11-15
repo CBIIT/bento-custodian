@@ -12,13 +12,13 @@ Config:
 
   # Schema files' locations
   schema:
-    - {{workspace}}/data-model/model/model-desc/{{model_file_name}}
-    - {{workspace}}/data-model/model/model-desc/{{properties_file_name}}
+    - {{workspace}}/data-model/model-desc/{{model_filename}}
+    - {{workspace}}/data-model/model-desc/{{properties_filename}}
   #Property file location
-  prop_file: {{workspace}}/data-model/model/config/props-bento-ext.yml
+  prop_file: {{workspace}}/data-loader/config/{{prop_file}}
 
   # Skip validations, aka. Cheat Mode
-  cheat_mode: false
+  cheat_mode: {{cheat_mode}}
   # Validations only, skip loading
   dry_run: false
   # Wipe out database before loading, you'll lose all data!
@@ -30,7 +30,7 @@ Config:
   # Max violations to display, default is 10
   max_violations: 10
   no_parents: false
-
+  split_transactions: {{split_transactions}}
   # S3 bucket name, if you are loading from an S3 bucket
   s3_bucket: {{s3_bucket}}
   # S3 folder for dataset

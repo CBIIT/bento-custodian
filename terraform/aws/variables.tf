@@ -324,16 +324,29 @@ variable "frontend_repo" {
   description = "bento backend repo url"
   type = string
 }
-variable "data_repo" {
+variable "data_model_repo" {
   description = "bento data related repo url"
   type = string
 }
 
-variable "model_file_name" {
+variable "model_filename" {
   description = "specify data schema model file name if changed from default"
   type = string
 }
-variable "property_filename" {
+variable "properties_filename" {
   description = "specify data schema properties file if changed from default"
+  type = string
+}
+variable "s3_bucket" {
+  description = "name of the s3 bucket from which to loader data"
+  type = string
+}
+variable "s3_folder" {
+  description = "name of the s3 folder that contains dataset to load"
+  type = string
+}
+
+variable "data_loader_repo" {
+  description = "name of the forked dataloader repository"
   type = string
 }

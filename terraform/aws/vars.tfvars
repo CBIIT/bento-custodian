@@ -58,7 +58,7 @@ fronted_instance_type = "t3.medium"
 ssh_user = "bento"
 
 #availability zone 
-availability_zone = "us-east-2a"
+availability_zone = "us-west-1a"
 
 #specify the aws compute instance type for the database
 database_instance_type =  "t3.medium"
@@ -84,16 +84,20 @@ backend_repo = "https://github.com/CBIIT/bento-demo-backend"
 #specify the url of the bento frontend repository
 frontend_repo = "https://github.com/CBIIT/bento-demo-frontend"
 
+#data loader repo
+data_loader_repo = "https://github.com/CBIIT/icdc-dataloader"
+
 #specify the url of the bento data repository
 
-data_repo = "https://github.com/CBIIT/bento-demo-data-model"
-
-#specify dataset to be used
-
-dataset = "Bento_Mock_Data_for_PACT1"
+data_model_repo = "https://github.com/CBIIT/BENTO-TAILORx-model"
 
 #specify data schema model file name if changed from default
-model_file_name = "bento_tailorx_model_file.yaml"
+model_filename = "bento_tailorx_model_file.yaml"
 
 # specify data schema properties file if changed from default
-property_filename = "bento_tailorx_model_properties.yaml"
+properties_filename = "bento_tailorx_model_properties.yaml"
+
+# name of the s3 bucket from which to loader data
+s3_bucket = ""
+# name of the s3 folder which contains the dataset
+s3_folder = ""
