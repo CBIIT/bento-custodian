@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22019009-13ee-4241-ad8d-91c617e04a3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bento-custodian.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/data-loader/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/data-loader/defaults/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/data-loader/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/data-loader/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/roles/data-loader/templates/config.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/data-loader/templates/config.yml.j2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/aws/database.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/aws/database.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/aws/local-files.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/aws/local-files.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/aws/templates/vars.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/aws/templates/vars.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/aws/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/aws/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform/aws/vars.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/aws/vars.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/deploy-custodian/tasks/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/deploy-custodian/tasks/build.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +24,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
