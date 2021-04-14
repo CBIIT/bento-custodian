@@ -11,6 +11,7 @@ backend_url: http://localhost
 image_tag: latest
 connector_name: local
 update: no
+bento_api_version: "{{backend_tag}}"
 schema_file: bento-extended.graphql
 enable_redis: 'false'
 use_cluster: 'false'
