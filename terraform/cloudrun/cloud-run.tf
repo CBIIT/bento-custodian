@@ -1,3 +1,4 @@
+#create vpc connector
 resource "google_vpc_access_connector" "connector" {
   name          = "${var.stack_name}-${var.env}-vpc-cxt"
   region        = var.gcp_region
