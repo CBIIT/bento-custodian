@@ -11,7 +11,7 @@
     url: "{{item.url}}"
     dest: "{{item.dest}}"
   loop:
-    - {url: https://www-us.apache.org/dist/maven/maven-3/{{maven_version}}/binaries/apache-maven-{{maven_version}}-bin.tar.gz, dest: /tmp }
+    - {url: 'https://www-us.apache.org/dist/maven/maven-3/{{maven_version}}/binaries/apache-maven-{{maven_version}}-bin.tar.gz', dest: /tmp }
     - {url: https://rpm.nodesource.com/setup_14.x, dest: /tmp/node.sh }
 
 - name: unarchive maven file
