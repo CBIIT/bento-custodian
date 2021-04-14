@@ -21,9 +21,9 @@ resource "google_compute_instance" "neo4j" {
           set -ex
           cd /tmp
           rm -rf bento-custodian || true
-          yum -y install epel-release
-          yum -y install wget git python-setuptools python-pip
-          pip install ansible==2.8.0 boto boto3 botocore
+          yum -y install epel-release python3
+          yum -y install wget git
+          pip3 install ansible==2.8.0
           git clone https://github.com/CBIIT/bento-custodian
           cd bento-custodian/ansible
           ansible-playbook neo4j.yml -e env="${var.env}"

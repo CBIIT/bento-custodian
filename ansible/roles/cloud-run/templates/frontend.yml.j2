@@ -14,12 +14,19 @@ spec:
       containerConcurrency: 80
       containers:
       - image: gcr.io/{{gcp_project}}/frontend:{{image_tag}}
+        env:
+        - name: REACT_APP_BACKEND_API
+          value: {{backend_url}}/v1/graphql/
+        - name: REACT_APP_APPLICATION_VERSION
+          value: {{release_tag}}
+        - name: REACT_APP_ABOUT_CONTENT_URL
+          value: https://raw.githubusercontent.com/CBIIT/bento-frontend/master/src/content/dev/aboutPagesContent.yaml
         ports:
         - containerPort: 8080
         resources:
           limits:
             cpu: 1000m
-            memory: 256Mi
+            memory: 512Mi
       timeoutSeconds: 300
   traffic:
   - latestRevision: true

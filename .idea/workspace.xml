@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38dc0afd-a487-46f0-a4b9-fb96016eacb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ansible/roles/cloud-run/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/cloud-run/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/cloud-run/tasks/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/cloud-run/tasks/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/cloud-run/templates/frontend.yml.j2" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/cloud-run/templates/frontend.yml.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/cloud-run.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/cloud-run.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/database.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/database.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/cloudrun/vars.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/cloudrun/vars.tfvars" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1r8MrVwYdSIvTUgj6A6XITC8SLD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38dc0afd-a487-46f0-a4b9-fb96016eacb0" name="Default Changelist" comment="" />
+      <created>1618353462595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618353462595</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

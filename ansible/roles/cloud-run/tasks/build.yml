@@ -6,19 +6,47 @@
       - curl
       - java-11-openjdk-devel
 
+- name: download node script and maven
+  get_url:
+    url: "{{item.url}}"
+    dest: "{{item.dest}}"
+  loop:
+    - {url: https://www-us.apache.org/dist/maven/maven-3/{{maven_version}}/binaries/apache-maven-{{maven_version}}-bin.tar.gz, dest: /tmp }
+    - {url: https://rpm.nodesource.com/setup_14.x, dest: /tmp/node.sh }
+
+- name: unarchive maven file
+  unarchive:
+    src: /tmp/apache-maven-{{maven_version}}-bin.tar.gz
+    dest: /usr/local
+    remote_src: yes
+
+- name: create symlink for maven
+  file:
+    src: /usr/local/apache-maven-{{maven_version}}
+    dest: /usr/local/maven
+    state: link
+
+- name: run node script
+  command: sh /tmp/node.sh
+
+- name: install node
+  yum: 
+    name:
+      - nodejs
+
 - name: install python expect module
   pip:
     name: pexpect
-- name: install maven and nodejs to build 
 
-  shell: >
-    wget https://www-us.apache.org/dist/maven/maven-3/{{maven_version}}/binaries/apache-maven-{{maven_version}}-bin.tar.gz -P /tmp
-    && tar xf /tmp/apache-maven-{{maven_version}}-bin.tar.gz -C /usr/local 
-    && ln -f -s /usr/local/apache-maven-{{maven_version}} /usr/local/maven 
-    && curl -sL https://rpm.nodesource.com/setup_13.x | bash -
-    && yum install -y nodejs
-  args:
-    warn: False
+# - name: install maven and nodejs to build
+#   shell: >
+#     wget https://www-us.apache.org/dist/maven/maven-3/{{maven_version}}/binaries/apache-maven-{{maven_version}}-bin.tar.gz -P /tmp
+#     && tar xf /tmp/apache-maven-{{maven_version}}-bin.tar.gz -C /usr/local 
+#     && ln -f -s /usr/local/apache-maven-{{maven_version}} /usr/local/maven 
+#     && curl -sL https://rpm.nodesource.com/setup_14.x | bash -
+#     && yum install -y nodejs
+#   args:
+#     warn: False
 
 - name: Check if {{workspace}} directory exist
   stat:
@@ -60,9 +88,18 @@
 
 - name: copy application.properties file to /src/main/resources/
   template:
-    src: application.properties.j2
+    src: "{{workspace}}/backend/src/main/resources/application.properties.j2"
     dest: "{{workspace}}/backend/src/main/resources/application.properties"
 
+- name: create graphql directory in backend
+  file:
+    state: directory
+    path: "{{workspace}}/backend/src/main/resources/graphql"
+
+- name: copy schema from frontend to resources
+  template:
+    src: "{{workspace}}/frontend/graphql/{{schema_file}}"
+    dest: "{{workspace}}/backend/src/main/resources/graphql/{{schema_file}}"
 
 - name: copy frontend and backend config
   template:
@@ -78,7 +115,7 @@
   args:
     chdir: "{{workspace}}/backend"
 
-- name: copy Bento-0.0.1.war to api.war
+- name: copy Bento-0.0.1.war to ROOT.war
   copy:
     remote_src: yes
     src: "{{workspace}}/backend/target/Bento-0.0.1.war"
@@ -109,25 +146,31 @@
     source: build
     force_source: yes
     push: yes
-    
-- name: copy environment file to {{workspace}}/bento-frontend
-  template:
-    src: env.j2
-    dest: "{{workspace}}/frontend/.env"
 
-- name: run npm install in {{workspace}}/bento-frontend/
-  shell: "{{item}}"
+
+- name: run npm install in {{workspace}}frontend/
+  command: "{{item}}"
   args:
     chdir: "{{workspace}}/frontend"
-  ignore_errors: True
   loop:
-    - npm install 
-    
-- name: run npm build in frontend
-  shell: npm run-script build
-  args:
-    chdir: "{{workspace}}/frontend"
+    - npm install npm@latest -g
+    - npm install
+    - npm run build
   ignore_errors: True
+
+# - name: run npm install in {{workspace}}/bento-frontend/
+#   shell: "{{item}}"
+#   args:
+#     chdir: "{{workspace}}/frontend"
+#   ignore_errors: True
+#   loop:
+#     - npm install 
+    
+# - name: run npm build in frontend
+#   shell: npm run-script build
+#   args:
+#     chdir: "{{workspace}}/frontend"
+#   ignore_errors: True
           
 - name: build custodian/bento-frontend image
   docker_image:
