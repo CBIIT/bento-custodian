@@ -12,3 +12,12 @@ image_tag: latest
 connector_name: local
 update: no
 schema_file: bento-extended.graphql
+enable_redis: 'false'
+use_cluster: 'false'
+tier: dev
+redis_host: 
+  dev: "localhost"
+  qa: "localhost"
+  demo: "localhost"
+redis_password: ""
+redis_port: 6379
