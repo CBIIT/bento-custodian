@@ -19,8 +19,8 @@ resource "google_container_registry" "gcr" {
   location = "US"
 }
 
-//resource "google_storage_bucket_iam_member" "bucket_iam" {
-//  bucket = google_container_registry.gcr.id
-//  role = "roles/storage.admin"
-//  member = "serviceAccount:${data.google_service_account.service_account.email}"
-//}
+resource "google_storage_bucket_iam_member" "bucket_iam" {
+  bucket = google_container_registry.gcr.id
+  role = "roles/storage.admin"
+  member = "serviceAccount:${data.google_service_account.service_account.email}"
+}
