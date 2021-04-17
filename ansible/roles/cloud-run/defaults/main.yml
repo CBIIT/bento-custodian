@@ -2,9 +2,9 @@
 # defaults file for cicd
 workspace: "/tmp/workspace"
 maven_version: 3.6.3
-backend_tag: "3.0.0"
-frontend_tag: v3.0.0
-release_tag: master
+backend_tag: 2.0.0
+frontend_tag: 2.0.0
+release_tag: 2.0.0
 stack_name: bento
 tag: latest
 backend_url: http://localhost
