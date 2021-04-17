@@ -3,8 +3,8 @@ set -ex
 cd /tmp
 rm -rf bento-custodian || true
 yum -y install epel-release
-yum -y install wget git python python-setuptools
-pip install pip -U
+yum -y install wget git python python-setuptools python-pip
+pip install --upgrade "pip < 21.0"
 pip install ansible==2.8.0
 #echo "export PATH=$PATH:/usr/local/bin" > /etc/profile.d/ansible.sh && source /etc/profile.d/ansible.sh
 git clone https://github.com/CBIIT/bento-custodian
