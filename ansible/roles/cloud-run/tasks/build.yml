@@ -36,7 +36,9 @@
 
 - name: install python expect module
   pip:
-    name: pexpect
+    name:
+      - pexpect
+      - docker-py
 
 - name: Check if {{workspace}} directory exist
   stat:
