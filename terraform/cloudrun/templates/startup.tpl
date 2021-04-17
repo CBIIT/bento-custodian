@@ -3,8 +3,10 @@ set -ex
 cd /tmp
 rm -rf bento-custodian || true
 yum -y install epel-release
-yum -y install wget git python-setuptools python-pip
-pip install ansible==2.8.0
+yum -y install wget git python3
+pip3 install pip -U
+pip3 install ansible==2.8.0
+echo "export PATH=$PATH:/usr/local/bin" > /etc/profile.d/ansible
 git clone https://github.com/CBIIT/bento-custodian
 cd bento-custodian/ansible
 CLOUDSDK_CORE_DISABLE_PROMPTS=1 gcloud auth activate-service-account --key-file /tmp/${gcp_auth_file}
