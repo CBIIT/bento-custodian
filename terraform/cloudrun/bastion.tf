@@ -1,4 +1,4 @@
-data "google_compute_subnetwork" "mgmt_network" {
+ data "google_compute_subnetwork" "mgmt_network" {
   name   = "${var.stack_name}-${var.gcp_region}-${var.env}-mgmt-network"
   region = var.gcp_region
   depends_on = [google_compute_subnetwork.subnet]
@@ -63,7 +63,7 @@ resource "google_compute_instance" "bastion" {
     }
   }
   tags = ["bastion"]
-  depends_on = [ google_compute_instance.neo4j,local_file.private_key]
+  depends_on = [ google_compute_instance.neo4j,local_file.private_key,google_container_registry.gcr]
 }
 
 resource "local_file" "update" {
