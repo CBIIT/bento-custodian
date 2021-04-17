@@ -1,11 +1,11 @@
 ---
 # tasks file for docker
 - name: install epel-release
-  dnf:
+  yum:
     name:
       - epel-release
 - name: install systems packages needed for docker
-  dnf:
+  yum:
     name: 
       - yum-utils
       - device-mapper-persistent-data
@@ -19,7 +19,7 @@
     https://download.docker.com/linux/centos/docker-ce.repo
 
 - name: install docker
-  dnf:
+  yum:
     name: ['docker-ce', 'docker-ce-cli', 'containerd.io','docker-compose']
     state: installed
     
