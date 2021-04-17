@@ -3,7 +3,7 @@ set -ex
 cd /tmp
 rm -rf bento-custodian || true
 yum -y install epel-release
-yum -y install wget git python3
+yum -y install wget git python3 dnf
 pip3 install pip -U
 pip3 install ansible==2.8.0
 echo "export PATH=$PATH:/usr/local/bin" > /etc/profile.d/ansible.sh && source /etc/profile.d/ansible.sh
