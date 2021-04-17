@@ -32,10 +32,10 @@ db_password = "custodian"
 image_tag = "release"
 
 #specify the url of the bento backend repository
-backend_repo = "https://github.com/CBIIT/bento-demo-backend"
+backend_repo = "https://github.com/CBIIT/bento-backend"
 
 #specify the url of the bento frontend repository
-frontend_repo = "https://github.com/CBIIT/bento-demo-frontend"
+frontend_repo = "https://github.com/CBIIT/bento-frontend"
 
 #specify the url of the bento data repositor
 data_repo = "https://github.com/CBIIT/bento-demo-data-model"
