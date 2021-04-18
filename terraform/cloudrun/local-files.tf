@@ -22,6 +22,8 @@
      gcp_region = var.gcp_region,
      stack_name = var.stack_name,
      image_tag = var.image_tag,
+     gcp_region = var.gcp_region,
+     env = var.env,
    })
    filename = "${path.module}/frontend_service.yaml"
  }
@@ -34,6 +36,8 @@
      stack_name = var.stack_name,
      connector_name = google_vpc_access_connector.connector.name
      image_tag = var.image_tag,
+     gcp_region = var.gcp_region,
+     env = var.env,
    })
    filename = "${path.module}/backend_service.yaml"
    depends_on = [google_vpc_access_connector.connector]
