@@ -188,7 +188,7 @@
     push: no
 
 - name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend to registry
-  command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend:{image_tag}}
+  command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend:{{image_tag}}
 
 - name: update deployments
   shell: "{{item}}"
