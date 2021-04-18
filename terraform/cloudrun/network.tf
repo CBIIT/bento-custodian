@@ -83,15 +83,21 @@ resource "google_compute_firewall" "allow-ssh-from-bastion-to-db" {
   target_tags        = ["db"]
 }
 
+
+
 resource "google_compute_firewall" "allow-ssh-to-db-from-bastion" {
   name          = "${var.stack_name}-${var.env}-allow-ssh-to-db-from-bastion"
   project = var.gcp_project
   network = google_compute_network.vpc.name
-  direction     = "INGRESS"
+//  direction     = "INGRESS"
 
   allow {
     protocol = local.tcp_protocol
-    ports    = [local.ssh_port,local.neo4j_https,local.neo4j_http,local.neo4j_bolts]
+    ports    = [local.ssh_port,local.neo4j_https,local.neo4j_bolts]
+  }
+  allow {
+    protocol = "http"
+    ports = [local.neo4j_http]
   }
   source_tags   = ["bastion"]
 }
