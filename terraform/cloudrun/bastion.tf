@@ -63,7 +63,7 @@ resource "google_compute_instance" "bastion" {
     }
   }
   tags = ["bastion"]
-  depends_on = [ google_compute_instance.neo4j,local_file.private_key,google_container_registry.gcr]
+  depends_on = [ google_compute_instance.neo4j,local_file.private_key]
 }
 
 resource "local_file" "update" {
