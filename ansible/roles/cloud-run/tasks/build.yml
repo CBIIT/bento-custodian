@@ -20,6 +20,7 @@
     dest: /usr/local
     remote_src: yes
 
+
 - name: create symlink for maven
   file:
     src: /usr/local/apache-maven-{{maven_version}}
@@ -128,7 +129,7 @@
 
 - name: login to docker
   expect: 
-    command: gcloud auth configure-docker
+    command: gcloud beta auth configure-docker {{gcp_region}}-docker.pkg.dev
     responses:
       Do you want to continue (Y/n)?: Y
 
@@ -138,7 +139,7 @@
       path: "{{workspace}}/backend"
       dockerfile: "{{workspace}}/backend/dockerfiles/backend-dockerfile"
       pull: yes
-    name: gcr.io/{{gcp_project}}/backend
+    name: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/backend"
     tag: "{{image_tag}}"
     force_tag: yes
     source: build

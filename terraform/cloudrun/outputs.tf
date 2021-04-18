@@ -17,3 +17,6 @@ output "backend_url" {
 output "service_id" {
   value = data.google_service_account.service_account.email
 }
+output "gcr" {
+  value = google_artifact_registry_repository.repo.repository_id
+}
