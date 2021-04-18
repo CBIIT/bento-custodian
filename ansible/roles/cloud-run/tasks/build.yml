@@ -139,7 +139,7 @@
       path: "{{workspace}}/backend"
       dockerfile: "{{workspace}}/backend/dockerfiles/backend-dockerfile"
       pull: yes
-    name: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/backend"
+    name: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend"
     tag: "{{image_tag}}"
     force_tag: yes
     source: build
@@ -178,7 +178,7 @@
       dockerfile: "{{workspace}}/backend/dockerfiles/frontend-cloudrun-dockerfile"
       pull: yes
       nocache: yes
-    name: gcr.io/{{gcp_project}}/frontend
+    name: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend"
     tag: "{{image_tag}}"
     force_tag: yes
     source: build
