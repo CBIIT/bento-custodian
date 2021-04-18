@@ -13,7 +13,7 @@ resource "google_cloud_run_service" "frontend" {
   template {
     spec {
       containers {
-        image = "gcr.io/${var.gcp_project}/frontend:latest"
+        image = "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend:latest"
       }
     }
   }
@@ -31,7 +31,7 @@ resource "google_cloud_run_service" "backend" {
   template {
     spec {
       containers {
-        image = "gcr.io/${var.gcp_project}/backend:latest"
+        image = "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend:latest"
         resources {
           limits = {
             memory = "512M"
