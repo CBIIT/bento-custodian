@@ -14,7 +14,7 @@ spec:
     spec:
       containerConcurrency: 80
       containers:
-      - image: gcr.io/${gcp_project}/backend:${image_tag}
+      - image: ${gcp_region}-docker.pkg.dev/${gcp_project}/${env}/backend:${image_tag}
         ports:
         - containerPort: 8080
         resources:
