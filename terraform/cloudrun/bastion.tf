@@ -77,6 +77,8 @@ resource "local_file" "update" {
     image_tag = var.image_tag,
     backend_repo = var.backend_repo,
     frontend_repo = var.frontend_repo,
+    gcp_region = var.gcp_region,
+    env = var.env,
   })
   filename = "${path.module}/update.sh"
 }
