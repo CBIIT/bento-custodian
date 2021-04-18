@@ -146,8 +146,8 @@
     force_source: yes
     push: no
 
-- name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend" to registry
-  command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend"
+- name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend to registry
+  command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend
 
 - name: run npm install in {{workspace}}frontend/
   command: "{{item}}"
@@ -187,8 +187,8 @@
     force_source: yes
     push: no
 
-- name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend" to registry
-  command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend"
+- name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend to registry
+  command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend
 
 - name: update deployments
   shell: "{{item}}"
