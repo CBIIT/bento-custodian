@@ -129,7 +129,7 @@
 
 - name: login to docker
   expect: 
-    command: gcloud beta auth configure-docker {{gcp_region}}-docker.pkg.dev
+    command: gcloud auth configure-docker {{gcp_region}}-docker.pkg.dev
     responses:
       Do you want to continue (Y/n)?: Y
 

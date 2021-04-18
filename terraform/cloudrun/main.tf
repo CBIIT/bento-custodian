@@ -30,7 +30,7 @@ resource "google_artifact_registry_repository" "repo" {
   provider = google-beta
 
   location = var.gcp_region
-  repository_id = var.gcp_project
+  repository_id = var.env
   format = "DOCKER"
 }
 
