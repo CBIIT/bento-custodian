@@ -26,7 +26,7 @@ resource "google_compute_instance" "neo4j" {
           pip3 install ansible==2.8.0
           git clone https://github.com/CBIIT/bento-custodian
           cd bento-custodian/ansible
-          ansible-playbook neo4j.yml -e env="${var.env}"
+          ansible-playbook community-neo4j.yml -e env="${var.env}"
           systemctl restart neo4j
         SCRIPT
 
