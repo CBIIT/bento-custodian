@@ -147,7 +147,7 @@
     push: no
 
 - name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend" to registry
-  comman: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend"
+  command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend"
 
 - name: run npm install in {{workspace}}frontend/
   command: "{{item}}"
@@ -188,7 +188,7 @@
     push: no
 
 - name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend" to registry
-  comman: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend"
+  command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend"
 
 - name: update deployments
   shell: "{{item}}"
