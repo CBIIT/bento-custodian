@@ -8,6 +8,7 @@
      neo4j_password = var.db_password,
      backend_repo = var.backend_repo,
      frontend_repo = var.frontend_repo,
+     gcp_region = var.gcp_region,
    })
    filename = "${path.module}/bastion.sh"
  }
