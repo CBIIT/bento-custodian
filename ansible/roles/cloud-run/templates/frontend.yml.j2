@@ -3,7 +3,7 @@ kind: Service
 metadata:
   annotations: {}
   labels:
-    cloud.googleapis.com/location: {{region}}
+    cloud.googleapis.com/location: {{gcp_region}}
   name: {{stack_name}}-cloudrun-frontend
 spec:
   template:
@@ -13,7 +13,7 @@ spec:
     spec:
       containerConcurrency: 80
       containers:
-      - image: gcr.io/{{gcp_project}}/frontend:{{image_tag}}
+      - image: {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend:{{image_tag}}
         env:
         - name: REACT_APP_BACKEND_API
           value: {{backend_url}}/v1/graphql/
