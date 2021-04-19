@@ -22,15 +22,15 @@
     groups: neo4j
     append: yes
 
-- name: ensure /var/lib/neo4j exist
-  file:
-    path: /var/lib/{{item}}
-    state: directory
-    owner: neo4j
-    group: neo4j
-  loop:
-    - neo4j
-    - neo4j/conf
+#- name: ensure /var/lib/neo4j exist
+#  file:
+#    path: /var/lib/{{item}}
+#    state: directory
+#    owner: neo4j
+#    group: neo4j
+#  loop:
+#    - neo4j
+#    - neo4j/conf
 
 - name: download neo4j tar ball
   get_url:
@@ -41,6 +41,7 @@
   unarchive:
     src: /tmp/neo4j-community.tar.gz
     dest: "{{neo4j_home}}"
+    create: yes
     remote_src: yes
 
 - name: change ownership of /var/lib/neo4j
