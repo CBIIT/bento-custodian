@@ -1,6 +1,6 @@
 gcp_auth_file = "gcloud_api_key.json"
 gcp_region = "us-east4"
-gcp_project = "ppdc-demo"
+gcp_project = "ppdc-cloud"
 stack_name = "ppdc"
 machine_type = "n1-standard-1"
 env = "test"
