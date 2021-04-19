@@ -47,7 +47,7 @@
 - name: move /tmp/neo4j-community-{{neo4j_version}} to {{neo4j_home}}
   copy:
     remote_src: True
-    src: /tmp/neo4j-community-{{neo4j_version}}
+    src: /tmp/neo4j-community-{{neo4j_version}}/
     dest: "{{neo4j_home}}"
 
 - name: change ownership of /var/lib/neo4j
