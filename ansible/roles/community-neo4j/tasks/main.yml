@@ -22,6 +22,12 @@
     groups: neo4j
     append: yes
 
+- name: ensure /var/lib/neo4j exist
+  file:
+    path: /var/lib/neo4j
+    state: directory
+    owner: neo4j
+    group: neo4j
 - name: download neo4j tar ball
   get_url:
     url: https://dist.neo4j.org/neo4j-community-{{neo4j_version}}-unix.tar.gz
