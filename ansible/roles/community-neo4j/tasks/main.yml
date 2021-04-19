@@ -16,7 +16,7 @@
     name: neo4j
     state: present
 
-- name: create tomcat user
+- name: create neo4j user
   user:
     name: neo4j
     groups: neo4j
@@ -24,10 +24,14 @@
 
 - name: ensure /var/lib/neo4j exist
   file:
-    path: /var/lib/neo4j
+    path: /var/lib/{{item}}
     state: directory
     owner: neo4j
     group: neo4j
+  loop:
+    - neo4j
+    - neo4j/conf
+
 - name: download neo4j tar ball
   get_url:
     url: https://dist.neo4j.org/neo4j-community-{{neo4j_version}}-unix.tar.gz
