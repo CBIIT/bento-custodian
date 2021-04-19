@@ -18,15 +18,17 @@ resource "google_compute_instance" "neo4j" {
     ssh-keys = "${var.ssh_user}:${tls_private_key.privkey.public_key_openssh}"
   }
   metadata_startup_script = <<SCRIPT
+          #!/bin/bash
           set -ex
           cd /tmp
           rm -rf bento-custodian || true
-          yum -y install epel-release python3
+          yum -y install epel-release python python-setuptools python-pip
           yum -y install wget git
-          pip3 install ansible==2.8.0
+          pip install --upgrade "pip < 21.0"
+          pip install ansible==2.8.0
           git clone https://github.com/CBIIT/bento-custodian
           cd bento-custodian/ansible
-          ansible-playbook community-neo4j.yml -e env="${var.env}"
+          ansible-playbook community-neo4j.yml -e env=test
           systemctl restart neo4j
         SCRIPT
 
