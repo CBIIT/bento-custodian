@@ -40,9 +40,16 @@
 - name: extract neo4j 
   unarchive:
     src: /tmp/neo4j-community.tar.gz
-    dest: "{{neo4j_home}}"
+#    dest: "{{neo4j_home}}"
+    dest: /tmp
     create: yes
     remote_src: yes
+
+- name: move /tmp/neo4j-community-{{neo4j_version}} to {{neo4j_home}}
+  copy:
+    remote_src: True
+    src: /tmp/neo4j-community-{{neo4j_version}}
+    dest: "{{neo4j_home}}"
 
 - name: change ownership of /var/lib/neo4j
   file: 
