@@ -121,23 +121,23 @@ resource "null_resource" "update_deployment" {
       host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }
   }
-  provisioner "file" {
-    source = "${path.module}/update.sh"
-    destination = "/tmp/update.sh"
-
-    connection {
-      type = "ssh"
-      user = var.ssh_user
-      private_key =  local.private_key
-      agent = "false"
-      host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
-    }
-  }
+//  provisioner "file" {
+//    source = "${path.module}/update.sh"
+//    destination = "/tmp/update.sh"
+//
+//    connection {
+//      type = "ssh"
+//      user = var.ssh_user
+//      private_key =  local.private_key
+//      agent = "false"
+//      host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
+//    }
+//  }
   provisioner "remote-exec" {
     inline = [
       "sudo docker system prune -a -f",
-      "chmod +x /tmp/update.sh",
-      "sudo /tmp/update.sh",
+//      "chmod +x /tmp/update.sh",
+//      "sudo /tmp/update.sh",
       "sudo gcloud beta run services replace /tmp/backend_service.yaml --platform managed --region  ${var.gcp_region}",
       "sudo gcloud beta run services replace /tmp/frontend_service.yaml --platform managed --region  ${var.gcp_region}",
     ]
