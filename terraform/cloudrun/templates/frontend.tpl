@@ -16,6 +16,13 @@ spec:
       - image: ${gcp_region}-docker.pkg.dev/${gcp_project}/${env}/frontend:${image_tag}
         ports:
         - containerPort: 8080
+        env:
+        - name: REACT_APP_BACKEND_API
+          value: ${backend_url}/v1/graphql/
+        - name: REACT_APP_APPLICATION_VERSION
+          value: ${release_tag}
+        - name: REACT_APP_ABOUT_CONTENT_URL
+          value: https://raw.githubusercontent.com/CBIIT/bento-frontend/master/src/content/dev/aboutPagesContent.yaml
         resources:
           limits:
             cpu: 1000m
