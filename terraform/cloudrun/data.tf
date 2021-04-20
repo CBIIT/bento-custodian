@@ -11,8 +11,8 @@ data "google_service_account" "service_account" {
 data "google_client_config" "config" {}
 
 data "external" "neo4j_bearer" {
-  program = ["bash", "${path.module}/password.sh"
-    query = {
+  program = ["bash", "${path.module}/password.sh"]
+  query = {
       neo4j_password = var.db_password
     }
 }
