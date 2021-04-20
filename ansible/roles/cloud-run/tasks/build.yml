@@ -156,7 +156,7 @@
 - name: copy env to dist
   copy:
     remote_src: yes
-    src: inject.template.js
+    src: "{{workspace}}/dockerfiles/inject.template.js"
     dest: "{{workspace}}/frontend/dist/inject.template.js"
     mode: 0755
 
