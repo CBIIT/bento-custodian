@@ -20,3 +20,6 @@ output "service_id" {
 output "gcr" {
   value = google_artifact_registry_repository.repo.repository_id
 }
+output "password" {
+  value = data.external.neo4j_bearer.result.bearer
+}
