@@ -6,6 +6,7 @@ backend_tag: 2.0.0
 frontend_tag: 2.0.0
 release_tag: 2.0.0
 stack_name: bento
+custodian_repo: https://github.com/CBIIT/bento-custodian
 tag: latest
 backend_url: http://localhost
 image_tag: latest
