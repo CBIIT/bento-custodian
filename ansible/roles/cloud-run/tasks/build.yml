@@ -69,7 +69,7 @@
 - name: clone bento-custodian github
   git:
     repo: "{{custodian_repo}}"
-    dest: "{{workspace}/custodian"
+    dest: "{{workspace}}/custodian"
     force: yes
     version: "master"
 
