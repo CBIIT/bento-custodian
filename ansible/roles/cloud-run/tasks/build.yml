@@ -66,6 +66,13 @@
     force: yes
     version: "{{frontend_tag}}"
 
+- name: clone bento-custodian github
+  git:
+    repo: "{{custodian_repo}}"
+    dest: "{{workspace}/custodian"
+    force: yes
+    version: "master"
+
 - name: set neo4j bearer
   shell: echo "Basic $(echo -n "neo4j:{{neo4j_password}}" | base64)"
   register: output_bearer
@@ -156,7 +163,7 @@
 - name: copy env to dist
   copy:
     remote_src: yes
-    src: "{{workspace}}/dockerfiles/inject.template.js"
+    src: "{{workspace}}/custodian/dockerfiles/inject.template.js"
     dest: "{{workspace}}/frontend/dist/inject.template.js"
     mode: 0755
 
@@ -168,8 +175,8 @@
     dest: "{{item.dest}}"
     mode: 0755
   loop:
-    - {src: '{{workspace}}/dockerfiles/nginx.conf',dest: '{{workspace}}/frontend/nginx.conf'}
-    - {src: '{{workspace}}/dockerfiles/nginx-entrypoint.sh',dest: '{{workspace}}/frontend/nginx-entrypoint.sh'}
+    - {src: '{{workspace}}/custodian/dockerfiles/nginx.conf',dest: '{{workspace}}/frontend/nginx.conf'}
+    - {src: '{{workspace}}/custodian/dockerfiles/nginx-entrypoint.sh',dest: '{{workspace}}/frontend/nginx-entrypoint.sh'}
 
 # - name: run npm install in {{workspace}}/bento-frontend/
 #   shell: "{{item}}"
