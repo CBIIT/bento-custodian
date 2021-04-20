@@ -26,7 +26,7 @@ ssh_user = "bento"
 ssh_key_name = "demo-ssh-key"
 
 #password of the neo4j database
-db_password = "custodian"
+db_password = "Password@$"
 
 #tag name of the docker image
 image_tag = "latest"
