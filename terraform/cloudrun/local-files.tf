@@ -41,7 +41,7 @@
      gcp_region = var.gcp_region,
      env = var.env,
      neo4j_ip = google_compute_instance.neo4j.network_interface.0.network_ip,
-     neo4j_bearer = base64sha256("neo4j:${var.db_password}"),
+     neo4j_bearer = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}" ,
    })
    filename = "${path.module}/backend_service.yaml"
    depends_on = [google_vpc_access_connector.connector]
@@ -71,6 +71,7 @@ resource "local_file" "ansible_vars" {
     property_filename = var.property_filename
     neo4j_password = var.db_password
     stack_name = var.stack_name
+    bearer = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}"
     backend_repo = var.backend_repo
     frontend_repo = var.frontend_repo
     dataset = var.dataset
