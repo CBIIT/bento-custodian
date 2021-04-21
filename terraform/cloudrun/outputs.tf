@@ -21,5 +21,5 @@ output "gcr" {
   value = google_artifact_registry_repository.repo.repository_id
 }
 output "password" {
-  value = base64sha256("neo4j:${var.db_password}")
+  value = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}"
 }
