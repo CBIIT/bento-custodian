@@ -160,11 +160,11 @@
     - npm run build
   ignore_errors: True
 
-- name: copy env to dist
+- name: copy inject.template.js to dist
   copy:
     remote_src: yes
-    src: "{{workspace}}/custodian/dockerfiles/inject.template.js"
-    dest: "{{workspace}}/frontend/dist/inject.template.js"
+    src: '{{workspace}}/custodian/dockerfiles/nginx.conf'
+    dest: '{{workspace}}/frontend/nginx.conf'
     mode: 0755
 
 
@@ -173,10 +173,9 @@
     remote_src: yes
     src: "{{item.src}}"
     dest: "{{item.dest}}"
-    mode: 0755
   loop:
-    - {src: '{{workspace}}/custodian/dockerfiles/nginx.conf',dest: '{{workspace}}/frontend/nginx.conf'}
     - {src: '{{workspace}}/custodian/dockerfiles/nginx-entrypoint.sh',dest: '{{workspace}}/frontend/nginx-entrypoint.sh'}
+    - {src: '{{workspace}}/custodian/dockerfiles/inject.template.js',dest: '{{workspace}}/frontend/dist/inject.template.js' }
 
 # - name: run npm install in {{workspace}}/bento-frontend/
 #   shell: "{{item}}"
