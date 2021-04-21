@@ -41,7 +41,7 @@
      gcp_region = var.gcp_region,
      env = var.env,
      neo4j_ip = google_compute_instance.neo4j.network_interface.0.network_ip,
-     neo4j_bearer = data.external.neo4j_bearer.result.bearer,
+     neo4j_bearer = base64sha256("neo4j:${var.db_password}"),
    })
    filename = "${path.module}/backend_service.yaml"
    depends_on = [google_vpc_access_connector.connector]

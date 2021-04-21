@@ -21,5 +21,5 @@ output "gcr" {
   value = google_artifact_registry_repository.repo.repository_id
 }
 output "password" {
-  value = data.external.neo4j_bearer.result.bearer
+  value = base64sha256("neo4j:${var.db_password}")
 }
