@@ -9,7 +9,8 @@
      backend_repo = var.backend_repo,
      frontend_repo = var.frontend_repo,
      gcp_region = var.gcp_region,
-     env = var.env
+     env = var.env,
+     bearer = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}",
    })
    filename = "${path.module}/bastion.sh"
  }
@@ -41,7 +42,7 @@
      gcp_region = var.gcp_region,
      env = var.env,
      neo4j_ip = google_compute_instance.neo4j.network_interface.0.network_ip,
-     neo4j_bearer = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}" ,
+     neo4j_bearer = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}",
    })
    filename = "${path.module}/backend_service.yaml"
    depends_on = [google_vpc_access_connector.connector]
