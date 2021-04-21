@@ -14,10 +14,11 @@ spec:
     spec:
       containerConcurrency: 80
       containers:
-      - image: ${gcp_region}-docker.pkg.dev/${gcp_project}/${env}/backend:${image_tag}
+      - name: backend
+        image: ${gcp_region}-docker.pkg.dev/${gcp_project}/${env}/backend:${image_tag}
         ports:
         - containerPort: 8080
-      - env:
+        env:
         - name: NEO4J_GRAPHQL_ENDPOINT
           value: http://${neo4j_ip}:7474/graphql/
         - name: NEO4J_AUTHORIZATION
