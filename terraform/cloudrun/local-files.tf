@@ -10,6 +10,8 @@
      frontend_repo = var.frontend_repo,
      gcp_region = var.gcp_region,
      env = var.env,
+     image_tag = var.image_tag,
+     backend_url = google_cloud_run_service.backend.status[0].url,
      bearer = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}",
    })
    filename = "${path.module}/bastion.sh"

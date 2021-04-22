@@ -151,10 +151,10 @@
   command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend:{{image_tag}}
 
 
-- name: remove .env
-  file:
-    state: absent
-    path: "{{workspace}}/frontend/.env"
+- name: copy environment file to {{workspace}}/bento-frontend
+  template:
+    src: env.j2
+    dest: "{{workspace}}/frontend/.env"
 
 - name: run npm install in {{workspace}}frontend/
   command: "{{item}}"
