@@ -13,8 +13,7 @@ spec:
     spec:
       containerConcurrency: 80
       containers:
-      - name: backend
-        image: ${gcp_region}-docker.pkg.dev/${gcp_project}/${env}/frontend:${image_tag}
+      - image: ${gcp_region}-docker.pkg.dev/${gcp_project}/${env}/frontend:${image_tag}
         ports:
         - containerPort: 8080
         env:
