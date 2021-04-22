@@ -15,7 +15,7 @@
      bearer = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}",
    })
    filename = "${path.module}/bastion.sh"
-   depends_on = [google_cloud_run_service.backend]
+
  }
 
 
