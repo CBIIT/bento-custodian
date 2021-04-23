@@ -35,11 +35,11 @@
     name:
       - nodejs
 
-- name: install python expect module
-  pip:
-    name:
-      - pexpect
-      - docker-py
+#- name: install python expect module
+#  pip:
+#    name:
+#      - pexpect
+#      - docker-py
 
 - name: check if {{workspace}} directory exist
   stat:
