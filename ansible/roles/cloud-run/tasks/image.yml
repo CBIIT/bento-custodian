@@ -16,7 +16,7 @@
     name: "cbiitssrepo/bento-backend:latest"
     repository: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend"
     tag: latest
-    pull: yes
+    source: pull
 
 - name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend to registry
   command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend:latest
@@ -24,9 +24,9 @@
 - name: push cbiitssrepo/bento-frontend to gcp registry
   docker_image:
     name: "cbiitssrepo/bento-frontend:latest"
-    repository: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend"
+    repository: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend"
     tag: latest
-    pull: yes
+    source: pull
 
 - name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend to registry
   command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend:latest
