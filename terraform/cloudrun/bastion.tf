@@ -120,7 +120,7 @@ resource "null_resource" "build_image" {
       host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }
   }
-  depends_on = [local_file.init_script]
+//  depends_on = 
 }
 
 resource "null_resource" "update_deployment" {
