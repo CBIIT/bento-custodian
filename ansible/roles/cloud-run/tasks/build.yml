@@ -107,13 +107,13 @@
     dest: "{{workspace}}/backend/src/main/resources/application.properties"
 
 
-#- name: copy frontend and backend config
-#  template:
-#    src: "{{ item.src }}"
-#    dest: "{{ item.dest }}"
-#  loop:
-#    - {src: 'backend.yml.j2',dest: '{{workspace}}/backend.yml'}
-#    - {src: 'frontend.yml.j2',dest: '{{workspace}}/frontend.yml'}
+- name: copy frontend and backend config
+  template:
+    src: "{{ item.src }}"
+    dest: "{{ item.dest }}"
+  loop:
+    - {src: 'backend.yml.j2',dest: '{{workspace}}/backend.yml'}
+    - {src: 'frontend.yml.j2',dest: '{{workspace}}/frontend.yml'}
 #  when: update == "yes"
 
 - name: build backend code
@@ -213,9 +213,9 @@
 - name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend to registry
   command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend:{{image_tag}}
 
-#- name: update deployments
-#  shell: "{{item}}"
-#  loop:
-#    - gcloud beta run services replace {{workspace}}/backend.yml --platform managed --region  {{gcp_region}}
-#    - gcloud beta run services replace {{workspace}}/frontend.yml --platform managed --region {{gcp_region}}
+- name: update deployments
+  shell: "{{item}}"
+  loop:
+    - gcloud beta run services replace {{workspace}}/backend.yml --platform managed --region  {{gcp_region}}
+    - gcloud beta run services replace {{workspace}}/frontend.yml --platform managed --region {{gcp_region}}
 #  when: update == "yes"
