@@ -11,9 +11,9 @@
     responses:
       Do you want to continue (Y/n)?: Y
 
-- name: push cbiitssrepo/bento-backend to gcp registry
+- name: push cbiitssrepo/custodian-backend to gcp registry
   docker_image:
-    name: "cbiitssrepo/bento-backend:latest"
+    name: "cbiitssrepo/custodian-backend:latest"
     repository: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend"
     tag: latest
     source: pull
@@ -21,9 +21,9 @@
 - name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend to registry
   command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend:latest
 
-- name: push cbiitssrepo/bento-frontend to gcp registry
+- name: push cbiitssrepo/custodian-frontend to gcp registry
   docker_image:
-    name: "cbiitssrepo/bento-frontend:latest"
+    name: "cbiitssrepo/custodian-frontend:latest"
     repository: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend"
     tag: latest
     source: pull
