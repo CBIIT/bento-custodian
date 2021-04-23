@@ -21,7 +21,7 @@ resource "google_cloud_run_service" "frontend" {
     percent         = 100
     latest_revision = true
   }
-// depends_on = [null_resource.build_image]
+ depends_on = [google_compute_instance.bastion]
 }
 
 resource "google_cloud_run_service" "backend" {
