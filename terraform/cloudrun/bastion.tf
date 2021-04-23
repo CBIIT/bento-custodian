@@ -92,6 +92,7 @@ resource "local_file" "db_loader" {
   filename = "${path.module}/loader.sh"
 }
 
+ 
 resource "null_resource" "build_image" {
   provisioner "file" {
     source = "${path.module}/bastion.sh"
