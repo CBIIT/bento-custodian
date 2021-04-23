@@ -104,7 +104,7 @@ resource "null_resource" "build_image" {
       //      private_key = file("${path.module}/ansible/ssh_private_key.pem")
       private_key = local.private_key
       agent = "false"
-      host = self.network_interface.0.access_config.0.nat_ip
+      host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }
   }
   provisioner "remote-exec" {
