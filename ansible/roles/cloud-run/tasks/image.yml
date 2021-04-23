@@ -1,4 +1,10 @@
 ---
+- name: login to docker
+  expect:
+    command: gcloud auth configure-docker {{gcp_region}}-docker.pkg.dev
+    responses:
+      Do you want to continue (Y/n)?: Y
+
 - name: push cbiitssrepo/bento-backend to gcp registry
   docker_image:
     name: "cbiitssrepo/bento-backend:latest"
