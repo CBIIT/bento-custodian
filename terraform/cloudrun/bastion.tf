@@ -63,7 +63,7 @@ resource "google_compute_instance" "bastion" {
     }
   }
   tags = ["bastion"]
-//  depends_on = [local_file.init_script]
+  depends_on = [local_file.init_script]
 }
 
 resource "local_file" "update" {
