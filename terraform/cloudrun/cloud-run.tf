@@ -13,8 +13,7 @@ resource "google_cloud_run_service" "frontend" {
   template {
     spec {
       containers {
-//        image = "${var.gcp_region}-docker.pkg.dev/${var.gcp_project}/${var.env}/frontend:latest"
-        image = "cbiitssrepo/bento-frontend:latest"
+        image = "${var.gcp_region}-docker.pkg.dev/${var.gcp_project}/${var.env}/frontend:latest"
       }
     }
   }
@@ -32,8 +31,7 @@ resource "google_cloud_run_service" "backend" {
   template {
     spec {
       containers {
-//        image = "${var.gcp_region}-docker.pkg.dev/${var.gcp_project}/${var.env}/backend:latest"
-        image = "cbiitssrepo/bento-backend:latest"
+        image = "${var.gcp_region}-docker.pkg.dev/${var.gcp_project}/${var.env}/backend:latest"
         resources {
           limits = {
             memory = "512M"
@@ -46,7 +44,7 @@ resource "google_cloud_run_service" "backend" {
     percent         = 100
     latest_revision = true
   }
-//  depends_on = [null_resource.build_image]
+  depends_on = [google_compute_instance.bastion]
 }
 
 data "google_iam_policy" "all_users" {
