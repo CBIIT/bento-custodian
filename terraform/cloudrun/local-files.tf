@@ -14,7 +14,7 @@
      backend_url = google_cloud_run_service.backend.status[0].url,
      bearer = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}",
    })
-   filename = "${path.module}/bastion.sh
+   filename = "${path.module}/bastion.sh"
  }
 
 
