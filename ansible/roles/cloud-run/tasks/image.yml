@@ -1,4 +1,10 @@
 ---
+- name: install python expect module
+  pip:
+    name:
+      - pexpect
+      - docker-py
+      
 - name: login to docker
   expect:
     command: gcloud auth configure-docker {{gcp_region}}-docker.pkg.dev
