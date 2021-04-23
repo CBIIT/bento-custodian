@@ -4,7 +4,7 @@
     name:
       - pexpect
       - docker-py
-      
+
 - name: login to docker
   expect:
     command: gcloud auth configure-docker {{gcp_region}}-docker.pkg.dev
@@ -16,7 +16,7 @@
     name: "cbiitssrepo/bento-backend:latest"
     repository: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend"
     tag: latest
-    source: local
+    pull: yes
 
 - name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend to registry
   command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend:latest
@@ -26,7 +26,7 @@
     name: "cbiitssrepo/bento-frontend:latest"
     repository: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend"
     tag: latest
-    source: local
+    pull: yes
 
 - name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend to registry
   command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend:latest
