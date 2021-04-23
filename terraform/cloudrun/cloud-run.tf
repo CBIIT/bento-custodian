@@ -21,7 +21,7 @@ resource "google_cloud_run_service" "frontend" {
     percent         = 100
     latest_revision = true
   }
- depends_on = [google_compute_instance.bastion]
+// depends_on = [google_compute_instance.bastion]
 }
 
 resource "google_cloud_run_service" "backend" {
@@ -44,7 +44,7 @@ resource "google_cloud_run_service" "backend" {
     percent         = 100
     latest_revision = true
   }
-  depends_on = [google_compute_instance.bastion]
+//  depends_on = [google_compute_instance.bastion]
 }
 
 data "google_iam_policy" "all_users" {
