@@ -1,0 +1,20 @@
+---
+- name: push cbiitssrepo/bento-backend to gcp registry
+  docker_image:
+    name: "cbiitssrepo/bento-backend:latest"
+    repository: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend"
+    tag: latest
+    source: local
+
+- name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend to registry
+  command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend:latest
+
+- name: push cbiitssrepo/bento-frontend to gcp registry
+  docker_image:
+    name: "cbiitssrepo/bento-frontend:latest"
+    repository: "{{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/backend"
+    tag: latest
+    source: local
+
+- name: push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend to registry
+  command: docker push {{gcp_region}}-docker.pkg.dev/{{gcp_project}}/{{env}}/frontend:latest

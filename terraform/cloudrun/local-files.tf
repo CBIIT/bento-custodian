@@ -17,6 +17,15 @@
    filename = "${path.module}/bastion.sh"
  }
 
+ resource "local_file" "push_image" {
+   content = templatefile("${path.module}/templates/push_image.tpl",
+   {
+     gcp_project = var.gcp_project,
+     gcp_region = var.gcp_region,
+     env = var.env,
+   })
+   filename = "${path.module}/push.sh"
+ }
 
  resource "local_file" "frontend_service" {
    content = templatefile("${path.module}/templates/frontend.tpl",

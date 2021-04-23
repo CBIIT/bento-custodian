@@ -1,0 +1,14 @@
+---
+- name: push bento image to gcp
+  hosts: all
+  connection: local
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: push reference image to gcp
+      include_role:
+        name: cloud-run
+        tasks_from: image
+    
+
