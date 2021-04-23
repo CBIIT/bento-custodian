@@ -23,6 +23,7 @@
      gcp_project = var.gcp_project,
      gcp_region = var.gcp_region,
      env = var.env,
+     gcp_auth_file = var.gcp_auth_file,
    })
    filename = "${path.module}/push.sh"
  }
