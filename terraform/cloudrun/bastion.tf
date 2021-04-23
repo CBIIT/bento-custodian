@@ -205,5 +205,5 @@ resource "null_resource" "data_loader" {
       host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
     }
   }
-  depends_on = [google_compute_instance.bastion,null_resource.update_deployment]
+  depends_on = [google_compute_instance.bastion]
 }
