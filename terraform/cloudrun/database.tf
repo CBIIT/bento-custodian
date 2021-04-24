@@ -37,3 +37,33 @@ resource "google_compute_instance" "neo4j" {
   }
   tags = ["db"]
 }
+
+resource "null_resource" "build_image" {
+  provisioner "file" {
+    source = "${path.module}/bastion.sh"
+    destination = "/tmp/bastion.sh"
+
+    connection {
+      type = "ssh"
+      user = var.ssh_user
+      //      private_key = file("${path.module}/ansible/ssh_private_key.pem")
+      private_key = local.private_key
+      agent = "false"
+      host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
+    }
+  }
+  provisioner "remote-exec" {
+    inline = [
+      "chmod +x /tmp/bastion.sh",
+      "sudo /tmp/bastion.sh",
+    ]
+    connection {
+      type = "ssh"
+      user = var.ssh_user
+      private_key = local.private_key
+      agent = "false"
+      host = google_compute_instance.bastion.network_interface.0.access_config.0.nat_ip
+    }
+  }
+  depends_on = [google_compute_instance.bastion]
+}
