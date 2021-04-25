@@ -222,6 +222,6 @@
   loop:
     - gcloud alpha run services replace {{workspace}}/backend.yml --platform managed --region  {{gcp_region}}
     - gcloud alpha run services replace {{workspace}}/frontend.yml --platform managed --region {{gcp_region}}
-    - gcloud run services add-iam-policy-binding {{stack_name}}-cloudrun-backend --member="allUsers" --role="roles/run.invoker"
-    - gcloud run services add-iam-policy-binding {{stack_name}}-cloudrun-frontend --member="allUsers" --role="roles/run.invoker"
+    - gcloud run services add-iam-policy-binding {{stack_name}}-cloudrun-backend --member="allUsers" --role="roles/run.invoker" --platform managed --region  {{gcp_region}}
+    - gcloud run services add-iam-policy-binding {{stack_name}}-cloudrun-frontend --member="allUsers" --role="roles/run.invoker" --platform managed --region  {{gcp_region}}
 #  when: update == "yes"
