@@ -73,13 +73,17 @@
     force: yes
     version: "master"
 
-#- name: set neo4j bearer
-#  shell: echo "Basic $(echo -n "neo4j:{{neo4j_password}}" | base64)"
-#  register: output_bearer
-#
-#- name: set bearer token
-#  set_fact:
-#    bearer: "{{output_bearer.stdout_lines | first}}"
+- name: set neo4j bearer
+  shell: echo "Basic $(echo -n "neo4j:{{neo4j_password}}" | base64)"
+  register: output_bearer
+
+- name: set bearer token
+  set_fact:
+    bearer: "{{output_bearer.stdout_lines | first}}"
+
+- name: verify bearer token
+  debug:
+    msg: "{{bearer}}"
 
 - name: remove the application_example.properties file 
   file:
@@ -218,4 +222,6 @@
   loop:
     - gcloud alpha run services replace {{workspace}}/backend.yml --platform managed --region  {{gcp_region}}
     - gcloud alpha run services replace {{workspace}}/frontend.yml --platform managed --region {{gcp_region}}
+    - gcloud run services add-iam-policy-binding {{stack_name}}-cloudrun-backend --member="allUsers" --role="roles/run.invoker"
+    - gcloud run services add-iam-policy-binding {{stack_name}}-cloudrun-frontend --member="allUsers" --role="roles/run.invoker"
 #  when: update == "yes"
