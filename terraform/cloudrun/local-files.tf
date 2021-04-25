@@ -9,11 +9,12 @@
      backend_repo = var.backend_repo,
      frontend_repo = var.frontend_repo,
      gcp_region = var.gcp_region,
+     stack_name = var.stack_name
      env = var.env,
      image_tag = var.image_tag,
      backend_url = google_cloud_run_service.backend.status[0].url,
      connector_name = google_vpc_access_connector.connector.name,
-     bearer = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}",
+//     bearer = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}",
    })
    filename = "${path.module}/bastion.sh"
    depends_on = [google_vpc_access_connector.connector]
