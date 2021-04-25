@@ -101,3 +101,13 @@ resource "local_file" "ansible_vars" {
   )
   filename = "../../ansible/vars.yaml"
 }
+
+ resource "local_file" "db_loader" {
+   content = templatefile("${path.module}/templates/dataloader.tpl",
+   {
+     neo4j_ip = google_compute_instance.neo4j.network_interface.0.network_ip,
+     neo4j_password = var.db_password,
+     data_repo = var.data_repo,
+   })
+   filename = "${path.module}/loader.sh"
+ }
