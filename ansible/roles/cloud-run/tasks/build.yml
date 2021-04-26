@@ -80,8 +80,6 @@
 - name: set bearer token
   set_fact:
     bearer: "{{output_bearer.stdout_lines | first}}"
-    redis_host:
-      "{{env}}": "localhost"
 
 - name: verify bearer token
   debug:
