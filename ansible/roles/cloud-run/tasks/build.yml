@@ -85,7 +85,7 @@
 
 - name: verify bearer token
   debug:
-    msg: "{{bearer}}"
+    msg: "{{redis_host}}"
 
 - name: remove the application_example.properties file 
   file:
