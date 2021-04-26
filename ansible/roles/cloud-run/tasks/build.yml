@@ -90,25 +90,25 @@
     path: "{{workspace}}/backend/src/main/resources/application_example.properties"
     state: absent
 
-#- name: copy application.properties file to /src/main/resources/
-#  template:
-#    src: "{{workspace}}/backend/src/main/resources/application.properties.j2"
-#    dest: "{{workspace}}/backend/src/main/resources/application.properties"
+- name: copy application.properties file to /src/main/resources/
+  template:
+    src: "{{workspace}}/backend/src/main/resources/application.properties.j2"
+    dest: "{{workspace}}/backend/src/main/resources/application.properties"
 
-#- name: create graphql directory in backend
-#  file:
-#    state: directory
-#    path: "{{workspace}}/backend/src/main/resources/graphql"
-#
+- name: create graphql directory in backend
+  file:
+    state: directory
+    path: "{{workspace}}/backend/src/main/resources/graphql"
+
 #- name: copy schema from frontend to resources
 #  template:
 #    src: "{{workspace}}/frontend/graphql/{{schema_file}}"
 #    dest: "{{workspace}}/backend/src/main/resources/graphql/{{schema_file}}"
 
-- name: copy application.properties file to /src/main/resources/
-  template:
-    src: application.properties.j2
-    dest: "{{workspace}}/backend/src/main/resources/application.properties"
+#- name: copy application.properties file to /src/main/resources/
+#  template:
+#    src: application.properties.j2
+#    dest: "{{workspace}}/backend/src/main/resources/application.properties"
 
 
 - name: copy frontend and backend config
