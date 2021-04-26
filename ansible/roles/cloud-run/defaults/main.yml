@@ -17,8 +17,6 @@ schema_file: bento-extended.graphql
 enable_redis: 'false'
 use_cluster: 'false'
 tier: "{{env}}"
-redis_host: 
-  "{{env}}": "localhost"
 redis_password: ""
 redis_port: 6379
 gcp_docker_helper_version: 2.0.4
