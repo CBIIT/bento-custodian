@@ -1,7 +1,7 @@
 ---
 # defaults file for cicd
 workspace: "/tmp/workspace"
-maven_version: 3.6
+maven_version: 3.6.3
 stack_name: bento
 custodian_repo: https://github.com/CBIIT/bento-custodian
 tag: latest
