@@ -96,7 +96,7 @@ variable "backend_version" {
   type = string
 }
 
-variable "fronted_version" {
+variable "frontend_version" {
   description = "frontend repo branch or tag or release"
   type = string
 }
