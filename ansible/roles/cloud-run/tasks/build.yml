@@ -159,7 +159,7 @@
   args:
     chdir: "{{workspace}}/frontend"
   loop:
-#    - npm install npm@latest -g
+    - npm install npm@latest -g
     - npm install
     - npm run build
   ignore_errors: True
