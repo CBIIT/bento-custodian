@@ -29,7 +29,12 @@ ssh_key_name = "demo-ssh-key"
 db_password = "Password@$"
 
 #tag name of the docker image
-image_tag = "v2.0.0"
+image_tag = "v3.0.0"
+
+#backend repo version
+backend_version = "3.0.0"
+
+#frontend repo_version
 
 #specify the url of the bento backend repository
 backend_repo = "https://github.com/CBIIT/bento-backend"

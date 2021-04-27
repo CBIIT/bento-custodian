@@ -57,14 +57,14 @@
     repo: "{{backend_repo}}"
     dest: "{{workspace}}/backend"
     force: yes
-    version: "{{backend_tag}}"
+    version: "{{backend_version}}"
 
 - name: clone frontend github
   git:
     repo: "{{frontend_repo}}"
     dest: "{{workspace}}/frontend"
     force: yes
-    version: "{{frontend_tag}}"
+    version: "{{frontend_version}}"
 
 - name: clone bento-custodian github
   git:
@@ -100,16 +100,10 @@
     state: directory
     path: "{{workspace}}/backend/src/main/resources/graphql"
 
-#- name: copy schema from frontend to resources
-#  template:
-#    src: "{{workspace}}/frontend/graphql/{{schema_file}}"
-#    dest: "{{workspace}}/backend/src/main/resources/graphql/{{schema_file}}"
-
-#- name: copy application.properties file to /src/main/resources/
-#  template:
-#    src: application.properties.j2
-#    dest: "{{workspace}}/backend/src/main/resources/application.properties"
-
+- name: copy schema from frontend to resources
+  template:
+    src: "{{workspace}}/frontend/graphql/{{schema_file}}"
+    dest: "{{workspace}}/backend/src/main/resources/graphql/{{schema_file}}"
 
 - name: copy frontend and backend config
   template:
@@ -186,20 +180,7 @@
     - {src: '{{workspace}}/custodian/dockerfiles/nginx-entrypoint.sh',dest: '{{workspace}}/frontend/nginx-entrypoint.sh'}
     - {src: '{{workspace}}/custodian/dockerfiles/inject.template.js',dest: '{{workspace}}/frontend/dist/inject.template.js' }
 
-# - name: run npm install in {{workspace}}/bento-frontend/
-#   shell: "{{item}}"
-#   args:
-#     chdir: "{{workspace}}/frontend"
-#   ignore_errors: True
-#   loop:
-#     - npm install 
-    
-# - name: run npm build in frontend
-#   shell: npm run-script build
-#   args:
-#     chdir: "{{workspace}}/frontend"
-#   ignore_errors: True
-          
+
 - name: build custodian/bento-frontend image
   docker_image:
     build:

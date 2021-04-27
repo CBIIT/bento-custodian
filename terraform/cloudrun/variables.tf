@@ -91,3 +91,12 @@ variable "property_filename" {
   description = "specify data schema properties file if changed from default"
   type = string
 }
+variable "backend_version" {
+  description = "backend repo branch or tag or release"
+  type = string
+}
+
+variable "fronted_version" {
+  description = "frontend repo branch or tag or release"
+  type = string
+}
