@@ -35,7 +35,7 @@ image_tag = "v3.0.0"
 backend_version = "3.0.0"
 
 #frontend repo_version
-
+frontend_version = "v3.0.0"
 #specify the url of the bento backend repository
 backend_repo = "https://github.com/CBIIT/bento-backend"
 
