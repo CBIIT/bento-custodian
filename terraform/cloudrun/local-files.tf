@@ -14,7 +14,7 @@
      image_tag = var.image_tag,
      backend_url = google_cloud_run_service.backend.status[0].url,
      connector_name = google_vpc_access_connector.connector.name,
-     frontend_version = var.fronted_version,
+     frontend_version = var.frontend_version,
      backend_version = var.backend_version
    })
    filename = "${path.module}/bastion.sh"
