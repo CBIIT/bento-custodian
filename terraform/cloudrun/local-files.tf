@@ -14,7 +14,8 @@
      image_tag = var.image_tag,
      backend_url = google_cloud_run_service.backend.status[0].url,
      connector_name = google_vpc_access_connector.connector.name,
-//     bearer = "Basic ${base64sha256(join(":",["neo4j",var.db_password]))}",
+     frontend_version = var.fronted_version,
+     backend_version = var.backend_version
    })
    filename = "${path.module}/bastion.sh"
    depends_on = [google_vpc_access_connector.connector]
