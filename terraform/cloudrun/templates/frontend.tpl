@@ -26,7 +26,7 @@ spec:
         resources:
           limits:
             cpu: 1000m
-            memory: 256Mi
+            memory: 1024M
       timeoutSeconds: 300
   traffic:
   - latestRevision: true
