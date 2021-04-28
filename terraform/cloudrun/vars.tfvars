@@ -2,7 +2,7 @@ gcp_auth_file = "gcloud_api_key.json"
 gcp_region = "us-east4"
 gcp_project = "ppdc-cloud"
 stack_name = "ppdc"
-machine_type = "n1-standard-1"
+machine_type = "n2-standard-2"
 env = "test"
 
 service_account_id = "ppdc-sa"
