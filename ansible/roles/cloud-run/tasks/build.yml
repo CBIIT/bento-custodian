@@ -99,6 +99,7 @@
   template:
     src: "{{workspace}}/frontend/graphql/{{schema_file}}"
     dest: "{{workspace}}/backend/src/main/resources/graphql/{{schema_file}}"
+  when: frontend_version == "v3.0.0"
 
 - name: copy frontend and backend config
   template:
