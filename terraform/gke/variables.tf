@@ -73,7 +73,10 @@ variable "ssh_user" {
   description = "ssh user "
   type = string
 }
-
+variable "ssh_key" {
+  description = "public ssh key file directory "
+  type = string
+}
 variable "connector_network" {
   description = "vpc access network"
   type = string

@@ -1,13 +1,13 @@
 gcp_auth_file = "bento-apikey.json"
 gcp_region = "us-east4"
-gcp_project = "ctdc-demo"
-stack_name = "ctdc"
+gcp_project = "bento-demo"
+stack_name = "bento"
 gke_username = "bento-user"
 gke_password = "OurBestDaysAreAhead2020"
 gke_num_nodes = 1
 machine_type = "n1-standard-1"
 env = "dev"
-cluster_name = "demo"
+cluster_name = "bento-demo"
 iam_roles  = {
   container_admin = "roles/container.admin"
   compute_admin = "roles/compute.admin"
@@ -30,8 +30,4 @@ subnets = {
 }
 connector_network = "10.8.0.0/28"
 ssh_user = "bento"
-public_ssh_key = "bento-ssh-key.pub"
-private_ssh_key = "bento-ssh-key"
-db_password = "custodian"
-tag_name = "release"
-service_account_id = "demo-sa"
+ssh_key = "icdc_devops.pub"

@@ -8,6 +8,49 @@ provider "google-beta" {
   project = var.gcp_project
   region  = var.gcp_region
 }
+#backend
+terraform {
+  backend "gcs" {
+    credentials = "bento-apikey.json"
+    bucket      = "bento-demo-terraform-state"
+  }
+}
+
+resource "local_file" "db_script" {
+  content = templatefile("${path.module}/scripts/startup.sh",
+  {
+    gcp_project = var.gcp_project,
+    gcp_auth_file = var.gcp_auth_file,
+    neo4j_ip = google_compute_instance.neo4j.network_interface.0.network_ip,
+    neo4j_password = var.db_password
+  })
+  filename = "${path.module}/bastion.sh"
+}
+
+
+resource "local_file" "frontend_service" {
+  content = templatefile("${path.module}/scripts/frontend.yaml",
+  {
+    gcp_project = var.gcp_project,
+    gcp_region = var.gcp_region,
+    stack_name = var.stack_name,
+    tag = var.tag_name,
+  })
+  filename = "${path.module}/frontend_service.yaml"
+}
+
+resource "local_file" "backend_service" {
+  content = templatefile("${path.module}/scripts/backend.yaml",
+  {
+    gcp_project = var.gcp_project,
+    gcp_region = var.gcp_region,
+    stack_name = var.stack_name,
+    connector_name = google_vpc_access_connector.connector.name
+    tag = var.tag_name,
+  })
+  filename = "${path.module}/backend_service.yaml"
+}
+
 
 resource "google_container_registry" "gcr" {
   project  = var.gcp_project
